@@ -1,0 +1,2117 @@
+{
+  "task": "multifieldqa_en",
+  "model": "qwen3-4b",
+  "variant": "raw_topk_fewextractive",
+  "n_samples": 150,
+  "top_k": 5,
+  "metrics": {
+    "em": 4.67,
+    "f1": 16.92,
+    "loose": 4.67,
+    "avg_latency_ms": 341.3,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 1467.8
+  },
+  "results": [
+    {
+      "question": "What is the name of the most active fan club?",
+      "prediction": "The answer is not present.",
+      "answers": [
+        "South West Ultras fan club."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 689.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Is the ISR necessary for transgene reactivation?",
+      "prediction": "No",
+      "answers": [
+        "No, it is not necessary."
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 0,
+      "latency_ms": 325.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What experimental techniques were used to study the quantum dot structures in this research?",
+      "prediction": "gate electrodes",
+      "answers": [
+        "Low temperature scanning tunneling microscopy and spectroscopy (STM/STS)."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 334.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the purpose of an ICD?",
+      "prediction": "To treat irregular heart rhythms.",
+      "answers": [
+        "Implantable Cardioverter Defibrillator (ICD) is a surgically implanted electronic device to treat life-threatening heartbeat irregularities."
+      ],
+      "em": 0,
+      "f1": 0.21052631578947364,
+      "loose": 0,
+      "latency_ms": 353.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Why is it important for the sides of the fuselage to be sloped (tumbled home)?",
+      "prediction": "The sides are flat",
+      "answers": [
+        "The sides of the fuselage are sloped to create a conical section when the fuselage is formed."
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 0,
+      "latency_ms": 316.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1344
+    },
+    {
+      "question": "What is the effect of the proximity of superconductivity on the Kondo effect?",
+      "prediction": "superexchange",
+      "answers": [
+        "It tends to suppress the Kondo effect."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 327.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How is electricity used in everyday life?",
+      "prediction": "electric heating",
+      "answers": [
+        "Electricity is used for transport, heating, lighting, communications, and computation."
+      ],
+      "em": 0,
+      "f1": 0.16666666666666669,
+      "loose": 0,
+      "latency_ms": 294.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1299
+    },
+    {
+      "question": "What was Hugh H. Goodwin's rank in the United States Navy?",
+      "prediction": "flag rank",
+      "answers": [
+        "Vice Admiral."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 333.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the Buckeyes' record in their first game of the season?",
+      "prediction": "15–3",
+      "answers": [
+        "They won their first game with a score of 15-3."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 349.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the three synthetic types of vitamin K?",
+      "prediction": "MK-4, MK-7, K2",
+      "answers": [
+        "Vitamins K3, K4, and K5."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 379.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1474
+    },
+    {
+      "question": "Can individual molecules of indeno[1,2-a]fluorene switch between open-shell and closed-shell states?",
+      "prediction": "Yes",
+      "answers": [
+        "Yes, individual molecules of indeno[1,2-a]fluorene can switch between open-shell and closed-shell states by changing their adsorption site on the surface."
+      ],
+      "em": 0,
+      "f1": 0.09523809523809523,
+      "loose": 0,
+      "latency_ms": 321.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What field does Danny work in in Tennessee?",
+      "prediction": "",
+      "answers": [
+        "3-D printing and software development."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 271.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1299
+    },
+    {
+      "question": "What is the recommended daily intake of vitamin K for adult women and men?",
+      "prediction": "",
+      "answers": [
+        "90 μg for women and 120 μg for men."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 310.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1474
+    },
+    {
+      "question": "What is the SI unit of power?",
+      "prediction": "Watt",
+      "answers": [
+        "Watt, one joule per second."
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 0,
+      "latency_ms": 284.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1299
+    },
+    {
+      "question": "What is the main advantage of a horizontal business model for mobile devices?",
+      "prediction": "Moore’s Law",
+      "answers": [
+        "Flexibility."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 320.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1374
+    },
+    {
+      "question": "Who was Brooksley Elizabeth's first husband?",
+      "prediction": "Jacob C. Landau",
+      "answers": [
+        "Jacob C. Landau."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 345.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1499
+    },
+    {
+      "question": "What is the main methodology used in the research?",
+      "prediction": "contrastive learning",
+      "answers": [
+        "An unsupervised method based on the information bottleneck and contrastive learning."
+      ],
+      "em": 0,
+      "f1": 0.3636363636363636,
+      "loose": 0,
+      "latency_ms": 322.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1419
+    },
+    {
+      "question": "How is the function beta(r) determined in the derivation?",
+      "prediction": "",
+      "answers": [
+        "Using the vacuum Einstein equation and the Baez-Bunn form."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 305.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1449
+    },
+    {
+      "question": "What is the water depth in the Greater Ekofisk Area?",
+      "prediction": "70-75 metres",
+      "answers": [
+        "The water depth in the Greater Ekofisk Area is 70-75 meters."
+      ],
+      "em": 0,
+      "f1": 0.1818181818181818,
+      "loose": 0,
+      "latency_ms": 365.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What were the vaccines trialed against?",
+      "prediction": "The vaccines were trialed against nothing.",
+      "answers": [
+        "Other toxic products."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 329.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1309
+    },
+    {
+      "question": "Where was Margaret Way born and where did she die?",
+      "prediction": "Brisbane, Cleveland",
+      "answers": [
+        "Margaret Way was born in Brisbane and died in Cleveland, Queensland, Australia."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 0,
+      "latency_ms": 340.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What size chains were used in the benchmarking?",
+      "prediction": "L = 14 and L = 6",
+      "answers": [
+        "L = 8 and L = 14."
+      ],
+      "em": 0,
+      "f1": 0.6,
+      "loose": 0,
+      "latency_ms": 380.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many experiments were demonstrated to test the capabilities of the controller?",
+      "prediction": "1",
+      "answers": [
+        "5."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 317.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1419
+    },
+    {
+      "question": "What are the three teams that used conflict optimization in the challenge?",
+      "prediction": "CG:SHOP2022",
+      "answers": [
+        "Lasa, Gitastrophe, and Shadoks."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 366.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What did the court in In re Ferguson conclude about the transformation prong of the Bilski test?",
+      "prediction": "transformation of an article",
+      "answers": [
+        "It required the transformation to be limited to specific data and a visual depiction representing specific objects or substances."
+      ],
+      "em": 0,
+      "f1": 0.1,
+      "loose": 0,
+      "latency_ms": 347.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does the transition probability of the environment affect the learning rate in the static agent?",
+      "prediction": "",
+      "answers": [
+        "As the transition probability increases, the learning rate initially rises and then declines."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 297.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1424
+    },
+    {
+      "question": "What kind of ultracold neutral plasmas does this study focus on?",
+      "prediction": "molecular ultracold plasmas",
+      "answers": [
+        "A subset that form via kinetic rate processes from state-selected Rydberg gases."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 372.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What types of sensors are now capable of estimating physical activity levels and physiological outcomes of older adults?",
+      "prediction": "clinical and diagnostic tests",
+      "answers": [
+        "Wearable sensors."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 341.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What did the decision to base the water rates on usage reflect?",
+      "prediction": "Agenda",
+      "answers": [
+        "Fairness."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 277.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1264
+    },
+    {
+      "question": "What did Mary tell the disciples?",
+      "prediction": "They have taken away my Lord",
+      "answers": [
+        "\"I have seen the Lord.\"."
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 336.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1389
+    },
+    {
+      "question": "What is the future direction mentioned in the conclusion?",
+      "prediction": "",
+      "answers": [
+        "Verifying other meta-information such as patient's gender, age, race, etc."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 307.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1479
+    },
+    {
+      "question": "What types of data did the authors use in their experiments?",
+      "prediction": "stream of data",
+      "answers": [
+        "The authors used simulated data and real data from a wireless MISO channel."
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 0,
+      "latency_ms": 339.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the purpose of the baseline in the layout procedure?",
+      "prediction": "build a straight and true fuselage",
+      "answers": [
+        "The baseline is used as a reference for the mid point of the firewall for the developed side panel."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 331.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1344
+    },
+    {
+      "question": "What does the new Iraqi Body Count organization do?",
+      "prediction": "track violence",
+      "answers": [
+        "It provides cover for the war and allows supporters of the illegal war to point to it."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 328.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1489
+    },
+    {
+      "question": "What is the main advantage of the proposed method in terms of computation time?",
+      "prediction": "Minimal Interventions",
+      "answers": [
+        "The time required to update the belief does not increase with the complexity of the environment."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 347.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did the Tevatron Collider Run II start and when is it expected to end?",
+      "prediction": "March 2002 end of this decade",
+      "answers": [
+        "The Tevatron Collider Run II started in March 2002 and is expected to continue until the end of this decade."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 384.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many brother does Njoroge have?",
+      "prediction": "two",
+      "answers": [
+        "Four."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 322.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the stability conditions for a solution of $-\\Delta u = f(u)$?",
+      "prediction": "\\int f'(u) \\psi^2 \\le \\int | \\nabla \\psi|^2",
+      "answers": [
+        "$\\int f'(u) \\psi^2 \\le \\int | \\nabla \\psi|^2, \\forall \\psi \\in C_c^2$."
+      ],
+      "em": 0,
+      "f1": 0.5555555555555556,
+      "loose": 0,
+      "latency_ms": 467.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What algorithm is engaged in the PLMS-PPIC method?",
+      "prediction": "NLMS",
+      "answers": [
+        "The normalized least mean square (NLMS) algorithm."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 0,
+      "latency_ms": 332.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Who compiled the 88-page letter to the HHS regarding vaccine safety?",
+      "prediction": "Del Bigtree",
+      "answers": [
+        "Del Bigtree and his team at ICAN."
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 0,
+      "latency_ms": 303.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1309
+    },
+    {
+      "question": "What molecule was the focus of the study?",
+      "prediction": "complex and larger molecules",
+      "answers": [
+        "The focus of the study was on the reactive radical ethynyl (C$_2$H)."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 350.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When was Weep Not, Child first published?",
+      "prediction": "1964",
+      "answers": [
+        "Weep Not, Child was first published in 1964."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 351.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the relationship between the maximum velocity and the amplitude of the blob or depletion?",
+      "prediction": "The answer is not present.",
+      "answers": [
+        "The maximum velocity scales with the square root of the amplitude."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 348.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What do dendritic spines contain?",
+      "prediction": "actin",
+      "answers": [
+        "They are rich in actin and have been shown to be highly dynamic."
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 0,
+      "latency_ms": 329.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many people attend the 233rd ACS national meeting?",
+      "prediction": "12.2 million",
+      "answers": [
+        "There are 14,520 attendees, including 7,152 chemical scientists, 5,059 students, 1,283 exhibitors, 119 precollege teachers, 573 exposition visitors, and 453 guests."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 355.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1494
+    },
+    {
+      "question": "What did Justice Kennedy argue about Quill in Direct Marketing Ass'n v. Brohl?",
+      "prediction": "To be determined",
+      "answers": [
+        "Quill harmed states more than anticipated due to the Internet."
+      ],
+      "em": 0,
+      "f1": 0.16666666666666666,
+      "loose": 0,
+      "latency_ms": 340.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What factors control the reliance of artificial organisms on plasticity?",
+      "prediction": "Environmental variability",
+      "answers": [
+        "Environmental fluctuation and uncertainty control the reliance of artificial organisms on plasticity."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 0,
+      "latency_ms": 318.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1424
+    },
+    {
+      "question": "What is the problem encountered when building the fuselage sides?",
+      "prediction": "banana shape",
+      "answers": [
+        "The longerons bow up from the building surface, forming a \"banana\" shape."
+      ],
+      "em": 0,
+      "f1": 0.3636363636363636,
+      "loose": 0,
+      "latency_ms": 302.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1344
+    },
+    {
+      "question": "When did Goodwin become a Naval aviator?",
+      "prediction": "May 7, 1917",
+      "answers": [
+        "Goodwin became a Naval aviator in January 1929."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 370.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "对于PD3.0协议，FS312BH支持的最高诱骗电压是多少？",
+      "prediction": "48V",
+      "answers": [
+        "48V."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 345.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did Born resign as chairperson of the CFTC?",
+      "prediction": "To be determined",
+      "answers": [
+        "June 1, 1999."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 337.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1499
+    },
+    {
+      "question": "Which orders did Mufti-e-Azam-e-Hind receive Khilafat from?",
+      "prediction": "The answer is not present.",
+      "answers": [
+        "Mufti-e-Azam-e-Hind received Khilafat in the Qaderi, Chishti, Nakshbandi, Suharwardi, and Madaari Orders."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 353.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the reason given by Governor Rick Scott for not implementing a prescription drug monitoring database in Florida?",
+      "prediction": "To be provided",
+      "answers": [
+        "Privacy concerns and skepticism about its effectiveness."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 336.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "In which electorate was Simon English elected to the New Zealand Parliament?",
+      "prediction": "Wallace",
+      "answers": [
+        "The Wallace electorate."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 0,
+      "latency_ms": 323.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the population of McPherson County according to the 2020 census?",
+      "prediction": "2020 census",
+      "answers": [
+        "30,223."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 359.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did Margaret Way start self-publishing her books as e-books?",
+      "prediction": "mid-July 2013",
+      "answers": [
+        "Margaret Way started self-publishing her books as e-books in 2013."
+      ],
+      "em": 0,
+      "f1": 0.16666666666666669,
+      "loose": 0,
+      "latency_ms": 373.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did the 2017 general election be held?",
+      "prediction": "2017",
+      "answers": [
+        "23 September."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 355.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What hedge fund's collapse in 1998 highlighted the need for regulation of derivatives?",
+      "prediction": "",
+      "answers": [
+        "Long Term Capital Management (LTCM)."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 314.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1499
+    },
+    {
+      "question": "What is the dynamical behavior of the anisotropic order parameter following a quench to the critical point?",
+      "prediction": "Gaussian theory",
+      "answers": [
+        "It is well described by the Gaussian theory."
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 0,
+      "latency_ms": 332.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the recommended space for using the VR headset?",
+      "prediction": "2×2 米",
+      "answers": [
+        "It is recommended to have at least a 2x2 meter space for using the VR headset."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 363.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does the performance of the PLM with decimation compare to other methods?",
+      "prediction": "",
+      "answers": [
+        "It outperforms mean-field methods and the PLM with $l_2$ regularization in terms of reconstruction error and true positive rate."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 317.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the three phases of the author's preaching process?",
+      "prediction": "",
+      "answers": [
+        "The three phases are exegetical, theological, and homiletical."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 281.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1329
+    },
+    {
+      "question": "When did KSTP switch to a sports radio format?",
+      "prediction": "1928",
+      "answers": [
+        "KSTP switched to a sports radio format on February 15, 2010."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 350.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the best performing model for the Spanish language in Track-1?",
+      "prediction": "Model-* denotes the language of the models used for the experiments.",
+      "answers": [
+        "The best performing model for the Spanish language in Track-1 was Spanish BERT."
+      ],
+      "em": 0,
+      "f1": 0.3157894736842105,
+      "loose": 0,
+      "latency_ms": 383.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1449
+    },
+    {
+      "question": "How does the infall rate and gas density in the magnetized model compare to non-magnetized accretion?",
+      "prediction": "The answer is in the text.",
+      "answers": [
+        "Infall rate is 2-5 times smaller and gas density is 2-5 times smaller."
+      ],
+      "em": 0,
+      "f1": 0.11764705882352941,
+      "loose": 0,
+      "latency_ms": 359.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "According to the text, what is Toby Schindelbeck's observation about the police?",
+      "prediction": "small crowds",
+      "answers": [
+        "Toby Schindelbeck's observation is that the police say they aren't paid enough to enforce the laws in the streets."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 308.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1359
+    },
+    {
+      "question": "Who is the program chair of this conference?",
+      "prediction": "Mara Liasson",
+      "answers": [
+        "Peter Denning."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 322.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1374
+    },
+    {
+      "question": "How does the conduction gap depend on the strain direction?",
+      "prediction": "",
+      "answers": [
+        "Peaks occur at certain strain directions, while the gap is zero at others."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 312.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When was the paper published?",
+      "prediction": "7 March 2023",
+      "answers": [
+        "The paper was published on 7 March 2023."
+      ],
+      "em": 0,
+      "f1": 0.6,
+      "loose": 0,
+      "latency_ms": 372.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the three subsets into which the parameter space V is divided?",
+      "prediction": "ac − 1, bc − 1, m",
+      "answers": [
+        "The three subsets are V+, V0, and V-, determined by the Kullback-Leibler information distance."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 382.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What happens to Ngotho after he attacks Jacobo at a workers' strike?",
+      "prediction": "lose his job",
+      "answers": [
+        "After attacking Jacobo at a workers' strike, Ngotho loses his job and Njoroge's family is forced to move."
+      ],
+      "em": 0,
+      "f1": 0.2,
+      "loose": 0,
+      "latency_ms": 339.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Where is the club's headquarters located?",
+      "prediction": "Yerevan",
+      "answers": [
+        "The club's headquarters are located on Jivani Street 2 of the Malatia-Sebastia District, Yerevan."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 0,
+      "latency_ms": 336.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How do the runtimes and iteration counts of NFPA and FPSA compare to GMRES and DSA in the numerical experiments?",
+      "prediction": "",
+      "answers": [
+        "NFPA and FPSA greatly outperform GMRES and DSA."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 316.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are some reasons for the lack of data sharing in archaeobotany?",
+      "prediction": "The level and form of data sharing is currently unknown.",
+      "answers": [
+        "Technological limitations, resistance to exposing data to scrutiny, and desire to hold onto data for personal use."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615383,
+      "loose": 0,
+      "latency_ms": 384.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are some fields in which the inverse problem is encountered?",
+      "prediction": "physics, biology",
+      "answers": [
+        "Physics, biology, social sciences, finance, and neuroscience are some fields in which the inverse problem is encountered."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 335.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the maximum radius of the emitting region for the black body model?",
+      "prediction": "8\\arcsec",
+      "answers": [
+        "4.5x10^8 cm."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 351.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Which air unit did Goodwin command during the initial landings of Marines on Saipan?",
+      "prediction": "Carrier Division Two",
+      "answers": [
+        "VC-10 Squadron."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 340.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does the receptive field size affect the completion of shapes?",
+      "prediction": "",
+      "answers": [
+        "Bigger receptive field size leads to more successful shape completion."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 296.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1424
+    },
+    {
+      "question": "What is the significance of the interlayer Berry connection polarizability?",
+      "prediction": "",
+      "answers": [
+        "The momentum space curl of the interlayer Berry connection polarizability generates the crossed nonlinear dynamical Hall effect."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 314.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Can the denoiser be applied to circuits with non-Clifford noise?",
+      "prediction": "Yes",
+      "answers": [
+        "Yes, the denoiser works for non-Clifford local noise channels."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 322.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is Professor Tulis's forthcoming book?",
+      "prediction": "The Rhetorical Presidency",
+      "answers": [
+        "Legacies of Losing in American Politics and an expanded edition of The Rhetorical Presidency in the Princeton Classics series."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 348.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does a media application determine the context of an event?",
+      "prediction": "content-recognition module",
+      "answers": [
+        "It uses a content-recognition module or algorithm."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 346.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the titles of one of Kam W. Leong's publications in Journal of Controlled Release?",
+      "prediction": "Synthetic mast-cell granules",
+      "answers": [
+        "Sustained viral gene delivery through core-shell fibers and Gene transfer to hemophilia A mice via oral delivery of FVIII-chitosan nanoparticles."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 352.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the club known as before being officially renamed FC Urartu?",
+      "prediction": "FC Banants",
+      "answers": [
+        "FC Banants."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 338.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the conclusion of the study?",
+      "prediction": "fruit consumption reduces mercury exposure",
+      "answers": [
+        "The conclusion was that fruit consumption may provide a protective effect for mercury exposure in Amazonian riparians."
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 350.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does the scoring engine generate a stream of content for the channel?",
+      "prediction": "based on user interests and historical trends",
+      "answers": [
+        "By comparing candidate content items to a model and scoring them."
+      ],
+      "em": 0,
+      "f1": 0.11764705882352941,
+      "loose": 0,
+      "latency_ms": 362.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did the club win the Armenian Premier League for the first time?",
+      "prediction": "1992 season",
+      "answers": [
+        "In the 2013-2014 season."
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 356.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many novels did Margaret Way write?",
+      "prediction": "47",
+      "answers": [
+        "Margaret Way wrote more than 120 novels."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 337.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the proposed approach in this research paper?",
+      "prediction": "The RLS adaptive filtering algorithm",
+      "answers": [
+        "This research paper proposed an approach based on approximating the posterior distribution with an isotropic Gaussian distribution."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 357.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Does DUO contain more instances per image than COCO?",
+      "prediction": "No",
+      "answers": [
+        "Yes, DUO has 9.57 instances per image while COCO contains 7.7."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 325.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the symptoms of vitamin K deficiency?",
+      "prediction": "Uncontrolled bleeding",
+      "answers": [
+        "Symptoms of vitamin K deficiency include anemia, bruising, nosebleeds, bleeding of the gums, and heavy menstrual bleeding in women."
+      ],
+      "em": 0,
+      "f1": 0.09999999999999999,
+      "loose": 0,
+      "latency_ms": 333.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1474
+    },
+    {
+      "question": "What is the security parameter for the AES-256 block cipher?",
+      "prediction": "The answer is not present.",
+      "answers": [
+        "172."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 355.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the definition of mobile device management (MDM)?",
+      "prediction": "",
+      "answers": [
+        "Centralized control of mobile devices and applications."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 271.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1279
+    },
+    {
+      "question": "What models were used for dialect identification?",
+      "prediction": "language specific models",
+      "answers": [
+        "BERT, RoBERTa, ELECTRA, GPT-2, and XLM-RoBERTa."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 325.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1449
+    },
+    {
+      "question": "What are the restrictions on the use of Broadjam's servers?",
+      "prediction": "",
+      "answers": [
+        "No excessive overloading and no use for illegal activity."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 313.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How is the vacuum processing system configured in terms of the arrangement of the vacuum processing apparatus?",
+      "prediction": "cassette block and vacuum processing block",
+      "answers": [
+        "Multiple vacuum processing apparatuses are arranged in parallel."
+      ],
+      "em": 0,
+      "f1": 0.28571428571428575,
+      "loose": 0,
+      "latency_ms": 360.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many massive star-forming regions were studied?",
+      "prediction": "To be determined",
+      "answers": [
+        "21."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 334.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the average magnetic moment per column in Ge$_{1-x}$Mn$_{x}$ films?",
+      "prediction": "To be determined",
+      "answers": [
+        "1425 $\\mu_{B}$."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 340.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Is there any evidence of heaven and hell?",
+      "prediction": "Yes",
+      "answers": [
+        "Unknown."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 324.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When will BC leave Boston?",
+      "prediction": "come fall",
+      "answers": [
+        "August 25."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 307.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1354
+    },
+    {
+      "question": "What are the benefits of using binary variables in the SLAS formulation?",
+      "prediction": "To minimize travel time or preserve safety",
+      "answers": [
+        "Reduced computational complexity."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 362.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1484
+    },
+    {
+      "question": "Where can users go for troubleshooting and support?",
+      "prediction": "QuecPython 社区",
+      "answers": [
+        "Online documentation, QuecPython community, online support: QQ group 445121768."
+      ],
+      "em": 0,
+      "f1": 0.1818181818181818,
+      "loose": 0,
+      "latency_ms": 357.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the symptoms of alpha thalassemia major?",
+      "prediction": "The answer is not present in the documents.",
+      "answers": [
+        "Severe anemia that begins even before birth."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 371.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did Simon English become the leader of the National Party?",
+      "prediction": "October 2001",
+      "answers": [
+        "October 2001."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 359.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How are smartphones and tablets different from a technical perspective?",
+      "prediction": "general-purpose capabilities",
+      "answers": [
+        "Smartphones are more compact and power constrained."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 319.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1374
+    },
+    {
+      "question": "What is the sticking point in the political showdown over the budget?",
+      "prediction": "government shutdown",
+      "answers": [
+        "The sticking point in the political showdown over the budget is how much spending to cut."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 318.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1419
+    },
+    {
+      "question": "Who is responsible for carrying out the functions assigned under the act?",
+      "prediction": "Director and other officers",
+      "answers": [
+        "The Director of Town and Country Planning is responsible for carrying out the functions assigned under the act."
+      ],
+      "em": 0,
+      "f1": 0.2105263157894737,
+      "loose": 0,
+      "latency_ms": 342.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does the framework capture the reduced-order dynamics?",
+      "prediction": "time-scale separation",
+      "answers": [
+        "By using a propagator in the latent space."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 340.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How can you level up in the early levels?",
+      "prediction": "Nano-Nukes",
+      "answers": [
+        "Keep deploying and harvesting your bases to earn experience points and level up quickly."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 325.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1424
+    },
+    {
+      "question": "What is the electron correlation parameter, $\\Gamma_e$?",
+      "prediction": "",
+      "answers": [
+        "It is the ratio of the average unscreened electron-electron potential energy to kinetic energy."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 315.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How can players skip dialogue on the quest map?",
+      "prediction": "Tap on objects and menus",
+      "answers": [
+        "Players can skip dialogue on the quest map by pressing the 'SKIP' button."
+      ],
+      "em": 0,
+      "f1": 0.12500000000000003,
+      "loose": 0,
+      "latency_ms": 330.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1369
+    },
+    {
+      "question": "How many years has KSTP-FM 102.1 been on the air?",
+      "prediction": "95",
+      "answers": [
+        "Four years."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 337.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Besides the Boeing C-17, what other transport aircraft is the IAF considering for acquisition?",
+      "prediction": "A330-200",
+      "answers": [
+        "The IAF is considering the acquisition of the Airbus A330 MRTT (Multi-Role Tanker Transport) besides the Boeing C-17."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 367.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What may happen if the VR headset lenses are exposed to sunlight or strong light?",
+      "prediction": "permanent yellow spots",
+      "answers": [
+        "Exposure to sunlight or strong light may cause permanent yellow spot damage on the screen."
+      ],
+      "em": 0,
+      "f1": 0.23529411764705882,
+      "loose": 0,
+      "latency_ms": 347.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Why does Craig want to find his own place?",
+      "prediction": "he wants to balance the costs",
+      "answers": [
+        "Because his roommate smokes."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 319.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1299
+    },
+    {
+      "question": "What did the London Directory proclaim to contain?",
+      "prediction": "36 Craven St",
+      "answers": [
+        "An alphabetical list of names and places of abode of the merchants and principal traders of the cities of London and Westminster, the Borough of Southwark, and their environs, with the number affixed to each house."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 357.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What happens to the high resolution of what we focus on at dawn or dusk?",
+      "prediction": "less",
+      "answers": [
+        "It becomes a bit less so that what's off to the left or right can be better noted."
+      ],
+      "em": 0,
+      "f1": 0.11764705882352941,
+      "loose": 0,
+      "latency_ms": 281.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1279
+    },
+    {
+      "question": "What is the group's request to the Connecticut DEEP Commissioner?",
+      "prediction": "To close preserves for hunting",
+      "answers": [
+        "Appointing a blue ribbon commission to conduct the research and develop the management plan and denying or defering approval on any applications for new docks in the Cove until the management plan can be developed and implemented."
+      ],
+      "em": 0,
+      "f1": 0.10810810810810811,
+      "loose": 0,
+      "latency_ms": 348.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What type of distribution do the tail distributions of price returns follow?",
+      "prediction": "power-law",
+      "answers": [
+        "Power-law functions."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 0,
+      "latency_ms": 329.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1480
+    },
+    {
+      "question": "What is the correct expression for the derivative of the function?",
+      "prediction": "derivative of the function",
+      "answers": [
+        "It depends on the value of x, either 0 or (6x^2cos(x^2)+sin(x^2))/(3(x^2)^(1/3))."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615383,
+      "loose": 0,
+      "latency_ms": 332.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1429
+    },
+    {
+      "question": "What award did Brooksley Born receive in 2009?",
+      "prediction": "",
+      "answers": [
+        "In 2009, Brooksley Born received the John F. Kennedy Profiles in Courage Award."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 301.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1449
+    },
+    {
+      "question": "What does the paper aim to solve?",
+      "prediction": "Dynamic Analysis of Nonlinear Systems",
+      "answers": [
+        "The paper aims to solve nonlinear system vibration problems efficiently."
+      ],
+      "em": 0,
+      "f1": 0.14285714285714285,
+      "loose": 0,
+      "latency_ms": 362.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What was the name of the first white settlement in McPherson County?",
+      "prediction": "Charles O. Fuller",
+      "answers": [
+        "The first white settlement in McPherson County was Fuller's Ranch, established by Charles O. Fuller."
+      ],
+      "em": 0,
+      "f1": 0.35294117647058826,
+      "loose": 0,
+      "latency_ms": 345.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What algorithm is engaged in the PLMS-PPIC method?",
+      "prediction": "NLMS",
+      "answers": [
+        "The normalized least mean square (NLMS) algorithm."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 0,
+      "latency_ms": 333.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the effect of accounting for path preference on the robot's belief update?",
+      "prediction": "updates a posterior over the goal",
+      "answers": [
+        "The belief entropy decreases more steadily."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 362.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the two ground states observed for indeno[1,2-a]fluorene on NaCl surfaces?",
+      "prediction": "open-shell and closed-shell",
+      "answers": [
+        "Open-shell π-diradical state and closed-shell state with a para-quinodimethane moiety."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 356.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the main focus of the research paper?",
+      "prediction": "Nuclear Liquid-Gas Transition",
+      "answers": [
+        "Nuclear liquid-gas transition in lattice QCD."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 0,
+      "latency_ms": 352.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the rationality coefficient used in the observation model?",
+      "prediction": "",
+      "answers": [
+        "γh."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 311.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Who was Ralph Rokebye's brother?",
+      "prediction": "Sir Richard",
+      "answers": [
+        "Sir Richard."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 329.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How are thalassemias classified?",
+      "prediction": "according to the globin",
+      "answers": [
+        "According to the globin that is affected (alpha or beta)."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 353.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Who is the county seat of McPherson County?",
+      "prediction": "Canton",
+      "answers": [
+        "McPherson."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 324.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When was McPherson County established as a county?",
+      "prediction": "1861",
+      "answers": [
+        "McPherson County was established as a county in 1867."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 85.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "如何安装并启动Ganache?",
+      "prediction": "安装、启动Ganache",
+      "answers": [
+        "使用安装包安装Ganache；打开程序，用户可以从显示的界面中查看账户、区块、交易和日志；点击“设置”，用户可以设置绑定的ip和端口、账户数量以及gas限制等，点击“restart”后设置生效。此时，Ganache已经在本机运行了一个以太坊私有网络，并绑定了8545端口。."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 393.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the advantage of decorrelating the data before running the PLS algorithm?",
+      "prediction": "almost completely decorrelates the channel diameter Y",
+      "answers": [
+        "Decorrelating the data before running the PLS algorithm improves the performance of the algorithm."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 371.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1459
+    },
+    {
+      "question": "What is the name of the generative interactive model used in the method?",
+      "prediction": "",
+      "answers": [
+        "The generative interactive model used in the method is called the Coupled Generalized Dynamic Bayesian Network (C-GDBN)."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 299.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1429
+    },
+    {
+      "question": "What are some potential applications of ferromagnetic semiconductors?",
+      "prediction": "nanodevices such as memory nanodots, or nanochannels for spin injection",
+      "answers": [
+        "Spin injection into non magnetic semiconductors, or electrical manipulation of carrier induced magnetism in magnetic semiconductors."
+      ],
+      "em": 0,
+      "f1": 0.23076923076923075,
+      "loose": 0,
+      "latency_ms": 435.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many underclassmen are on the NBA Draft Early-Entry List?",
+      "prediction": "62",
+      "answers": [
+        "62."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 338.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did the London Paving and Lighting Act pass, which mandated the numbering of houses?",
+      "prediction": "1757 - 1775",
+      "answers": [
+        "1766."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 392.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the main topic of the text?",
+      "prediction": "Iraq snapshot",
+      "answers": [
+        "The main topic of the text is Iraq's politics and current situation."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 331.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1489
+    },
+    {
+      "question": "What is the potential of SNNs in modeling the visual system?",
+      "prediction": "High Representation Similarity",
+      "answers": [
+        "SNNs have the potential to better model and explain the functional hierarchy and mechanisms of the visual system."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 351.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What position did Simon English hold in the 2008 general election?",
+      "prediction": "deputy prime minister",
+      "answers": [
+        "He became deputy prime minister and minister of finance."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 340.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the score achieved by the authors for Track-2?",
+      "prediction": "6-way classification",
+      "answers": [
+        "85.61%."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 333.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1449
+    },
+    {
+      "question": "How does the specific-heat ratio affect the average motion of the bubble?",
+      "prediction": "The answer is not present.",
+      "answers": [
+        "The specific-heat ratio affects the average motion of the bubble. The bubbles with smaller specific-heat ratios have slower average motion."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 351.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Where is McPherson County located?",
+      "prediction": "Kansas",
+      "answers": [
+        "McPherson County is located in the U.S. state of Kansas."
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 0,
+      "latency_ms": 319.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the scaling form for the alternative order parameter O?",
+      "prediction": "O (t, L_{\\parallel} ; S_\\Delta) = L_{\\parallel}^{-β/[ν(1+Δ)]} \\tilde f_O (t/L_{\\parallel}^{z/(1+Δ)} ; S_Δ)",
+      "answers": [
+        "O(t, L_{\\parallel}; S_\\Delta) = L_{\\parallel}^{-\\beta/[\\nu(1+\\Delta)]} \\tilde f_O(t/L_{\\parallel}^{z/(1+\\Delta)}; S_\\Delta)."
+      ],
+      "em": 0,
+      "f1": 0.375,
+      "loose": 0,
+      "latency_ms": 664.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How are the relationships between catch per set and fishing behavior variables different for different measures of catch per unit effort (CPUE)?",
+      "prediction": "",
+      "answers": [
+        "The relationships between catch per set and fishing behavior variables differ when comparing unstandardized CPUE and standardized CPUE."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 310.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1474
+    },
+    {
+      "question": "What genre did Margaret Way write in?",
+      "prediction": "romance novels",
+      "answers": [
+        "Romance novels and women's fiction."
+      ],
+      "em": 0,
+      "f1": 0.5714285714285715,
+      "loose": 0,
+      "latency_ms": 331.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Can someone sell or modify the Agency Spotter Content?",
+      "prediction": "No",
+      "answers": [
+        "No."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 317.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1464
+    },
+    {
+      "question": "What are the datasets used in this community for research?",
+      "prediction": "URPC2017 and URPC2018",
+      "answers": [
+        "URPC2017, URPC2018, URPC2019, URPC2020_ZJ and URPC2020_DL."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 0,
+      "latency_ms": 401.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the research opportunity that is mentioned?",
+      "prediction": "",
+      "answers": [
+        "A study on the effects of Brazilian Jiu Jitsu and psychotherapy on people with autism."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 271.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1299
+    }
+  ]
+}

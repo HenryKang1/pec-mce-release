@@ -1,0 +1,45 @@
+{
+  "task": "hotpotqa",
+  "model": "gemma-4-e4b",
+  "variant": "raw_topk",
+  "n_samples": 2,
+  "top_k": 5,
+  "metrics": {
+    "em": 50.0,
+    "f1": 50.0,
+    "loose": 50.0,
+    "avg_latency_ms": 652.8,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 1373.0
+  },
+  "results": [
+    {
+      "question": "Which case was brought to court first Miller v. California or Gates v. Collier ?",
+      "prediction": "Miller v. California",
+      "answers": [
+        "Miller v. California"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 917.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1283
+    },
+    {
+      "question": "The actor that plays Phileas Fogg in \"Around the World in 80 Days\", co-starred with Gary Cooper in a 1939 Goldwyn Productions film based on a novel by what author?",
+      "prediction": "[Author's Name]",
+      "answers": [
+        "Charles L. Clifford"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 388.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1463
+    }
+  ]
+}

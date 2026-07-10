@@ -1,0 +1,1017 @@
+{
+  "task": "hotpotqa",
+  "model": "lfm2.5-1.2b-instruct",
+  "variant": "pec_query_expand",
+  "n_samples": 50,
+  "top_k": 5,
+  "metrics": {
+    "em": 12.0,
+    "f1": 22.44,
+    "loose": 30.0,
+    "avg_latency_ms": 196.8,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 819.0
+  },
+  "results": [
+    {
+      "question": "Which case was brought to court first Miller v. California or Gates v. Collier ?",
+      "prediction": "Miller v. California was brought to court first.",
+      "answers": [
+        "Miller v. California"
+      ],
+      "em": 0,
+      "f1": 0.5454545454545454,
+      "loose": 1,
+      "latency_ms": 555.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Miller v. California",
+        "Miller v. California",
+        "Miller v. California",
+        "Miller v. California",
+        "Gates v. Collier"
+      ],
+      "context_tokens": 771
+    },
+    {
+      "question": "The actor that plays Phileas Fogg in \"Around the World in 80 Days\", co-starred with Gary Cooper in a 1939 Goldwyn Productions film based on a novel by what author?",
+      "prediction": "Gary Cooper co-starred with Jackie Chan in a 1939 film, but the author of \"Around the World in 80 Days\" is not mentioned. However, based on common knowledge, it's Jules Verne.",
+      "answers": [
+        "Charles L. Clifford"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 256.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Around the World in 80 Days (2004 film)",
+        "Around the World in 80 Days (2004 film)",
+        "Around the World in 80 Days (2009 TV series)",
+        "Around the World in 80 Days (2004 film)",
+        "David Niven"
+      ],
+      "context_tokens": 718
+    },
+    {
+      "question": "Prior to playing for Michigan State, Keith Nichol played football for a school located in what city?",
+      "prediction": "Michigan State is located in East Lansing, Michigan.",
+      "answers": [
+        "Norman"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 179.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Keith Nichol",
+        "2006 Michigan State Spartans football team",
+        "John Macklin",
+        "Keith Nichol",
+        "2006 Michigan State Spartans football team"
+      ],
+      "context_tokens": 681
+    },
+    {
+      "question": "Gary L. Bennett was a part of the space missions that have a primary destination of what celestial body?",
+      "prediction": "Jupiter",
+      "answers": [
+        "Sun"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 138.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Gary L. Bennett",
+        "Gary L. Bennett",
+        "Gary L. Bennett",
+        "Gary L. Bennett",
+        "Ulysses (spacecraft)"
+      ],
+      "context_tokens": 880
+    },
+    {
+      "question": "Was Atom Egoyans biggest commercial success on stage or on film?",
+      "prediction": "Atom Egoyan's biggest commercial success is his film Chloe (2009), which grossed over $100 million worldwide.",
+      "answers": [
+        "erotic thriller film"
+      ],
+      "em": 0,
+      "f1": 0.10526315789473684,
+      "loose": 0,
+      "latency_ms": 227.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Atom Egoyan",
+        "Atom Egoyan",
+        "Atom Egoyan",
+        "Atom Egoyan",
+        "Atom Egoyan"
+      ],
+      "context_tokens": 1045
+    },
+    {
+      "question": "Celebrity Fifteen to One has had more than one appearance by an English writer and former Conservative Member of what?",
+      "prediction": "1990s",
+      "answers": [
+        "Parliament"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 193.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Celebrity Fifteen to One",
+        "Jonathan Aitken",
+        "Keith Raffan",
+        "David Faber (politician)",
+        "Celebrity Fifteen to One"
+      ],
+      "context_tokens": 1050
+    },
+    {
+      "question": "Thirukkalacherry is a village in which Indian town?",
+      "prediction": "Thirukkalacherry is a village in the town of Tranquebar (Tharangambadi).",
+      "answers": [
+        "Tharangambadi"
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 1,
+      "latency_ms": 199.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Thirukkalacherry",
+        "Thirukkalacherry",
+        "Thirukkalacherry",
+        "Thirukkalacherry",
+        "Paravakkal"
+      ],
+      "context_tokens": 708
+    },
+    {
+      "question": "Which is a flowering plant, Pueraria or Pleiospilos?",
+      "prediction": "Pleiospilos.",
+      "answers": [
+        "Pleiospilos"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 138.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Pleiospilos",
+        "Pleiospilos bolusii",
+        "Pleiospilos simulans",
+        "Pleiospilos bolusii",
+        "Pleiospilos"
+      ],
+      "context_tokens": 687
+    },
+    {
+      "question": "After Russell D. Moore served at the Southern Baptist Theological Seminary he became the President of The Ethics & Religious Liberty Commission (ERLC) in what year?",
+      "prediction": "2021",
+      "answers": [
+        "2013"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 168.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Russell D. Moore",
+        "Ethics &amp; Religious Liberty Commission",
+        "Russell D. Moore",
+        "Ethics &amp; Religious Liberty Commission",
+        "Russell D. Moore"
+      ],
+      "context_tokens": 850
+    },
+    {
+      "question": "For which band, was the female member of Fitz and The Tantrums, the front woman for ten years ?",
+      "prediction": "Noelle Scaggs was the front woman for ten years.",
+      "answers": [
+        "The Rebirth"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 184.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Fitz and The Tantrums",
+        "Fitz and The Tantrums",
+        "Fitz and The Tantrums",
+        "Fitz and The Tantrums",
+        "Fitz and The Tantrums"
+      ],
+      "context_tokens": 834
+    },
+    {
+      "question": "When was the American singer, songwriter, record producer, dancer and actress born who's second studio album is Chapter II?",
+      "prediction": "The American singer, songwriter, record producer, dancer and actress was born on October 13, 1980.",
+      "answers": [
+        "October 13, 1980"
+      ],
+      "em": 0,
+      "f1": 0.35294117647058826,
+      "loose": 1,
+      "latency_ms": 194.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Chapter II (Ashanti album)",
+        "Like a Virgin (album)",
+        "Chapter II (Ashanti album)",
+        "Like a Virgin (album)",
+        "Ashanti (singer)"
+      ],
+      "context_tokens": 611
+    },
+    {
+      "question": "The Greatest Event in Television History aired on the channel that was founded by whom?",
+      "prediction": "The Greatest Event in Television History aired on Cartoon Network, which was founded by Ted Turner.",
+      "answers": [
+        "Betty Cohen"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 215.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Greatest Event in Television History",
+        "The Greatest Event in Television History",
+        "The Greatest Event in Television History",
+        "The Greatest Event in Television History",
+        "The Greatest Event in Television History"
+      ],
+      "context_tokens": 824
+    },
+    {
+      "question": "Who starred in her final film role in the 1964 film directed by the man who also did Vera Cruz and Kiss Me Deadly?",
+      "prediction": "Shirley Temple",
+      "answers": [
+        "Mary Astor"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 204.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vera Cruz (film)",
+        "Vera Cruz (film)",
+        "Hush… Hush, Sweet Charlotte",
+        "A Kiss for Corliss",
+        "Vera Cruz (film)"
+      ],
+      "context_tokens": 874
+    },
+    {
+      "question": "Finally includes the song that peaked at what on the US Hot 100",
+      "prediction": "number five",
+      "answers": [
+        "number five"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 202.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Finally (CeCe Peniston song)",
+        "Finally (CeCe Peniston song)",
+        "Finally (CeCe Peniston song)",
+        "Finally (CeCe Peniston album)",
+        "Finally (CeCe Peniston song)"
+      ],
+      "context_tokens": 890
+    },
+    {
+      "question": "What are some other areas that share a common deer species with the forests of Mara and Mondrem?",
+      "prediction": "White-bellied musk deer are found in the Himalayas of Nepal, Bhutan, India, Pakistan and China.",
+      "answers": [
+        "New Zealand, Canada, the United States, the Falkland Islands, and Peru."
+      ],
+      "em": 0,
+      "f1": 0.08695652173913043,
+      "loose": 0,
+      "latency_ms": 187.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Forests of Mara and Mondrem",
+        "Sri Lankan sambar deer",
+        "Sri Lankan sambar deer",
+        "Forests of Mara and Mondrem",
+        "Forests of Mara and Mondrem"
+      ],
+      "context_tokens": 680
+    },
+    {
+      "question": "Professional cyclist Sara Symington competed in which Olympic Games held in Sydeney, Australia?",
+      "prediction": "Sydney 2000.",
+      "answers": [
+        "2000 Summer Olympic Games"
+      ],
+      "em": 0,
+      "f1": 0.3333333333333333,
+      "loose": 0,
+      "latency_ms": 166.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sara Symington",
+        "Sara Symington",
+        "2000 Summer Olympics",
+        "Sara Symington",
+        "Sara Symington"
+      ],
+      "context_tokens": 808
+    },
+    {
+      "question": "Which retired Argentine footballer who played as a forward was a main player for Valencia CF?",
+      "prediction": "Club Jorge Wilstermann.",
+      "answers": [
+        "Claudio Javier López"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 140.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "José Daniel Valencia",
+        "José Daniel Valencia",
+        "Mariano Campodónico",
+        "1998–99 Valencia CF season",
+        "Claudio López (footballer)"
+      ],
+      "context_tokens": 720
+    },
+    {
+      "question": "What actor was also a president that Richard Darman worked with when they were in office?",
+      "prediction": "Ronald Reagan.",
+      "answers": [
+        "George H. W. Bush"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 143.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Richard Darman",
+        "Richard Darman",
+        "Richard Darman",
+        "Richard Darman",
+        "Ronald Reagan"
+      ],
+      "context_tokens": 804
+    },
+    {
+      "question": "The song that came out ahead of The Wanted's \"Lightning\" on the UK Singles Chart was featured on which album?",
+      "prediction": "The Wanted's \"Lightning\" was featured on their album \"Battleground\".",
+      "answers": [
+        "\"Talk That Talk\""
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 190.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Lightning (song)",
+        "The Wanted discography",
+        "Lightning (song)",
+        "The Wanted discography",
+        "The Wanted discography"
+      ],
+      "context_tokens": 700
+    },
+    {
+      "question": "Name a member of a British-American supergroup who recored a version of Nobody's child in 1990",
+      "prediction": "Bob Dylan.",
+      "answers": [
+        "Bob Dylan"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 182.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nobody's Child: Romanian Angel Appeal",
+        "Nobody's Child: Romanian Angel Appeal",
+        "Nobody's Child: Romanian Angel Appeal",
+        "Nobody for Everybody",
+        "Nobody's Child: Romanian Angel Appeal"
+      ],
+      "context_tokens": 1018
+    },
+    {
+      "question": "What Friday night programming block included what collective series that includes \"Whatever Happened to... Robot Jones?\"?",
+      "prediction": "The Friday night programming block that included \"Whatever Happened to... Robot Jones?\" was Nickelodeon's Saturday Night programming block.",
+      "answers": [
+        "Cartoon Cartoon Fridays"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 253.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Whatever Happened to... Robot Jones?",
+        "Whatever Happened to... Robot Jones?",
+        "Whatever Happened to... Robot Jones?",
+        "Whatever Happened to... Robot Jones?",
+        "Whatever Happened to... Robot Jones?"
+      ],
+      "context_tokens": 845
+    },
+    {
+      "question": "Where does the city situated where Kellyville Ridge is located?",
+      "prediction": "Blacktown City Council.",
+      "answers": [
+        "on the Cumberland Plain"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 152.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Kellyville Ridge, New South Wales",
+        "Kellyville Ridge, New South Wales",
+        "Kellyville Ridge, New South Wales",
+        "Kellyville Ridge, New South Wales",
+        "Kellyville Ridge, New South Wales"
+      ],
+      "context_tokens": 786
+    },
+    {
+      "question": "Oak Beach, New York and Great South Bay are both situated between what same island?",
+      "prediction": "both between Long Island and Suffolk County",
+      "answers": [
+        "Long Island"
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 1,
+      "latency_ms": 167.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Oak Beach, New York",
+        "Lower South Bay, New York",
+        "Oak Beach–Captree, New York",
+        "Oak Beach, New York",
+        "Great South Bay"
+      ],
+      "context_tokens": 882
+    },
+    {
+      "question": "Who is a guest in the final two episodes of season eighteen of South Park?",
+      "prediction": "Eric Stough.",
+      "answers": [
+        "PewDiePie"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 164.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "South Park (season 2)",
+        "Rehash (South Park)",
+        "South Park (season 2)",
+        "Rehash (South Park)",
+        "South Park (season 2)"
+      ],
+      "context_tokens": 874
+    },
+    {
+      "question": "Robbie Tucker plays in what series that follows a group of friends who run an Irish bar?",
+      "prediction": "Robbie Tucker plays in It's Always Sunny in Philadelphia, which follows a group of friends who run an Irish bar.",
+      "answers": [
+        "It's Always Sunny in Philadelphia"
+      ],
+      "em": 0,
+      "f1": 0.4347826086956522,
+      "loose": 1,
+      "latency_ms": 202.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "It's Always Sunny in Philadelphia",
+        "It's Always Sunny in Philadelphia",
+        "Robbie Tucker",
+        "Robbie Tucker",
+        "Robbie Tucker"
+      ],
+      "context_tokens": 868
+    },
+    {
+      "question": "High School Confidential, an eight part documentary followed twelve high school teenagers from a high school in Overland Park, Kansas that ranked what in the 2009 Newsweek ranking of the top 1,500 high schools in the United States?",
+      "prediction": "1",
+      "answers": [
+        "#364"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 176.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Blue Valley West High School",
+        "Lake Brantley High School",
+        "Eastview High School",
+        "William Fremd High School",
+        "Blue Valley West High School"
+      ],
+      "context_tokens": 864
+    },
+    {
+      "question": "The large subunit and small subunit that use two types of RNA are major components that make up what?",
+      "prediction": "The large and small subunits that use two types of RNA are major components of the ribosome.",
+      "answers": [
+        "Ribosomes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 184.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ribosome",
+        "Ribosome",
+        "Ribosome",
+        "Ribozyme",
+        "Ribosomal protein"
+      ],
+      "context_tokens": 837
+    },
+    {
+      "question": "Whiich genus has more species, Dracula or Pistacia?",
+      "prediction": "Dracula has more species.",
+      "answers": [
+        "Dracula"
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 1,
+      "latency_ms": 151.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Dracula wallisii",
+        "Dracula (plant)",
+        "Dracula wallisii",
+        "Dracula (plant)",
+        "Dracula (plant)"
+      ],
+      "context_tokens": 632
+    },
+    {
+      "question": "Band-e-Amir Dragons is named after the lakes in which Afghan national park?",
+      "prediction": "Band-e-Amir Dragons is named after the six lakes in Afghanistan's national park.",
+      "answers": [
+        "Band-e Amir National Park"
+      ],
+      "em": 0,
+      "f1": 0.26666666666666666,
+      "loose": 0,
+      "latency_ms": 171.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Band-e Amir National Park",
+        "Band-e Amir National Park",
+        "Band-e Amir National Park",
+        "Band-e Amir National Park",
+        "Band-e Amir National Park"
+      ],
+      "context_tokens": 821
+    },
+    {
+      "question": "The 1958 Pro Bowl was played at the California stadium that is the home for which college?",
+      "prediction": "The 1958 Pro Bowl was played at the Los Angeles Memorial Coliseum, which is the home of the University of Southern California Trojans football team.",
+      "answers": [
+        "University of Southern California"
+      ],
+      "em": 0,
+      "f1": 0.32,
+      "loose": 1,
+      "latency_ms": 208.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "1958 Pro Bowl",
+        "1958 Pro Bowl",
+        "Los Angeles Memorial Coliseum",
+        "Los Angeles Memorial Coliseum",
+        "Los Angeles Memorial Coliseum"
+      ],
+      "context_tokens": 966
+    },
+    {
+      "question": "Yau Ma Tei North is a district of a city with how many citizens?",
+      "prediction": "12,817 citizens.",
+      "answers": [
+        "7.2 million"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 149.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Yau Ma Tei North (constituency)",
+        "Yau Ma Tei North (constituency)",
+        "Yau Ma Tei North (constituency)",
+        "Ahiara",
+        "Hong Kong"
+      ],
+      "context_tokens": 725
+    },
+    {
+      "question": "Spider9 was founded in 2011 by the head of which subsidiary of Wanxiang Group?",
+      "prediction": "The head of the Wanxiang Group subsidiary that founded Spider9.",
+      "answers": [
+        "A123 Systems, LLC"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 197.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Wanxiang",
+        "Spider9",
+        "Wanxiang",
+        "Wanxiang",
+        "Spider9"
+      ],
+      "context_tokens": 790
+    },
+    {
+      "question": "What is the population of the city at which the transmitter of WLLZ-LP was placed? ",
+      "prediction": "The population of the city at which WLLZ-LP's transmitter was placed is not explicitly stated in the provided documents. Therefore, it cannot be determined from the given information.",
+      "answers": [
+        "143,372"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 257.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "WLLZ-LP",
+        "WLLZ-LP",
+        "WLLZ-LP",
+        "WLLZ-LP",
+        "WLLZ-LP"
+      ],
+      "context_tokens": 999
+    },
+    {
+      "question": "Charles Haughey held what position when he dissolved the list of members who were elected to the lower house of the Oireachtas of Ireland on 25 May 1989?",
+      "prediction": "Charles Haughey was Taoiseach when he dissolved the list of members who were elected to the lower house of the Oireachtas of Ireland on 25 May 1989.",
+      "answers": [
+        "Taoiseach of Ireland"
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 296.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Charles Haughey",
+        "Charles Haughey",
+        "Charles Haughey",
+        "Charles Haughey",
+        "Members of the 21st Dáil"
+      ],
+      "context_tokens": 1116
+    },
+    {
+      "question": "What city, located in Lincoln County, Montana, United States, is Vegepet based in?",
+      "prediction": "Troy, Montana.",
+      "answers": [
+        "Troy, Montana"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 151.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Troy, Montana",
+        "Troy, Montana",
+        "Troy, Montana",
+        "Lincoln County, Arkansas",
+        "Kemmerer, Wyoming"
+      ],
+      "context_tokens": 641
+    },
+    {
+      "question": "McLaren MP4/11 was driven by what Finnish former professional racing driver",
+      "prediction": "Mika Häkkinen.",
+      "answers": [
+        "Mika Häkkinen"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 184.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "McLaren MP4/9",
+        "McLaren MP4/11",
+        "McLaren MP4/10",
+        "McLaren MP4/13",
+        "Mika Häkkinen"
+      ],
+      "context_tokens": 904
+    },
+    {
+      "question": "Which of the movie which has Rich Lee 3-D previsualizations was directed by Francis Lawrence?",
+      "prediction": "The Hunger Games: Mockingjay – Part 1.",
+      "answers": [
+        "Constantine"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 173.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rich Lee",
+        "Rich Lee",
+        "The Hunger Games: Mockingjay – Part 1",
+        "Kristof Konrad",
+        "Constantine (film)"
+      ],
+      "context_tokens": 685
+    },
+    {
+      "question": "Who choreographed one who is said to be the last muse for the choreographer and starred in the Nutcracker?",
+      "prediction": "Willam Christensen choreographed the ballet.",
+      "answers": [
+        "George Balanchine"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 209.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Nutcracker (Willam Christensen)",
+        "Darci Kistler",
+        "Darci Kistler",
+        "Lev Ivanov",
+        "The Nutcracker (Balanchine)"
+      ],
+      "context_tokens": 969
+    },
+    {
+      "question": "Which utility holding company did Alfred A. Marcus work as a consultant?",
+      "prediction": "Based on the provided documents, Alfred A. Marcus worked as a consultant for Xcel Energy.",
+      "answers": [
+        "Xcel Energy Inc."
+      ],
+      "em": 0,
+      "f1": 0.26666666666666666,
+      "loose": 0,
+      "latency_ms": 198.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Xcel Energy",
+        "North American Company",
+        "Xcel Energy",
+        "Alfred A. Marcus",
+        "Alfred A. Marcus"
+      ],
+      "context_tokens": 805
+    },
+    {
+      "question": "Which film was released first, Summer Magic or Around the World in 80 Days?",
+      "prediction": "Summer Magic was released first.",
+      "answers": [
+        "Summer Magic"
+      ],
+      "em": 0,
+      "f1": 0.5714285714285715,
+      "loose": 1,
+      "latency_ms": 163.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Around the World in 80 Days (1956 film)",
+        "Around the World in 80 Days (2004 film)",
+        "Around the World in 80 Days (1956 film)",
+        "Around the World in 80 Days (2004 film)",
+        "Around the World in 80 Days (2004 film)"
+      ],
+      "context_tokens": 749
+    },
+    {
+      "question": "The physicist who is responsible for identifying the Rabi cycle won what award?",
+      "prediction": "Rabi cycle: In physics, the Rabi cycle (or Rabi flop) is the cyclic behaviour of a two-level quantum system in the presence of an oscillatory driving field. A great variety of physical processes belonging to the areas of quantum computing, condensed matter, atomic and molecular physics, and nuclear and particle physics can be conveniently studied in terms of two-level quantum mechanical systems,",
+      "answers": [
+        "Nobel Prize"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 294.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rabi cycle",
+        "Rabi cycle",
+        "Rabi cycle",
+        "Rabi cycle",
+        "Rabi cycle"
+      ],
+      "context_tokens": 766
+    },
+    {
+      "question": "For what type of work is the production company for The Year Without a Santa Claus best known?",
+      "prediction": "The production company is best known for stop motion animation.",
+      "answers": [
+        "seasonal television specials, particularly its work in stop motion animation"
+      ],
+      "em": 0,
+      "f1": 0.3157894736842105,
+      "loose": 0,
+      "latency_ms": 167.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Year Without a Santa Claus",
+        "Santa Claus: The Movie",
+        "Santa Claus in film",
+        "The Year Without a Santa Claus",
+        "A Miser Brothers' Christmas"
+      ],
+      "context_tokens": 650
+    },
+    {
+      "question": "Which three-time Olivier Award winning English actress starred in the 1981 BBC television serial, Sons and Lovers?",
+      "prediction": "Juliet Aubrey.",
+      "answers": [
+        "Dame Eileen June Atkins"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 175.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sons and Lovers (1981 TV serial)",
+        "Sons and Lovers (1981 TV serial)",
+        "Sons and Lovers (1981 TV serial)",
+        "Sons and Lovers (1981 TV serial)",
+        "Juliet Aubrey"
+      ],
+      "context_tokens": 908
+    },
+    {
+      "question": "The historical Nimavar school in the Nimavar Bazaar, or bazar, is located in which country?",
+      "prediction": "The historical Nimavar school is located in Iran.",
+      "answers": [
+        "Iran"
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 1,
+      "latency_ms": 169.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nimavar school",
+        "Nimavar school",
+        "Old Bazaar, Gjakova",
+        "Grand Bazaar, Isfahan",
+        "Grand Bazaar, Isfahan"
+      ],
+      "context_tokens": 724
+    },
+    {
+      "question": "Which name adopted by African-American activist Allen Donaldson co-found Black Power movement of the 1960s and 1970s",
+      "prediction": "Black Power",
+      "answers": [
+        "Hakim Abdullah Jamal"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 184.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Black Power movement",
+        "Black Power movement",
+        "Black Power movement",
+        "Black Power movement",
+        "Black Power movement"
+      ],
+      "context_tokens": 983
+    },
+    {
+      "question": "Which person is known for playing in punk bands, Keith Morris or Rome Ramirez?",
+      "prediction": "Keith Morris.",
+      "answers": [
+        "Keith Morris"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 139.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rome Ramirez",
+        "Keith Morris",
+        "Rome Ramirez",
+        "Keith Morris",
+        "Keith Morris"
+      ],
+      "context_tokens": 726
+    },
+    {
+      "question": "Arnold Richards was the former chair of what organization that is a member of the Center for Jewish History?",
+      "prediction": "The American Jewish Historical Society.",
+      "answers": [
+        "YIVO"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 161.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Center for Jewish History",
+        "Center for Jewish History",
+        "Center for Jewish History",
+        "Center for Jewish History",
+        "Center for Jewish History"
+      ],
+      "context_tokens": 827
+    },
+    {
+      "question": "When was the plaintiff in the 1892 Barbed Wire Patent Case born?",
+      "prediction": "Based on the context, Joseph Glidden was born in 1826.",
+      "answers": [
+        "January 18, 1813"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 194.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Barbed Wire Patent",
+        "The Barbed Wire Patent",
+        "The Barbed Wire Patent",
+        "The Barbed Wire Patent",
+        "The Barbed Wire Patent"
+      ],
+      "context_tokens": 894
+    },
+    {
+      "question": "Which mountain is higher, Tongshanjiabu or Himalchuli?",
+      "prediction": "Based on the provided documents, Himalchuli is higher than Tongshanjiabu.",
+      "answers": [
+        "Himalchuli has three main peaks: East (7893 m), West (7540 m) and North (7371 m)"
+      ],
+      "em": 0,
+      "f1": 0.08333333333333334,
+      "loose": 0,
+      "latency_ms": 195.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Himalchuli",
+        "Tongshanjiabu",
+        "Himalchuli",
+        "Nanda Devi",
+        "Tongshanjiabu"
+      ],
+      "context_tokens": 580
+    },
+    {
+      "question": "When did the place in Canada where François Beaucourt (1740-1794) was mainly active acquired its present name?",
+      "prediction": "Based on the provided documents, there is no explicit information about when the place in Canada where François Beaucourt was mainly active acquired its present name. The documents focus on his career and historical context but do not mention the naming of the location.",
+      "answers": [
+        "1763"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 273.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "François Beaucourt",
+        "Province of Quebec (1763–1791)",
+        "Province of Quebec (1763–1791)",
+        "Province of Quebec (1763–1791)",
+        "Province of Quebec (1763–1791)"
+      ],
+      "context_tokens": 979
+    }
+  ]
+}

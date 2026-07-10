@@ -1,0 +1,134 @@
+[
+  {
+    "model": "lfm2.5-1.2b-instruct",
+    "task": "2wikimqa",
+    "variant": "pec_bridge",
+    "n": 50,
+    "em": 10.0,
+    "f1": 22.8,
+    "loose": 22.0,
+    "avg_latency_ms": 227.9,
+    "avg_context_tokens": 603.7
+  },
+  {
+    "model": "lfm2.5-1.2b-instruct",
+    "task": "2wikimqa",
+    "variant": "raw_topk",
+    "n": 50,
+    "em": 16.0,
+    "f1": 24.25,
+    "loose": 28.0,
+    "avg_latency_ms": 356.7,
+    "avg_context_tokens": 1253.1
+  },
+  {
+    "model": "lfm2.5-1.2b-instruct",
+    "task": "hotpotqa",
+    "variant": "pec_bridge",
+    "n": 50,
+    "em": 12.0,
+    "f1": 26.54,
+    "loose": 28.0,
+    "avg_latency_ms": 165.0,
+    "avg_context_tokens": 679.7
+  },
+  {
+    "model": "lfm2.5-1.2b-instruct",
+    "task": "hotpotqa",
+    "variant": "raw_topk",
+    "n": 50,
+    "em": 12.0,
+    "f1": 21.69,
+    "loose": 28.0,
+    "avg_latency_ms": 351.6,
+    "avg_context_tokens": 1366.1
+  },
+  {
+    "model": "lfm2.5-1.2b-instruct",
+    "task": "musique",
+    "variant": "pec_bridge",
+    "n": 50,
+    "em": 6.0,
+    "f1": 9.91,
+    "loose": 12.0,
+    "avg_latency_ms": 274.7,
+    "avg_context_tokens": 632.8
+  },
+  {
+    "model": "lfm2.5-1.2b-instruct",
+    "task": "musique",
+    "variant": "raw_topk",
+    "n": 50,
+    "em": 4.0,
+    "f1": 6.84,
+    "loose": 16.0,
+    "avg_latency_ms": 418.8,
+    "avg_context_tokens": 1338.0
+  },
+  {
+    "model": "qwen3-1.7b",
+    "task": "2wikimqa",
+    "variant": "pec_bridge",
+    "n": 50,
+    "em": 6.0,
+    "f1": 17.83,
+    "loose": 38.0,
+    "avg_latency_ms": 1243.0,
+    "avg_context_tokens": 618.2
+  },
+  {
+    "model": "qwen3-1.7b",
+    "task": "2wikimqa",
+    "variant": "raw_topk",
+    "n": 50,
+    "em": 8.0,
+    "f1": 16.36,
+    "loose": 40.0,
+    "avg_latency_ms": 1762.9,
+    "avg_context_tokens": 1281.9
+  },
+  {
+    "model": "qwen3-1.7b",
+    "task": "hotpotqa",
+    "variant": "pec_bridge",
+    "n": 50,
+    "em": 8.0,
+    "f1": 21.18,
+    "loose": 30.0,
+    "avg_latency_ms": 1214.0,
+    "avg_context_tokens": 694.5
+  },
+  {
+    "model": "qwen3-1.7b",
+    "task": "hotpotqa",
+    "variant": "raw_topk",
+    "n": 50,
+    "em": 8.0,
+    "f1": 23.78,
+    "loose": 34.0,
+    "avg_latency_ms": 1588.6,
+    "avg_context_tokens": 1392.9
+  },
+  {
+    "model": "qwen3-1.7b",
+    "task": "musique",
+    "variant": "pec_bridge",
+    "n": 50,
+    "em": 2.0,
+    "f1": 6.74,
+    "loose": 10.0,
+    "avg_latency_ms": 1493.4,
+    "avg_context_tokens": 647.7
+  },
+  {
+    "model": "qwen3-1.7b",
+    "task": "musique",
+    "variant": "raw_topk",
+    "n": 50,
+    "em": 0.0,
+    "f1": 6.0,
+    "loose": 16.0,
+    "avg_latency_ms": 1723.6,
+    "avg_context_tokens": 1368.2
+  }
+]

@@ -1,0 +1,4417 @@
+{
+  "task": "2wikimqa",
+  "model": "qwen3-4b",
+  "variant": "pec_hop_short15",
+  "n_samples": 200,
+  "top_k": 5,
+  "metrics": {
+    "em": 8.5,
+    "f1": 18.31,
+    "loose": 38.5,
+    "avg_latency_ms": 4210.6,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 810.6
+  },
+  "results": [
+    {
+      "question": "Where was the wife of Francis I Rákóczi born?",
+      "prediction": "",
+      "answers": [
+        "Ozalj"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 68709.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Francis I Rákóczi",
+        "Francis I Rákóczi",
+        "Francis I Rákóczi",
+        "Francis I Rákóczi",
+        "Francis I Rákóczi",
+        "Francis I Rákóczi",
+        "Ilona Zrínyi"
+      ],
+      "context_tokens": 816
+    },
+    {
+      "question": "Who is Sobe (Sister Of Saint Anne)'s grandchild?",
+      "prediction": "The answer is: \"Albina du Boisrouvray\".",
+      "answers": [
+        "John the Baptist"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 18965.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sobe (sister of Saint Anne)",
+        "Sobe (sister of Saint Anne)",
+        "Sobe (sister of Saint Anne)",
+        "Sobe (sister of Saint Anne)",
+        "Albina du Boisrouvray",
+        "Princess Elizabeth of Great Britain",
+        "Albina du Boisrouvray"
+      ],
+      "context_tokens": 839
+    },
+    {
+      "question": "Where does the director of film Man At Bath work at?",
+      "prediction": "The director of Man at Bath is Christophe Honoré, who works at the Locarno International Film Festival.",
+      "answers": [
+        "Cahiers du cinéma"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 608.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Man at Bath",
+        "Man at Bath",
+        "Man at Bath",
+        "Man at Bath",
+        "Man at Bath",
+        "Christophe Honoré",
+        "Christophe Honoré"
+      ],
+      "context_tokens": 698
+    },
+    {
+      "question": "Do both Beauty And The Bad Man and Wild Child (Film) films have the directors from the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "no"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1930.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Beauty and the Bad Man",
+        "Wild Child (film)",
+        "Wild Child (film)",
+        "Beauty and the Bad Man",
+        "Tula Belle",
+        "William Worthington (actor)",
+        "William Worthington (actor)"
+      ],
+      "context_tokens": 668
+    },
+    {
+      "question": "What is the date of birth of William Paulet, 3Rd Marquess Of Winchester's father?",
+      "prediction": "",
+      "answers": [
+        "1510"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 3911.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "William Paulet, 3rd Marquess of Winchester",
+        "William Paulet, 3rd Marquess of Winchester",
+        "John Paulet, 2nd Marquess of Winchester",
+        "John Paulet, 2nd Marquess of Winchester",
+        "John Paulet, 2nd Marquess of Winchester",
+        "John Paulet, 2nd Marquess of Winchester",
+        "John Paulet, 2nd Marquess of Winchester"
+      ],
+      "context_tokens": 1242
+    },
+    {
+      "question": "Who is Edward Watson, Viscount Sondes's paternal grandfather?",
+      "prediction": "",
+      "answers": [
+        "Edward Watson"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2220.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Edward Watson, Viscount Sondes",
+        "Lewis Watson, 2nd Earl of Rockingham",
+        "Lewis Watson, 1st Earl of Rockingham",
+        "Lewis Watson, 1st Earl of Rockingham",
+        "Lewis Watson, 2nd Earl of Rockingham",
+        "Thomas Watson, 3rd Earl of Rockingham",
+        "Lewis Watson, 1st Earl of Rockingham"
+      ],
+      "context_tokens": 1326
+    },
+    {
+      "question": "What is the date of death of Humphrey De Bohun, 7Th Earl Of Hereford's father?",
+      "prediction": "The date of death of Humphrey De Bohun, 7th Earl Of Hereford's father is January 16, 1373.",
+      "answers": [
+        "16 September 1360"
+      ],
+      "em": 0,
+      "f1": 0.10526315789473684,
+      "loose": 0,
+      "latency_ms": 2531.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Humphrey de Bohun, 7th Earl of Hereford",
+        "Humphrey de Bohun, 3rd Earl of Hereford",
+        "Humphrey de Bohun, 7th Earl of Hereford",
+        "John de Bohun, 5th Earl of Hereford",
+        "Humphrey de Bohun, 3rd Earl of Hereford",
+        "Humphrey de Bohun, 2nd Earl of Hereford",
+        "Humphrey de Bohun, 7th Earl of Hereford"
+      ],
+      "context_tokens": 934
+    },
+    {
+      "question": "Who is Helmichis's father-in-law?",
+      "prediction": "",
+      "answers": [
+        "Cunimund"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2249.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ogawa Mataji",
+        "Helmichis",
+        "Ogawa Mataji",
+        "Rosamund (wife of Alboin)",
+        "Helmichis",
+        "Helmichis",
+        "Rosamund (wife of Alboin)"
+      ],
+      "context_tokens": 848
+    },
+    {
+      "question": "Where did Helena Carroll's father study?",
+      "prediction": "",
+      "answers": [
+        "St Patrick's College"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2409.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paul Vincent Carroll",
+        "Helena Carroll",
+        "Helena Carroll",
+        "Helena Carroll",
+        "Helena Carroll",
+        "Helena Carroll",
+        "Nancy Baron"
+      ],
+      "context_tokens": 865
+    },
+    {
+      "question": "Where does the director of film Wine Of Morning work at?",
+      "prediction": "The director of the film Wine Of Morning, Katherine Stenholm, worked at Bob Jones University.",
+      "answers": [
+        "Bob Jones University"
+      ],
+      "em": 0,
+      "f1": 0.375,
+      "loose": 1,
+      "latency_ms": 3842.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Wine of Morning",
+        "Wine of Morning",
+        "Katherine Stenholm",
+        "Katherine Stenholm",
+        "Katherine Stenholm",
+        "Dana Blankstein",
+        "Katherine Stenholm"
+      ],
+      "context_tokens": 859
+    },
+    {
+      "question": "Which film has the director who was born earlier, The Secret Invasion or The House Of The Seven Hawks?",
+      "prediction": "The House Of The Seven Hawks.",
+      "answers": [
+        "The House Of The Seven Hawks"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 9811.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "The House of the Seven Hawks",
+        "The House of the Seven Hawks",
+        "The Secret Invasion",
+        "Richard Thorpe",
+        "Richard Thorpe",
+        "The House of the Seven Hawks",
+        "Richard Thorpe"
+      ],
+      "context_tokens": 788
+    },
+    {
+      "question": "Who is the paternal grandmother of Marie Of Brabant, Queen Of France?",
+      "prediction": "",
+      "answers": [
+        "Marie of Hohenstaufen"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 5371.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Marie of Évreux",
+        "Marie of Évreux",
+        "Marie of Évreux",
+        "Marie of Brabant, Queen of France",
+        "Henry III, Duke of Brabant",
+        "Henry III, Duke of Brabant",
+        "Marie of Luxembourg, Queen of France"
+      ],
+      "context_tokens": 818
+    },
+    {
+      "question": "Who is Renaud Ii, Count Of Soissons's uncle?",
+      "prediction": "",
+      "answers": [
+        "Guy II, Count of Soissons"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 3929.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Renaud II, Count of Soissons",
+        "Renaud II, Count of Soissons",
+        "William Busac",
+        "Alberic III of Dammartin",
+        "William Busac",
+        "John III, Count of Soissons",
+        "Nocher II, Count of Soissons"
+      ],
+      "context_tokens": 717
+    },
+    {
+      "question": "When did William Le Poer Trench's father die?",
+      "prediction": "The answer is in Document 1, which states that William Le Poer Trench was the third son of William Trench, 3rd Earl of Clancarty. However, this does not mention when his father died. Document 2 mentions Power Le Poer Trench as the son of William Trench, 1st Earl of Clancarty, but that is a different person.",
+      "answers": [
+        "26 April 1872"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 5226.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "William Le Poer Trench",
+        "Power Le Poer Trench",
+        "William Le Poer Trench (Royal Navy officer)",
+        "William Le Poer Trench",
+        "Brinsley Le Poer Trench, 8th Earl of Clancarty",
+        "Nicholas Trench, 9th Earl of Clancarty",
+        "William Le Poer Trench"
+      ],
+      "context_tokens": 846
+    },
+    {
+      "question": "Which country the director of film Renegade Force is from?",
+      "prediction": "The answer is in Document 6. It says Martin Kunert was born in Marcin Stanisław Kunert-Dziewanowski; 1974). The country is Poland.",
+      "answers": [
+        "America"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 528.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Renegade Force",
+        "Renegade Force",
+        "Martin Kunert",
+        "Martin Kunert",
+        "Renegade Force",
+        "Martin Kunert",
+        "Martin Kunert"
+      ],
+      "context_tokens": 774
+    },
+    {
+      "question": "Who is the spouse of the director of film Emergency Wedding?",
+      "prediction": "The director of Emergency Wedding is Edward Buzzell. His spouse was Sara Clark, who he married on August 11, 1934.",
+      "answers": [
+        "Ona Munson"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 11551.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Emergency Wedding",
+        "Emergency Wedding",
+        "Emergency Wedding",
+        "Emergency Wedding",
+        "Edward Buzzell",
+        "Edward Buzzell",
+        "Edward Buzzell"
+      ],
+      "context_tokens": 614
+    },
+    {
+      "question": "Which film came out earlier, Indradhanura Chhai or The Death Of Black King?",
+      "prediction": "The Death Of Black King is from 1971, Indradhanura Chhai is from 1993. So the answer is The Death Of Black King.",
+      "answers": [
+        "The Death Of Black King"
+      ],
+      "em": 0,
+      "f1": 0.34782608695652173,
+      "loose": 1,
+      "latency_ms": 466.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Indradhanura Chhai",
+        "The Death of Black King",
+        "Indradhanura Chhai",
+        "The Black King (film)",
+        "Indradhanura Chhai",
+        "The Black King (film)",
+        "The Black King (film)"
+      ],
+      "context_tokens": 643
+    },
+    {
+      "question": "Do both films The Reincarnation Of Golden Lotus and I'Ll Get By (Film) have the directors from the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "no"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 7358.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Reincarnation of Golden Lotus",
+        "The Reincarnation of Golden Lotus",
+        "Pal Sinn",
+        "Pal Sinn",
+        "Pal Sinn",
+        "Clara Law",
+        "Pal Sinn"
+      ],
+      "context_tokens": 912
+    },
+    {
+      "question": "Are both villages, Rhosgoch and Qaleh-Ye Sahar, located in the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "no"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 7811.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Qaleh-ye Sahar",
+        "Rhosgoch",
+        "Qaleh-ye Zaras",
+        "Khosrow, Andika",
+        "Qaleh-ye Nashin Shahi",
+        "Qaleh-ye Askar",
+        "Rhosgoch"
+      ],
+      "context_tokens": 720
+    },
+    {
+      "question": "Where was the director of film Kanneshwara Rama born?",
+      "prediction": "M. S. Sathyu was born in 1930.",
+      "answers": [
+        "Mysore"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 15056.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Kanneshwara Rama",
+        "Kanneshwara Rama",
+        "Kanneshwara Rama",
+        "Kanneshwara Rama",
+        "M. S. Sathyu",
+        "M. S. Sathyu",
+        "Kanneshwara Rama"
+      ],
+      "context_tokens": 633
+    },
+    {
+      "question": "Where was the place of death of Randi Monsen's father?",
+      "prediction": "",
+      "answers": [
+        "Kristiania"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 258.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Randi Monsen",
+        "Fredrik Monsen",
+        "Fredrik Monsen",
+        "Fredrik Monsen",
+        "Fredrik Monsen",
+        "Place of birth",
+        "Randi Monsen"
+      ],
+      "context_tokens": 940
+    },
+    {
+      "question": "Where did the performer of song I'Ll Say It graduate from?",
+      "prediction": "The performer of \"I'll Say It\" graduated from the Lee Strasberg Theatre and Film Institute.",
+      "answers": [
+        "Lee Strasberg Theatre and Film Institute"
+      ],
+      "em": 0,
+      "f1": 0.631578947368421,
+      "loose": 1,
+      "latency_ms": 378.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "I'll Say It",
+        "Say It, Say It",
+        "Kathy Griffin",
+        "Say It, Say It",
+        "I'll Say It",
+        "Kathy Griffin",
+        "Kathy Griffin"
+      ],
+      "context_tokens": 599
+    },
+    {
+      "question": "Which film has the director who was born first, Hell Up In Harlem or The Soviet Story?",
+      "prediction": "The answer is Hell Up In Harlem. The director of Hell Up in Harlem, Larry Cohen, was born on July 15, 1936, while the director of The Soviet Story, which is not mentioned in the provided documents, would be unknown. However, since the question asks for the film with the director born first between these two, and given that the documents only mention Larry",
+      "answers": [
+        "Hell Up In Harlem"
+      ],
+      "em": 0,
+      "f1": 0.13559322033898305,
+      "loose": 1,
+      "latency_ms": 8696.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hell Up in Harlem",
+        "Hell Up in Harlem",
+        "Larry Cohen",
+        "Gloria Hendry",
+        "Larry Cohen",
+        "Fred Williamson",
+        "Hell Up in Harlem"
+      ],
+      "context_tokens": 840
+    },
+    {
+      "question": "Who was born first, Cipriano Castro or Damir Nikšić?",
+      "prediction": "Cipriano Castro was born on 12 October 1858, while Damir Nikšić's birth date is not mentioned in the provided documents. Therefore, Cipriano Castro was born first.",
+      "answers": [
+        "Cipriano Castro"
+      ],
+      "em": 0,
+      "f1": 0.14814814814814814,
+      "loose": 1,
+      "latency_ms": 11966.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Cipriano Castro",
+        "Cipriano Castro",
+        "Cipriano Castro",
+        "Cipriano Castro",
+        "Fernando Augusto de Castro Ribeiro",
+        "Fernando Augusto de Castro Ribeiro",
+        "Cipriano Castro"
+      ],
+      "context_tokens": 965
+    },
+    {
+      "question": "Which film has the director who died first, The Year Of The Rabbit or Monster On The Campus?",
+      "prediction": "The Year Of The Rabbit.",
+      "answers": [
+        "Monster On The Campus"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 11155.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Monster on the Campus",
+        "Monster on the Campus",
+        "The Year of The Rabbit",
+        "Jack Arnold (director)",
+        "Elliot Silverstein",
+        "The Year of The Rabbit",
+        "Jack Arnold (director)"
+      ],
+      "context_tokens": 991
+    },
+    {
+      "question": "Who is younger, Guy Arvely Dolsin or Altuğ Çelikbilek?",
+      "prediction": "",
+      "answers": [
+        "Altuğ Çelikbilek"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1707.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Altuğ Çelikbilek",
+        "Altuğ Çelikbilek",
+        "Altuğ Çelikbilek",
+        "Altuğ Çelikbilek",
+        "Miloš Zličić",
+        "Miloš Zličić",
+        "Miloš Zličić"
+      ],
+      "context_tokens": 730
+    },
+    {
+      "question": "Which song came out first, Joel The Lump Of Coal or Jugband Blues?",
+      "prediction": "",
+      "answers": [
+        "Jugband Blues"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 255.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Joel the Lump of Coal",
+        "Jugband Blues",
+        "Joel the Lump of Coal",
+        "Joel the Lump of Coal",
+        "Jugband Blues",
+        "Jugband Blues",
+        "Jugband Blues"
+      ],
+      "context_tokens": 777
+    },
+    {
+      "question": "Are both Open Mobile and Primestar located in the same country?",
+      "prediction": "No.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 237.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Open Mobile",
+        "Open Mobile",
+        "Open Mobile",
+        "Open Mobile (disambiguation)",
+        "Open Mobile",
+        "Open Mobile Terminal Platform",
+        "Open Mobile"
+      ],
+      "context_tokens": 644
+    },
+    {
+      "question": "Who is the paternal grandfather of Baldwin I Rátót?",
+      "prediction": "",
+      "answers": [
+        "Leustach Rátót"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 9922.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Baldwin I Rátót",
+        "Baldwin II Rátót",
+        "Rathold Rátót",
+        "Rathold Rátót",
+        "Kaya Alp",
+        "Baldwin I Rátót",
+        "Guillaume Wittouck"
+      ],
+      "context_tokens": 817
+    },
+    {
+      "question": "What is the place of birth of Ratna Malla's father?",
+      "prediction": "",
+      "answers": [
+        "Nepal"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 949.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ratna Malla",
+        "Obata Toramori",
+        "Ratna Malla",
+        "Jayayakshya Malla",
+        "Jayayakshya Malla",
+        "Takayama Tomoteru",
+        "Jayayakshya Malla"
+      ],
+      "context_tokens": 633
+    },
+    {
+      "question": "Who is Archibald Acheson, 4Th Earl Of Gosford's paternal grandfather?",
+      "prediction": "",
+      "answers": [
+        "Archibald Acheson, 2nd Earl of Gosford"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 863.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Archibald Acheson, 3rd Earl of Gosford",
+        "Archibald Acheson, 4th Earl of Gosford",
+        "Archibald Acheson, 3rd Earl of Gosford",
+        "Archibald Acheson, 2nd Earl of Gosford",
+        "Archibald Acheson, 2nd Earl of Gosford",
+        "Archibald Acheson, 3rd Earl of Gosford",
+        "Archibald Acheson, 4th Earl of Gosford"
+      ],
+      "context_tokens": 1138
+    },
+    {
+      "question": "Who is the paternal grandfather of Mark Getty?",
+      "prediction": "The paternal grandfather of Mark Getty is J. Paul Getty.",
+      "answers": [
+        "Jean Paul Getty"
+      ],
+      "em": 0,
+      "f1": 0.3333333333333333,
+      "loose": 0,
+      "latency_ms": 279.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Mark Getty",
+        "John Paul Getty Jr.",
+        "John Paul Getty Jr.",
+        "John Paul Getty Jr.",
+        "John Paul Getty Jr.",
+        "Fred Le Deux",
+        "John Westley"
+      ],
+      "context_tokens": 566
+    },
+    {
+      "question": "Where did the performer of song Fantasy (George Michael Song) die?",
+      "prediction": "The performer of \"Fantasy\" (George Michael song) died in 2016.",
+      "answers": [
+        "Goring-on-Thames, Oxfordshire"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 12946.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Fantasy (George Michael song)",
+        "Fantasy (George Michael song)",
+        "Fantasy (George Michael song)",
+        "Fantasy (George Michael song)",
+        "Fantasy (George Michael song)",
+        "Fantasy (George Michael song)",
+        "George Michael"
+      ],
+      "context_tokens": 567
+    },
+    {
+      "question": "Do director of film Betrayal (1932 Film) and director of film The Godsend (Film) share the same nationality?",
+      "prediction": "Yes.",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 261.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Betrayal (1932 film)",
+        "Betrayal (1932 film)",
+        "Betrayal (1932 film)",
+        "Betrayal (1932 film)",
+        "Reginald Fogwell",
+        "Betrayal (1932 film)",
+        "Reginald Fogwell"
+      ],
+      "context_tokens": 782
+    },
+    {
+      "question": "Which film whose director was born first, The Abduction Club or Wooden Crosses?",
+      "prediction": "The Abduction Club was directed by Stefan Schwartz, born in 1962. Wooden Crosses was directed by Raymond Bernard, born in 1891. Therefore, the answer is Wooden Crosses.",
+      "answers": [
+        "Wooden Crosses"
+      ],
+      "em": 0,
+      "f1": 0.14814814814814814,
+      "loose": 1,
+      "latency_ms": 12492.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Abduction Club",
+        "Wooden Crosses",
+        "Stefan Schwartz",
+        "Raymond Bernard",
+        "Raymond Bernard",
+        "Raymond Bernard",
+        "Stefan Schwartz"
+      ],
+      "context_tokens": 1077
+    },
+    {
+      "question": "Which film came out earlier, Above Rubies or The Magic Aster?",
+      "prediction": "The Magic Aster is not mentioned in the documents. Above Rubies (1932) is earlier than any mention of The Magic Aster.",
+      "answers": [
+        "Above Rubies"
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 1,
+      "latency_ms": 504.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Above Rubies",
+        "A Price Above Rubies",
+        "Magic Mountain",
+        "Above Rubies",
+        "A Price Above Rubies",
+        "Celebrate the Magic",
+        "Celebrate the Magic"
+      ],
+      "context_tokens": 1011
+    },
+    {
+      "question": "Which film has the director who is older than the other, Blue Blood And Red or The Longshot? ",
+      "prediction": "The Longshot is directed by Paul Bartel, born in 1932. Blue Blood And Red is directed by Raoul Walsh, born in 1887. Therefore, Raoul Walsh is older.",
+      "answers": [
+        "Blue Blood And Red"
+      ],
+      "em": 0,
+      "f1": 0.2666666666666667,
+      "loose": 1,
+      "latency_ms": 10117.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Blue Blood and Red",
+        "The Longshot",
+        "Raoul Walsh",
+        "Raoul Walsh",
+        "Raoul Walsh",
+        "Raoul Walsh",
+        "Paul Bartel"
+      ],
+      "context_tokens": 860
+    },
+    {
+      "question": "What is the place of birth of the director of film Clowning Around?",
+      "prediction": "",
+      "answers": [
+        "Castlemaine, Victoria, Australia"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 231.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Clowning Around",
+        "Clowning Around",
+        "George Whaley (actor)",
+        "George Whaley (actor)",
+        "George Whaley (actor)",
+        "Clowning Around",
+        "George Whaley (actor)"
+      ],
+      "context_tokens": 735
+    },
+    {
+      "question": "Who was born later, Paul De Scherff or Lyudmyla Olyanovska?",
+      "prediction": "Paul De Scherff was born in 1820, Lyudmyla Olyanovska in 1993. Therefore, Lyudmyla Olyanovska was born later.",
+      "answers": [
+        "Lyudmyla Olyanovska"
+      ],
+      "em": 0,
+      "f1": 0.21052631578947367,
+      "loose": 1,
+      "latency_ms": 11073.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paul de Scherff",
+        "Lyudmyla Olyanovska",
+        "Catherine I of Russia",
+        "Catherine I of Russia",
+        "Catherine I of Russia",
+        "Paul de Scherff",
+        "Catherine I of Russia"
+      ],
+      "context_tokens": 620
+    },
+    {
+      "question": "Where was the place of death of Kamures Kadın's husband?",
+      "prediction": "The place of death of Kamures Kadın's husband is the Ottoman court.",
+      "answers": [
+        "Constantinople"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1206.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Kamures Kadın",
+        "Kamures Kadın",
+        "Mehmed V",
+        "Kamures Kadın",
+        "Mehmed V",
+        "Mehmed V",
+        "Mehmed V"
+      ],
+      "context_tokens": 664
+    },
+    {
+      "question": "What is the place of birth of Bernard (Son Of Charles The Fat)'s father?",
+      "prediction": "The answer is in Document 1. It says \"Bernard (son of Charles the Fat): Bernard or Bernhard (c. 870 – 891/2) was the only child of Emperor Charles the Fat.\" So, the father is Charles the Fat. Then I need to find where his place of birth is mentioned.",
+      "answers": [
+        "East Francia"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 10329.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Bernard (son of Charles the Fat)",
+        "Bernard (son of Charles the Fat)",
+        "Charles the Fat",
+        "Charles the Fat",
+        "Charles the Fat",
+        "Charles the Fat",
+        "Charles the Fat"
+      ],
+      "context_tokens": 814
+    },
+    {
+      "question": "Which film has the director who died first, Tex And The Lord Of The Deep or Henry Goes Arizona?",
+      "prediction": "Tex And The Lord Of The Deep",
+      "answers": [
+        "Henry Goes Arizona"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1007.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Henry Goes Arizona",
+        "Henry Goes Arizona",
+        "Tex and the Lord of the Deep",
+        "Tex and the Lord of the Deep",
+        "Edwin L. Marin",
+        "Tex and the Lord of the Deep",
+        "Tex and the Lord of the Deep"
+      ],
+      "context_tokens": 803
+    },
+    {
+      "question": "Which country the performer of song I Believe In Your Sweet Love is from?",
+      "prediction": "Bonnie Tyler is Welsh.",
+      "answers": [
+        "United Kingdom"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 230.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "I Believe in Your Sweet Love",
+        "I Believe in Your Sweet Love",
+        "I Believe in Love (Bonnie Guitar song)",
+        "Believe in Me (Bonnie Tyler song)",
+        "I Believe in Love (Bonnie Guitar song)",
+        "Believe in Me (Bonnie Tyler song)",
+        "I Believe in Love (Bonnie Guitar song)"
+      ],
+      "context_tokens": 553
+    },
+    {
+      "question": "Which film whose producer was born first, All-American Co-Ed or Lagu Kenangan?",
+      "prediction": "All-American Co-Ed",
+      "answers": [
+        "All-American Co-Ed"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 251.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Lagu Kenangan",
+        "Lagu Kenangan",
+        "Djamaluddin Malik",
+        "Lagu Kenangan",
+        "Djamaluddin Malik",
+        "Djamaluddin Malik",
+        "Djamaluddin Malik"
+      ],
+      "context_tokens": 516
+    },
+    {
+      "question": "What is the place of birth of the director of film A Chrysanthemum Bursts In Cincoesquinas?",
+      "prediction": "The director of the film is Daniel Burman, born in Buenos Aires.",
+      "answers": [
+        "Buenos Aires"
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 1,
+      "latency_ms": 12434.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "A Chrysanthemum Bursts in Cincoesquinas",
+        "Daniel Burman",
+        "Daniel Burman",
+        "Daniel Burman",
+        "Daniel Burman",
+        "A Chrysanthemum Bursts in Cincoesquinas"
+      ],
+      "context_tokens": 816
+    },
+    {
+      "question": "Who is the mother-in-law of Louise Of Mecklenburg-Güstrow?",
+      "prediction": "The mother-in-law of Louise of Mecklenburg-Güstrow is Magdalene Sibylla of Holstein-Gottorp.",
+      "answers": [
+        "Charlotte Amalie of Hesse-Kassel"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 0,
+      "latency_ms": 968.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Louise of Mecklenburg-Güstrow",
+        "Christine of Mecklenburg-Güstrow",
+        "Gustav Adolph, Duke of Mecklenburg-Güstrow",
+        "Gustav Adolph, Duke of Mecklenburg-Güstrow",
+        "Gustav Adolph, Duke of Mecklenburg-Güstrow",
+        "Christine of Mecklenburg-Güstrow",
+        "Charles of Mecklenburg-Güstrow"
+      ],
+      "context_tokens": 965
+    },
+    {
+      "question": "Where was the place of death of Agnes Of Hohenstaufen's husband?",
+      "prediction": "",
+      "answers": [
+        "Brunswick"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 10442.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Agnes of Hohenstaufen",
+        "Agnes of Hohenstaufen",
+        "Agnes of Waiblingen",
+        "Agnes of Hohenstaufen",
+        "Agnes of Hohenstaufen",
+        "Agnes of Hohenstaufen",
+        "Henry V, Count Palatine of the Rhine"
+      ],
+      "context_tokens": 872
+    },
+    {
+      "question": "Who is Marcus Annius Libo's aunt?",
+      "prediction": "",
+      "answers": [
+        "Vibia Sabina"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1685.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Marcus Annius Libo",
+        "Marcus Annius Libo (consul 161)",
+        "Annia Fundania Faustina",
+        "Marcus Annius Libo (consul 161)",
+        "Marcus Annius Libo (consul 161)",
+        "Annia Fundania Faustina",
+        "Annia Fundania Faustina"
+      ],
+      "context_tokens": 850
+    },
+    {
+      "question": "Which film was released more recently, Bajo Otro Sol or Riding The California Trail?",
+      "prediction": "Riding The California Trail was released in 1947, while Bajo Otro Sol is not mentioned. Therefore, the answer is Riding The California Trail.",
+      "answers": [
+        "Bajo Otro Sol"
+      ],
+      "em": 0,
+      "f1": 0.2608695652173913,
+      "loose": 1,
+      "latency_ms": 465.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Riding the California Trail",
+        "The California Trail",
+        "The California Trail",
+        "Riding the Wind",
+        "Riding the California Trail",
+        "Riding the Edge",
+        "Emigrant Pass (Nevada)"
+      ],
+      "context_tokens": 805
+    },
+    {
+      "question": "Who is the mother of the director of film Dalida (2017 Film)?",
+      "prediction": "The mother of the director Lisa Azuelos is Marie Laforêt.",
+      "answers": [
+        "Marie Laforêt"
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 1,
+      "latency_ms": 9036.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Dalida (2017 film)",
+        "Dalida (2017 film)",
+        "Dalida (2017 film)",
+        "Lisa Azuelos",
+        "Lisa Azuelos",
+        "Dalida (2017 film)",
+        "Dalida (2017 film)"
+      ],
+      "context_tokens": 612
+    },
+    {
+      "question": "Who is the spouse of the director of film Streets Of Blood?",
+      "prediction": "The spouse of the director of Streets of Blood is Sandra Nelson.",
+      "answers": [
+        "Sandra Nelson"
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 1,
+      "latency_ms": 1944.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Streets of Blood",
+        "Streets of Blood",
+        "Charles Winkler",
+        "Charles Winkler",
+        "Charles Winkler",
+        "Streets of Blood",
+        "Charles Winkler"
+      ],
+      "context_tokens": 595
+    },
+    {
+      "question": "When is Henrietta Maria Of Brandenburg-Schwedt's father's birthday?",
+      "prediction": "",
+      "answers": [
+        "May 19, 1669"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 326.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Henrietta Maria of Brandenburg-Schwedt",
+        "Henrietta Maria of Brandenburg-Schwedt",
+        "Philip William, Margrave of Brandenburg-Schwedt",
+        "Henrietta Maria of Brandenburg-Schwedt",
+        "Charles Philip of Brandenburg-Schwedt",
+        "Frederick Henry, Margrave of Brandenburg-Schwedt",
+        "Princess Anna Elisabeth Louise of Brandenburg-Schwedt"
+      ],
+      "context_tokens": 1082
+    },
+    {
+      "question": "Where was the place of death of Sancha Of Castile, Queen Of Navarre's mother?",
+      "prediction": "",
+      "answers": [
+        "Palencia"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 321.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sancha of Castile, Queen of Navarre",
+        "Sancha of Castile, Queen of Navarre",
+        "Berengaria of Barcelona",
+        "Sancha of León",
+        "Sancha of León",
+        "Berengaria of Barcelona",
+        "Eleanor of Aragon, Countess of Toulouse"
+      ],
+      "context_tokens": 1082
+    },
+    {
+      "question": "Which film was released more recently, Dance With A Stranger or Miley Naa Miley Hum?",
+      "prediction": "Miley Naa Miley Hum",
+      "answers": [
+        "Miley Naa Miley Hum"
+      ],
+      "em": 1,
+      "f1": 0.75,
+      "loose": 1,
+      "latency_ms": 8467.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Dance with a Stranger",
+        "Miley Naa Miley Hum",
+        "Miley Naa Miley Hum",
+        "Dance with a Stranger",
+        "Dance with a Stranger",
+        "Sex with a Stranger",
+        "Dance with Death (film)"
+      ],
+      "context_tokens": 623
+    },
+    {
+      "question": "Which film has the director who is older, Space Probe Taurus or Tom Mix In Arabia?",
+      "prediction": "Space Probe Taurus",
+      "answers": [
+        "Tom Mix In Arabia"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 621.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Tom Mix in Arabia",
+        "Space Probe Taurus",
+        "Leonard Katzman",
+        "Leonard Katzman",
+        "Leonard Katzman",
+        "Leonard Katzman",
+        "Leonard Katzman"
+      ],
+      "context_tokens": 931
+    },
+    {
+      "question": "Which film has the director died later, Seven In The Sun or Daughter Of The Jungle?",
+      "prediction": "The answer is Daughter Of The Jungle. But the user wants a span from evidence.",
+      "answers": [
+        "Seven In The Sun"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 380.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Seven in the Sun",
+        "Law of the Jungle (film)",
+        "Law of the Jungle (film)",
+        "Seven in the Sun",
+        "Sergio Bergonzelli",
+        "Law of the Jungle (film)",
+        "Law of the Jungle (film)"
+      ],
+      "context_tokens": 688
+    },
+    {
+      "question": "Which film was released first, Vacations In Majorca or Dr. Socrates?",
+      "prediction": "\"Vacations In Majorca\" was released first, as it is a 1959 film compared to Dr. Socrates (1935).",
+      "answers": [
+        "Dr. Socrates"
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 1,
+      "latency_ms": 12213.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vacations in Majorca",
+        "Dr. Socrates",
+        "Vacations in Majorca",
+        "King of the Underworld (1939 film)",
+        "Vacations in the Other World",
+        "King of the Underworld (1939 film)",
+        "King of the Underworld (1939 film)"
+      ],
+      "context_tokens": 567
+    },
+    {
+      "question": "Which film has the director born later, Woman In The Moon or Changeland?",
+      "prediction": "Woman In The Moon",
+      "answers": [
+        "Changeland"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 297.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Woman in the Moon",
+        "Woman in the Moon",
+        "Fritz Lang",
+        "Fritz Lang",
+        "Fritz Lang",
+        "Fritz Lang",
+        "Woman in the Moon"
+      ],
+      "context_tokens": 862
+    },
+    {
+      "question": "Who is younger, Peter Rosegger or Ruel Redinger?",
+      "prediction": "Ruel Redinger is younger than Peter Rosegger.",
+      "answers": [
+        "Ruel Redinger"
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 1,
+      "latency_ms": 277.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Peter Rosegger",
+        "Peter Rosegger",
+        "Peter Rosegger",
+        "Peter Rosegger",
+        "Peter Rosegger",
+        "Peter Rosegger",
+        "Peter Rosegger"
+      ],
+      "context_tokens": 600
+    },
+    {
+      "question": "Who is Pyotr Karatygin's sibling-in-law?",
+      "prediction": "",
+      "answers": [
+        "Alexandra Kolosova"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 9619.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Pyotr Karatygin",
+        "Pyotr Karatygin",
+        "Nikolai Rubinstein",
+        "Vasily Karatygin",
+        "Pavel Petrovich Bulakhov",
+        "Pyotr Karatygin",
+        "Nikolai Rubinstein"
+      ],
+      "context_tokens": 797
+    },
+    {
+      "question": "Who is the spouse of the performer of song This Time (Waylon Jennings Song)?",
+      "prediction": "",
+      "answers": [
+        "Jessi Colter"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1627.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "This Time (Waylon Jennings song)",
+        "This Time (Waylon Jennings song)",
+        "Waylon Jennings",
+        "Waylon Jennings",
+        "Waylon Jennings",
+        "Waylon Jennings",
+        "Waylon Jennings"
+      ],
+      "context_tokens": 678
+    },
+    {
+      "question": "Are Twin Cairns Island and Nova Zembla Island located in the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 498.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nova Zembla Island",
+        "Twin Cairns Island",
+        "Twin Cairns Island",
+        "Round Island (Nunavut)",
+        "Round Island (Nunavut)",
+        "Twin Cairns Island",
+        "Nova Zembla Island"
+      ],
+      "context_tokens": 645
+    },
+    {
+      "question": "Who died first, Erich Haenisch or William Pooley?",
+      "prediction": "William Pooley died first.",
+      "answers": [
+        "William Pooley"
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 1,
+      "latency_ms": 272.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Erich Haenisch",
+        "Erich Haenisch",
+        "Erich Haenisch",
+        "William de Turbeville",
+        "Frederick Pooley",
+        "Frederick Pooley",
+        "William of March"
+      ],
+      "context_tokens": 746
+    },
+    {
+      "question": "What nationality is the performer of song You Can?",
+      "prediction": "The performer of \"You Can\" is Madleen Kane, who is from France. However, the evidence does not explicitly state her nationality. The answer should be based on the provided documents.",
+      "answers": [
+        "Sweden"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 10862.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "You Can",
+        "You Can",
+        "Madleen Kane",
+        "Madleen Kane",
+        "Madleen Kane",
+        "Madleen Kane",
+        "Astrid North"
+      ],
+      "context_tokens": 684
+    },
+    {
+      "question": "Do Nick Varner and Carl Duser share the same nationality?",
+      "prediction": "No.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1709.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Frank Varner",
+        "Nick Varner",
+        "Nick Varner",
+        "Nick Varner",
+        "Nick Varner",
+        "Nick Varner",
+        "Frank Varner"
+      ],
+      "context_tokens": 649
+    },
+    {
+      "question": "Which film has the director who died earlier, Melody Of The World or Ladies Love Danger?",
+      "prediction": "Melody Of The World",
+      "answers": [
+        "Melody Of The World"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 261.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ladies Love Danger",
+        "Ladies Love Danger",
+        "Ladies Love Danger",
+        "Elliot Silverstein",
+        "H. Bruce Humberstone",
+        "H. Bruce Humberstone",
+        "Melody of the World"
+      ],
+      "context_tokens": 592
+    },
+    {
+      "question": "Where was the place of death of the composer of film Miracle Of Marcelino?",
+      "prediction": "The composer of the film Miracle of Marcelino is Pablo Sorozábal. He was born in San Sebastián, but his place of death is not mentioned in the provided documents.",
+      "answers": [
+        "Madrid"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 11429.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Miracle of Marcelino",
+        "Miracle of Marcelino",
+        "Rafael Calvo",
+        "Pablo Sorozábal",
+        "Alonso Mudarra",
+        "Pablo Sorozábal",
+        "Alonso Mudarra"
+      ],
+      "context_tokens": 749
+    },
+    {
+      "question": "Who is the mother of the director of film Atomised (Film)?",
+      "prediction": "The mother of the director of film Atomised is Gisela Elsner.",
+      "answers": [
+        "Gisela Elsner"
+      ],
+      "em": 0,
+      "f1": 0.3636363636363636,
+      "loose": 1,
+      "latency_ms": 1636.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Atomised (film)",
+        "Atomised (film)",
+        "Oskar Roehler",
+        "Oskar Roehler",
+        "Oskar Roehler",
+        "Oskar Roehler",
+        "Atomised (film)"
+      ],
+      "context_tokens": 606
+    },
+    {
+      "question": "Which film has the director who died later, The Great Man'S Lady or La Belle Américaine?",
+      "prediction": "The Great Man's Lady is directed by William A. Wellman, who died in 1975, while La Belle Américaine was directed by Robert Dhéry, who died in 1986. Therefore, the answer is La Belle Américaine.",
+      "answers": [
+        "La Belle Américaine"
+      ],
+      "em": 0,
+      "f1": 0.17647058823529413,
+      "loose": 1,
+      "latency_ms": 12956.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "La Belle Américaine",
+        "The Great Man's Lady",
+        "The Great Man (disambiguation)",
+        "William A. Wellman",
+        "The Great Man's Lady",
+        "William A. Wellman",
+        "The Great Man (2014 film)"
+      ],
+      "context_tokens": 791
+    },
+    {
+      "question": "What is the place of birth of the director of film Sweepstakes (Film)?",
+      "prediction": "",
+      "answers": [
+        "Oklahoma City, Oklahoma"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 623.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sweepstakes (film)",
+        "Sweepstakes (film)",
+        "Albert S. Rogell",
+        "Sweepstakes (film)",
+        "Albert S. Rogell",
+        "Jason Moore (director)",
+        "Sweepstakes (film)"
+      ],
+      "context_tokens": 527
+    },
+    {
+      "question": "Where was the place of death of Shahnawaz Bhutto's mother?",
+      "prediction": "",
+      "answers": [
+        "Dubai"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 331.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nusrat Bhutto",
+        "Shahnawaz Bhutto",
+        "Ghinwa Bhutto",
+        "Shahnawaz Bhutto",
+        "Nusrat Bhutto",
+        "Shahnawaz Bhutto",
+        "Nusrat Bhutto"
+      ],
+      "context_tokens": 1093
+    },
+    {
+      "question": "Where was the performer of song Égérie (Song) born?",
+      "prediction": "",
+      "answers": [
+        "La Trinité"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 241.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Égérie (song)",
+        "Égérie (song)",
+        "Kristian Leontiou",
+        "Bernie Bonvoisin",
+        "Nekfeu",
+        "Kristian Leontiou",
+        "Nekfeu"
+      ],
+      "context_tokens": 701
+    },
+    {
+      "question": "Who is the father-in-law of Duke William Of Mecklenburg-Schwerin?",
+      "prediction": "The father-in-law of Duke William Of Mecklenburg-Schwerin is King Frederick William III of Prussia.",
+      "answers": [
+        "Prince Albert of Prussia"
+      ],
+      "em": 0,
+      "f1": 0.23529411764705882,
+      "loose": 0,
+      "latency_ms": 13015.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Duke William of Mecklenburg-Schwerin",
+        "Duke Louis of Mecklenburg-Schwerin",
+        "Duke Louis of Mecklenburg-Schwerin",
+        "Duke Louis of Mecklenburg-Schwerin",
+        "John VI, Duke of Mecklenburg",
+        "Duke Louis of Mecklenburg-Schwerin",
+        "Duke Louis of Mecklenburg-Schwerin"
+      ],
+      "context_tokens": 1348
+    },
+    {
+      "question": "Are Gut (Crișul Alb) and Gepiș both located in the same country?",
+      "prediction": "Yes",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 156.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Gut (Crișul Alb)",
+        "Gut (Crișul Alb)",
+        "Bodești (river)",
+        "Valea Satului (Crișul Alb)",
+        "Brad (Crișul Alb)",
+        "Potoc",
+        "Hodiș (river)"
+      ],
+      "context_tokens": 386
+    },
+    {
+      "question": "Where was the place of death of Anne Devereux's husband?",
+      "prediction": "",
+      "answers": [
+        "Banbury"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 262.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Anne Devereux",
+        "Anne Devereux",
+        "William Herbert, 1st Earl of Pembroke (died 1469)",
+        "Anne Devereux",
+        "Anne Devereux",
+        "Anne Devereux",
+        "William Herbert, 1st Earl of Pembroke (died 1469)"
+      ],
+      "context_tokens": 823
+    },
+    {
+      "question": "Who is Sir William Gore, 3Rd Baronet's paternal grandfather?",
+      "prediction": "",
+      "answers": [
+        "Sir Paul Gore, 1st Baronet"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 8763.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sir Ralph Gore, 2nd Baronet",
+        "Sir William Gore, 3rd Baronet",
+        "Sir Ralph Gore, 2nd Baronet",
+        "William Gore-Langton (1760–1847)",
+        "Sir Ralph Gore, 2nd Baronet",
+        "William Ormsby-Gore (1779–1860)",
+        "Sir William Gore, 3rd Baronet"
+      ],
+      "context_tokens": 808
+    },
+    {
+      "question": "Which country Nizar Al-Mustafa's father is from?",
+      "prediction": "The answer is in Document 1: \"the ruling Fatimid imam–caliph, al-Mustansir (r. 1036–1094).\" But the question asks for the country Nizar's father is from. The Fatimid Caliphate was based in Egypt. So the answer is Egypt.",
+      "answers": [
+        "Fatimid caliphate"
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 1,
+      "latency_ms": 813.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nizar al-Mustafa",
+        "Nizar al-Mustafa",
+        "Nizar al-Mustafa",
+        "Nizar al-Mustafa",
+        "Nizar al-Mustafa",
+        "Nizar al-Mustafa",
+        "Al-Mustansir Billah"
+      ],
+      "context_tokens": 977
+    },
+    {
+      "question": "Where was the wife of Lou Breslow born?",
+      "prediction": "",
+      "answers": [
+        "Dayton, Ohio"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 234.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Lou Breslow",
+        "Lou Breslow",
+        "Marion Byron",
+        "Marion Byron",
+        "Marion Byron",
+        "Marion Byron",
+        "Catherine Exley"
+      ],
+      "context_tokens": 735
+    },
+    {
+      "question": "Who is the spouse of the director of film Ann Carver'S Profession?",
+      "prediction": "",
+      "answers": [
+        "Ona Munson"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 256.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ann Carver's Profession",
+        "Ann Carver's Profession",
+        "The Lady Objects",
+        "Edward Buzzell",
+        "The Lady Objects",
+        "Edward Buzzell",
+        "The Lady Objects"
+      ],
+      "context_tokens": 591
+    },
+    {
+      "question": "Which film came out earlier, The Drover'S Sweetheart or Pigsty (Film)?",
+      "prediction": "The Drover's Sweetheart is a 1911 film, while Pigsty (film) is set in 1960s Germany. So the answer is The Drover's Sweetheart.",
+      "answers": [
+        "The Drover'S Sweetheart"
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 1,
+      "latency_ms": 603.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Pigsty (film)",
+        "The Drover's Sweetheart",
+        "The Drover's Sweetheart",
+        "Pigsty (film)",
+        "Pigsty (film)",
+        "Pigsty (film)",
+        "Pigsty (film)"
+      ],
+      "context_tokens": 894
+    },
+    {
+      "question": "What is the place of birth of the director of film Bhagirathi (Film)?",
+      "prediction": "The director of Bhagirathi is Baraguru Ramachandrappa, born in Baraguru village, Tumkur district, Karnataka.",
+      "answers": [
+        "Tumkur"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 1,
+      "latency_ms": 5777.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Bhagirathi (film)",
+        "Bhagirathi (film)",
+        "Baraguru Ramachandrappa",
+        "Bhagirathi (film)",
+        "Baraguru Ramachandrappa",
+        "Baraguru Ramachandrappa",
+        "Baraguru Ramachandrappa"
+      ],
+      "context_tokens": 986
+    },
+    {
+      "question": "Which film came out earlier, Closely Watched Trains or Det Sande Ansigt?",
+      "prediction": "Closely Watched Trains was released in 1966, Det Sande Ansigt in 1951. So Det Sande Ansigt came out earlier.",
+      "answers": [
+        "Det Sande Ansigt"
+      ],
+      "em": 0,
+      "f1": 0.2727272727272727,
+      "loose": 1,
+      "latency_ms": 528.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Det Sande Ansigt",
+        "Closely Watched Trains",
+        "Closely Watched Trains",
+        "Closely Watched Trains",
+        "Closely Watched Trains",
+        "Closely Watched Trains",
+        "Det Sande Ansigt"
+      ],
+      "context_tokens": 717
+    },
+    {
+      "question": "Which film has the director who died earlier, Il Gaucho or Bomgay?",
+      "prediction": "Il Gaucho",
+      "answers": [
+        "Bomgay"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 412.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Il Gaucho",
+        "Il Gaucho",
+        "Dino Risi",
+        "Dino Risi",
+        "Dino Risi",
+        "Dino Risi",
+        "Dino Risi"
+      ],
+      "context_tokens": 1139
+    },
+    {
+      "question": "Where was the place of death of Maria (Wife Of Boris I Of Bulgaria)'s husband?",
+      "prediction": "The answer is in Document 1. It says \"Maria (wife of Boris I of Bulgaria): Maria (Bulgarian: Мария) was a Bulgarian royal consort as the wife of the Knyaz Boris I of Bulgaria. Her parents are unknown.\" But that doesn't mention where he died. Then check other documents. In Document 5, it says \"Knyaz Boris I",
+      "answers": [
+        "Preslav"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 883.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Maria (wife of Boris I of Bulgaria)",
+        "Maria (wife of Boris I of Bulgaria)",
+        "Boris I of Bulgaria",
+        "Boris I of Bulgaria",
+        "Boris I of Bulgaria",
+        "Boris I of Bulgaria",
+        "Maria Pietersdr Olycan"
+      ],
+      "context_tokens": 820
+    },
+    {
+      "question": "Which film came out first, The Pyrammmid or Revolt Of The Praetorians?",
+      "prediction": "The Revolt of the Praetorians is a 1964 film, while The Pyramid is not mentioned in the documents. Therefore, the answer is Revolt of the Praetorians.",
+      "answers": [
+        "Revolt Of The Praetorians"
+      ],
+      "em": 0,
+      "f1": 0.2727272727272727,
+      "loose": 1,
+      "latency_ms": 8939.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Revolt of the Praetorians",
+        "Revolt of the Praetorians",
+        "Revolt of the Barbarians",
+        "The Revolt of the Slaves",
+        "The Revolt of the Slaves",
+        "Army of Lovers or Revolt of the Perverts",
+        "Army of Lovers or Revolt of the Perverts"
+      ],
+      "context_tokens": 935
+    },
+    {
+      "question": "Are both directors of films La Morte Vivante and Stranger On Horseback from the same country?",
+      "prediction": "Yes, both directors are from the same country.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 1,
+      "latency_ms": 2113.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Stranger on Horseback",
+        "La Morte Vivante",
+        "Jean Rollin",
+        "Françoise Blanchard",
+        "Françoise Blanchard",
+        "Jacques Tourneur",
+        "Jacques Tourneur"
+      ],
+      "context_tokens": 809
+    },
+    {
+      "question": "What is the cause of death of Constantia Eriksdotter's father?",
+      "prediction": "",
+      "answers": [
+        "poisoning"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 637.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Constantia Eriksdotter",
+        "Constantia Eriksdotter",
+        "Eric XIV of Sweden",
+        "Eric XIV of Sweden",
+        "Eric XIV of Sweden",
+        "Eric XIV of Sweden",
+        "Eric XIV of Sweden"
+      ],
+      "context_tokens": 715
+    },
+    {
+      "question": "What nationality is the director of film Postmortem (1998 Film)?",
+      "prediction": "The director of Postmortem (1998 film) is Albert Pyun, an American.",
+      "answers": [
+        "America"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 1,
+      "latency_ms": 423.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Postmortem (1998 film)",
+        "Postmortem (1998 film)",
+        "Postmortem (1998 film)",
+        "Postmortem (1998 film)",
+        "Postmortem (1998 film)",
+        "Albert Pyun",
+        "Albert Pyun"
+      ],
+      "context_tokens": 897
+    },
+    {
+      "question": "Which country Keōpūolani's husband is from?",
+      "prediction": "The answer is in Document 1: \"queen consort of Hawaiʻi\". So the answer is Hawaiʻi.",
+      "answers": [
+        "Kingdom of Hawaii"
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 0,
+      "latency_ms": 9429.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Keōpūolani",
+        "Keōpūolani",
+        "Keōpūolani",
+        "Kamehameha I",
+        "Kamehameha I",
+        "Keōpūolani",
+        "Kamehameha I"
+      ],
+      "context_tokens": 960
+    },
+    {
+      "question": "Which film came out earlier, X-Paroni or Mi Novia Está De Madre?",
+      "prediction": "Mi Novia Está De Madre came out in 2007, while X-Paroni is not mentioned. Therefore, Mi Novia Está De Madre came out earlier.",
+      "answers": [
+        "X-Paroni"
+      ],
+      "em": 0,
+      "f1": 0.08333333333333333,
+      "loose": 1,
+      "latency_ms": 2631.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Mi novia está de madre",
+        "Mi novia está de madre",
+        "El fantasma de mi novia",
+        "El fantasma de mi novia",
+        "El fantasma de mi novia",
+        "Mi novia el...",
+        "Mi novia el..."
+      ],
+      "context_tokens": 697
+    },
+    {
+      "question": "Which film was released earlier, August Underground'S Penance or Vasantha Raagam?",
+      "prediction": "August Underground's Penance was released in 2007, while Vasantha Raagam was released in 1986. Therefore, Vasantha Raagam was released earlier.",
+      "answers": [
+        "Vasantha Raagam"
+      ],
+      "em": 0,
+      "f1": 0.18181818181818182,
+      "loose": 1,
+      "latency_ms": 6101.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vasantha Raagam",
+        "Vasantha Raagam",
+        "Vasantha Raagam",
+        "Vasantha Raagam",
+        "Vasantha Raagam",
+        "Vasantha Raagam",
+        "August Underground's Penance"
+      ],
+      "context_tokens": 578
+    },
+    {
+      "question": "Who is the father-in-law of Hong Ra-Hee?",
+      "prediction": "",
+      "answers": [
+        "Lee Byung-chul"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 3152.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hong Ra-hee",
+        "Hong Ra-hee",
+        "Lee Kun-hee",
+        "Lee Kun-hee",
+        "Hong Ra-hee",
+        "Lee Kun-hee",
+        "Hong Ra-hee"
+      ],
+      "context_tokens": 756
+    },
+    {
+      "question": "Who is Isabella Of Bourbon's paternal grandfather?",
+      "prediction": "The answer is John the Fearless.",
+      "answers": [
+        "John I, Duke of Bourbon"
+      ],
+      "em": 0,
+      "f1": 0.22222222222222224,
+      "loose": 0,
+      "latency_ms": 342.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Isabella of Bourbon",
+        "Isabella of Valois, Duchess of Bourbon",
+        "Isabella of Valois, Duchess of Bourbon",
+        "Charles I, Duke of Bourbon",
+        "Isabella of Valois, Duchess of Bourbon",
+        "Isabella of Valois, Duchess of Bourbon",
+        "Isabella of Bourbon"
+      ],
+      "context_tokens": 868
+    },
+    {
+      "question": "What is the date of death of Duleep Singh's father?",
+      "prediction": "The date of death of Duleep Singh's father is 23 October 1893.",
+      "answers": [
+        "27 June 1839"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 7479.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Duleep Singh",
+        "Duleep Singh",
+        "Duleep Singh",
+        "Victor Duleep Singh",
+        "Frederick Duleep Singh",
+        "Duleep Singh",
+        "Duleep Singh"
+      ],
+      "context_tokens": 1011
+    },
+    {
+      "question": "What is the place of birth of the director of film Gunsmoke (Film)?",
+      "prediction": "The answer is: \"Austrian-born\".",
+      "answers": [
+        "Gura Humorului"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2981.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Gunsmoke (film)",
+        "Gunsmoke (film)",
+        "Gunsmoke (film)",
+        "Gunsmoke (film)",
+        "Nathan Juran",
+        "Nathan Juran",
+        "Gunsmoke (film)"
+      ],
+      "context_tokens": 578
+    },
+    {
+      "question": "Who is the spouse of the performer of song Et Moi, Et Moi, Et Moi?",
+      "prediction": "",
+      "answers": [
+        "Françoise Hardy"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 572.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Et moi, et moi, et moi",
+        "Et moi, et moi, et moi",
+        "Et moi, et moi, et moi",
+        "Jacques Dutronc",
+        "Et moi, et moi, et moi",
+        "Jacques Dutronc",
+        "Et moi, et moi, et moi"
+      ],
+      "context_tokens": 799
+    },
+    {
+      "question": "Who lived longer, Charles Wheatstone or Jean-Claude Lauzon?",
+      "prediction": "Charles Wheatstone lived longer than Jean-Claude Lauzon.",
+      "answers": [
+        "Charles Wheatstone"
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 1,
+      "latency_ms": 359.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Jean-Claude Lauzon",
+        "Charles Wheatstone",
+        "Jean-Claude Lutanie",
+        "Charles Wheatstone",
+        "Charles Wheatstone",
+        "Jean Edelinck",
+        "Jean-Claude Bonnefond"
+      ],
+      "context_tokens": 770
+    },
+    {
+      "question": "Where was the place of death of Thomas E. Noell's father?",
+      "prediction": "",
+      "answers": [
+        "Washington"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 164.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Thomas E. Noell",
+        "John William Noell",
+        "Thomas E. Noell",
+        "John William Noell",
+        "Thomas E. Noell",
+        "John William Noell",
+        "Thomas E. Noell"
+      ],
+      "context_tokens": 441
+    },
+    {
+      "question": "Which film has the director died first, Our Agent Tiger or London Melody?",
+      "prediction": "The director of London Melody died first.",
+      "answers": [
+        "London Melody"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 1,
+      "latency_ms": 10747.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Our Agent Tiger",
+        "London Melody",
+        "Le Tigre aime la chair fraiche",
+        "Le Masque de la Méduse",
+        "Le Tigre aime la chair fraiche",
+        "Claude Chabrol",
+        "Herbert Wilcox"
+      ],
+      "context_tokens": 773
+    },
+    {
+      "question": "Who is the paternal grandfather of Diego Fernández De Oviedo?",
+      "prediction": "",
+      "answers": [
+        "Flaín Muñoz"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1594.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Diego Fernández de Oviedo",
+        "Diego Fernández de Ovando",
+        "Diego Fernández de la Cueva, 1st Viscount of Huelma",
+        "Diego Fernández de la Cueva, 1st Viscount of Huelma",
+        "Diego Fernández de la Cueva, 1st Viscount of Huelma",
+        "Diego Fernández de la Cueva, 1st Viscount of Huelma",
+        "Diego Fernández de la Cueva, 1st Viscount of Huelma"
+      ],
+      "context_tokens": 889
+    },
+    {
+      "question": "Who is the child of the director of film The Trouble With Cali?",
+      "prediction": "The child of the director of film The Trouble With Cali is Mira Sorvino.",
+      "answers": [
+        "Mira Sorvino"
+      ],
+      "em": 0,
+      "f1": 0.3076923076923077,
+      "loose": 1,
+      "latency_ms": 384.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Trouble with Cali",
+        "The Trouble with Cali",
+        "Paul Sorvino",
+        "Paul Sorvino",
+        "Michael Sorvino",
+        "Paul Sorvino",
+        "Michael Sorvino"
+      ],
+      "context_tokens": 818
+    },
+    {
+      "question": "Are Ding Yaping and Johann Christian Gustav Lucae of the same nationality?",
+      "prediction": "No. The evidence for this is in Document 1 (HOP) which states that Johann Christian Gustav Lucae was a German anatomist. Ding Yaping is not mentioned in any of the documents, so there's no evidence to suggest they are of the same nationality.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 11616.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Johann Christian Gustav Lucae",
+        "Johann Christian Jacobi (oboist)",
+        "Johann Christian Hüttner",
+        "Johann Christian Jacobi (oboist)",
+        "Johann Christian Simon Handt",
+        "Johann Christian Jacobi (oboist)",
+        "Johann Christian Gustav Lucae"
+      ],
+      "context_tokens": 885
+    },
+    {
+      "question": "Which country Dorothea Of Denmark, Duchess Of Mecklenburg's father is from?",
+      "prediction": "Father is from Denmark.",
+      "answers": [
+        "Norway"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 515.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Dorothea of Denmark, Duchess of Mecklenburg",
+        "Dorothea of Denmark, Duchess of Mecklenburg",
+        "Maria of Mecklenburg-Schwerin",
+        "Dorothea of Denmark, Duchess of Prussia",
+        "Dorothea of Denmark, Duchess of Prussia",
+        "Dorothea of Denmark, Duchess of Prussia",
+        "Dorothea of Denmark, Duchess of Prussia"
+      ],
+      "context_tokens": 860
+    },
+    {
+      "question": "What is the cause of death of Heonjong Of Goryeo's father?",
+      "prediction": "",
+      "answers": [
+        "illness"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 220.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Heonjong of Goryeo",
+        "Heonjong of Goryeo",
+        "Seonjong of Goryeo",
+        "Seonjong of Goryeo",
+        "Heonjong of Goryeo",
+        "Seonjong of Goryeo",
+        "Seonjong of Goryeo"
+      ],
+      "context_tokens": 588
+    },
+    {
+      "question": "Where did Mary Of Woodstock's mother die?",
+      "prediction": "",
+      "answers": [
+        "Harby"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 9077.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Mary of Woodstock",
+        "Mary of Woodstock",
+        "Mary of Woodstock",
+        "Mary of Woodstock",
+        "Mary of Woodstock",
+        "Mary of Woodstock",
+        "Eleanor of Castile"
+      ],
+      "context_tokens": 755
+    },
+    {
+      "question": "Which award the director of film Tiramisu (2002 Film) earned?",
+      "prediction": "The director of Tiramisu (2002 film) is Dante Lam, who won the Hong Kong Film Award for Best Director in 2008 for his work on Beast Stalker.",
+      "answers": [
+        "Hong Kong Film Award for Best Director"
+      ],
+      "em": 0,
+      "f1": 0.43750000000000006,
+      "loose": 1,
+      "latency_ms": 14577.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Tiramisu (2002 film)",
+        "Tiramisu (2002 film)",
+        "Dante Lam",
+        "Dante Lam",
+        "Tiramisu (2002 film)",
+        "Dante Lam",
+        "Dante Lam"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the date of death of the director of film Nallavan Vazhvan?",
+      "prediction": "",
+      "answers": [
+        "3 September 1992"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 268.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nallavan Vazhvan",
+        "Nallavan Vazhvan",
+        "P. Neelakantan",
+        "Nallavan Vazhvan",
+        "P. Neelakantan",
+        "P. Neelakantan",
+        "Nallavan Vazhvan"
+      ],
+      "context_tokens": 566
+    },
+    {
+      "question": "Who died first, Frederick Cleveland Morgan or Nathaniel Mclenaghan?",
+      "prediction": "",
+      "answers": [
+        "Nathaniel Mclenaghan"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 216.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nathaniel McLenaghan",
+        "Frederick Cleveland Morgan",
+        "Frederick Hibbard",
+        "Frederick Cleveland Morgan",
+        "Frederick Cleveland Morgan",
+        "Muiredach Ua hÉnlainge",
+        "Frederick Cleveland Morgan"
+      ],
+      "context_tokens": 619
+    },
+    {
+      "question": "Where did the director of film Balls Out (2014 Film) graduate from?",
+      "prediction": "The director of Balls Out (2014 film) graduated from the Tisch School of the Arts.",
+      "answers": [
+        "Tisch"
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 1,
+      "latency_ms": 8709.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Balls Out (2014 film)",
+        "Balls Out (2014 film)",
+        "Balls Out (2014 film)",
+        "Balls Out (2014 film)",
+        "Balls Out (2014 film)",
+        "Balls Out (2014 film)",
+        "Andrew Disney"
+      ],
+      "context_tokens": 885
+    },
+    {
+      "question": "Which film whose director is younger, Cuchillos De Fuego or A Woman Has Killed?",
+      "prediction": "Cuchillos De Fuego",
+      "answers": [
+        "Cuchillos De Fuego"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 1109.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Cuchillos de fuego",
+        "Cuchillos de fuego",
+        "La selva de fuego",
+        "Ojos de fuego",
+        "La niña de fuego",
+        "Ojos de fuego",
+        "La niña de fuego"
+      ],
+      "context_tokens": 758
+    },
+    {
+      "question": "Which film was released earlier, Moment Of Danger or The Ballad Of Josie?",
+      "prediction": "Moment Of Danger (1960) vs. The Ballad Of Josie (1967). Answer: Moment Of Danger.",
+      "answers": [
+        "Moment Of Danger"
+      ],
+      "em": 0,
+      "f1": 0.375,
+      "loose": 1,
+      "latency_ms": 1570.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Moment of Danger",
+        "The Ballad of Josie",
+        "The Ballad of Josie",
+        "The Ballad of Josie",
+        "Moment of Danger",
+        "The Ballad of Josie",
+        "The Ballad of Cossack Golota"
+      ],
+      "context_tokens": 625
+    },
+    {
+      "question": "Which magazine was established first, Rock Street Journal or De As?",
+      "prediction": "De AS was established first.",
+      "answers": [
+        "De As"
+      ],
+      "em": 0,
+      "f1": 0.5714285714285715,
+      "loose": 1,
+      "latency_ms": 255.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rock Street Journal",
+        "Rock Street Journal",
+        "Rock Street Journal",
+        "De AS",
+        "Rock Street Journal",
+        "De AS",
+        "Rock Street Journal"
+      ],
+      "context_tokens": 561
+    },
+    {
+      "question": "Which film has the director who died first, The Piper'S Price or The Blonde From Singapore?",
+      "prediction": "The Blonde From Singapore.",
+      "answers": [
+        "The Piper'S Price"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 267.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Blonde from Singapore",
+        "The Piper's Price",
+        "Edward Dmytryk",
+        "Edward Dmytryk",
+        "Edward Dmytryk",
+        "Joseph De Grasse",
+        "The Piper's Price"
+      ],
+      "context_tokens": 670
+    },
+    {
+      "question": "Are H. H. Hunnewell and Bob Flanigan (Singer) of the same nationality?",
+      "prediction": "No.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 8175.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Bob Flanigan (singer)",
+        "Bob Flanigan (singer)",
+        "Bob Flanigan (singer)",
+        "Bob Flanigan (singer)",
+        "Bob Flanigan (singer)",
+        "Bob Flanigan (singer)",
+        "Bob Flanigan (singer)"
+      ],
+      "context_tokens": 804
+    },
+    {
+      "question": "When was Antoine Philippe, Duke Of Montpensier's mother born?",
+      "prediction": "",
+      "answers": [
+        "13 March 1753"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1154.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Antoine Philippe, Duke of Montpensier",
+        "Antoine Philippe, Duke of Montpensier",
+        "Françoise Barbaroux",
+        "Françoise Barbaroux",
+        "Henri, Duke of Montpensier",
+        "Antoine Philippe, Duke of Montpensier",
+        "Marie de Bourbon, Duchess of Montpensier"
+      ],
+      "context_tokens": 940
+    },
+    {
+      "question": "Which film has the director who died later, True To The Navy or No Trees In The Street?",
+      "prediction": "The director of No Trees in the Street died later than True To The Navy.",
+      "answers": [
+        "No Trees In The Street"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 1,
+      "latency_ms": 1281.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "No Trees in the Street",
+        "No Trees in the Street",
+        "J. Lee Thompson",
+        "J. Lee Thompson",
+        "No Trees in the Street",
+        "No Trees in the Street",
+        "Frank Tuttle"
+      ],
+      "context_tokens": 768
+    },
+    {
+      "question": "What is the place of birth of the director of film Ninamaninja Kalpadukal?",
+      "prediction": "The director of Ninamaninja Kalpadukal is N. N. Pisharody, and his place of birth is Methala.",
+      "answers": [
+        "Methala"
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 1,
+      "latency_ms": 418.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ninamaninja Kalpadukal",
+        "Ninamaninja Kalpadukal",
+        "N. N. Pisharody",
+        "Ninamaninja Kalpadukal",
+        "N. N. Pisharody",
+        "Ninamaninja Kalpadukal",
+        "Ninamaninja Kalpadukal"
+      ],
+      "context_tokens": 604
+    },
+    {
+      "question": "Which film came out earlier, Alkohol or Night Of Dark Shadows?",
+      "prediction": "Alkohol",
+      "answers": [
+        "Alkohol"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 8847.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Alkohol",
+        "Alkohol",
+        "Alkohol",
+        "Alkohol",
+        "Alkohol",
+        "House of Dark Shadows",
+        "Alkohol"
+      ],
+      "context_tokens": 554
+    },
+    {
+      "question": "Which film whose director is younger, Many Tanks Mr. Atkins or Do Musafir?",
+      "prediction": "The director of Do Musafir is younger than Many Tanks Mr. Atkins.",
+      "answers": [
+        "Do Musafir"
+      ],
+      "em": 0,
+      "f1": 0.3076923076923077,
+      "loose": 1,
+      "latency_ms": 1669.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Many Tanks Mr. Atkins",
+        "Do Musafir",
+        "Devendra Goel",
+        "Devendra Goel",
+        "Devendra Goel",
+        "Devendra Goel",
+        "Devendra Goel"
+      ],
+      "context_tokens": 907
+    },
+    {
+      "question": "Are Revolt In The Big House and The Fugitive (1914 Film) from the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "no"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 624.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Revolt in the Big House",
+        "Revolt in the Big House",
+        "Revolt in the Big House",
+        "The Fugitive (1914 film)",
+        "The Fugitive (1914 film)",
+        "Revolt in the Big House",
+        "Road to the Big House"
+      ],
+      "context_tokens": 674
+    },
+    {
+      "question": "Where was the composer of film Consenting Adults (1992 Film) born?",
+      "prediction": "The composer of Consenting Adults (1992 film) is Michael Small, born in 1943.",
+      "answers": [
+        "New York"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 510.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Consenting Adults (1992 film)",
+        "Consenting Adults (1992 film)",
+        "Abe Meyer",
+        "Consenting Adults (1992 film)",
+        "Bert Grund",
+        "Consenting Adults (1992 film)",
+        "Walter Ulfig"
+      ],
+      "context_tokens": 1149
+    },
+    {
+      "question": "Which film has the director who died earlier, Tiger In The Smoke or Contragolpe?",
+      "prediction": "Tiger In The Smoke",
+      "answers": [
+        "Contragolpe"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 8473.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Tiger in the Smoke",
+        "Tiger in the Smoke",
+        "Roy Ward Baker",
+        "Roy Ward Baker",
+        "Roy Ward Baker",
+        "Roy Ward Baker",
+        "Tiger in the Smoke"
+      ],
+      "context_tokens": 818
+    },
+    {
+      "question": "Where was the place of death of the director of film Jail Yatra?",
+      "prediction": "The director of the film Jail Yatra is Gajanan Jagirdar. He died in Mumbai, India.",
+      "answers": [
+        "Mumbai"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 1,
+      "latency_ms": 2539.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Jail Yatra (1947 film)",
+        "Jail Yatra (1947 film)",
+        "Bhappi Sonie",
+        "Bhappi Sonie",
+        "S. N. Mathur",
+        "S. N. Mathur",
+        "Song Yoon-ah"
+      ],
+      "context_tokens": 723
+    },
+    {
+      "question": "Which film came out first, F The Prom or The Comedians Of Comedy?",
+      "prediction": "The Comedians of Comedy is a 2005 film, while F the Prom is a 2017 film. Therefore, The Comedians of Comedy came out first.",
+      "answers": [
+        "The Comedians Of Comedy"
+      ],
+      "em": 0,
+      "f1": 0.2727272727272727,
+      "loose": 1,
+      "latency_ms": 544.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "F the Prom",
+        "F the Prom",
+        "The Comedians of Comedy",
+        "F the Prom",
+        "The Comedians of Comedy",
+        "The Comedians in Africa",
+        "The Comedians in Africa"
+      ],
+      "context_tokens": 869
+    },
+    {
+      "question": "Which film has the director who was born first, Tombstone Rashomon or Waiting For The Clouds?",
+      "prediction": "Tombstone Rashomon",
+      "answers": [
+        "Tombstone Rashomon"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 7868.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Tombstone Rashomon",
+        "Waiting for the Clouds",
+        "Tombstone Rashomon",
+        "South of the Clouds (2004 film)",
+        "Waiting for the Clouds",
+        "Waiting for the Clouds",
+        "South of the Clouds (2004 film)"
+      ],
+      "context_tokens": 637
+    },
+    {
+      "question": "Which film has the director who was born earlier, Dhuen Ki Lakeer or Bomma Borusa?",
+      "prediction": "Bomma Borusa",
+      "answers": [
+        "Dhuen Ki Lakeer"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1078.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Dhuen Ki Lakeer",
+        "Dhuen Ki Lakeer",
+        "Kishore Sahu",
+        "Kishore Sahu",
+        "Abhishek Saxena",
+        "Kishore Sahu",
+        "Abhishek Saxena"
+      ],
+      "context_tokens": 750
+    },
+    {
+      "question": "Which film has the director who was born first, Perdón, Viejita or Smokey And The Bandit?",
+      "prediction": "The director of Perdón, Viejita was born first.",
+      "answers": [
+        "Perdón, Viejita"
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 1,
+      "latency_ms": 1664.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Perdón, viejita",
+        "Smokey and the Bandit II",
+        "Smokey and the Bandit Part 3",
+        "Hal Needham",
+        "José A. Ferreyra",
+        "Smokey and the Bandit II",
+        "José A. Ferreyra"
+      ],
+      "context_tokens": 868
+    },
+    {
+      "question": "Where did the director of film American Gothic (2007 Film) graduate from?",
+      "prediction": "University of Wisconsin-Madison",
+      "answers": [
+        "University of Wisconsin"
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 1,
+      "latency_ms": 303.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "American Gothic (2007 film)",
+        "American Gothic (2007 film)",
+        "David Wexler (director)",
+        "David Wexler (director)",
+        "American Gothic (2007 film)",
+        "American Gothic (2007 film)",
+        "David Wexler (director)"
+      ],
+      "context_tokens": 858
+    },
+    {
+      "question": "Was Dudley Russell or Juan René Serrano born first?",
+      "prediction": "Dudley Russell was born first.",
+      "answers": [
+        "Dudley Russell"
+      ],
+      "em": 0,
+      "f1": 0.5714285714285715,
+      "loose": 1,
+      "latency_ms": 8070.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "José Serrano (pentathlete)",
+        "Juan de Courten (elder)",
+        "Juan de Courten (elder)",
+        "Juan de Courten (elder)",
+        "Juan de Courten (elder)",
+        "Juan de Courten (elder)",
+        "Juan de Courten (elder)"
+      ],
+      "context_tokens": 689
+    },
+    {
+      "question": "Who was born first, Vytautas Straižys or Mirjam Polkunen?",
+      "prediction": "",
+      "answers": [
+        "Mirjam Polkunen"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 874.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vytautas Straižys",
+        "Mirjam Polkunen",
+        "Vytautas Straižys",
+        "Vytautas Straižys",
+        "Vytautas Straižys",
+        "Vytautas Straižys",
+        "Vytautas Straižys"
+      ],
+      "context_tokens": 639
+    },
+    {
+      "question": "Where did Grand Duchess Elena Vladimirovna Of Russia's father die?",
+      "prediction": "",
+      "answers": [
+        "Saint Petersburg"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2433.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Grand Duchess Maria Vladimirovna of Russia",
+        "Grand Duchess Elena Pavlovna of Russia",
+        "Grand Duchess Olga Pavlovna of Russia",
+        "Grand Duchess Elena Pavlovna of Russia",
+        "Grand Duchess Elena Pavlovna of Russia",
+        "Grand Duchess Maria Vladimirovna of Russia",
+        "Grand Duke Nicholas Konstantinovich of Russia"
+      ],
+      "context_tokens": 1071
+    },
+    {
+      "question": "Where was the director of film The Dinner (2013 Film) born?",
+      "prediction": "The director of The Dinner (2013 film) was born in Eindhoven.",
+      "answers": [
+        "Eindhoven"
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 1,
+      "latency_ms": 341.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Dinner (2013 film)",
+        "The Dinner (2013 film)",
+        "Menno Meyjes",
+        "Dana Blankstein",
+        "Dana Blankstein",
+        "Dana Blankstein",
+        "Dana Blankstein"
+      ],
+      "context_tokens": 645
+    },
+    {
+      "question": "Which magazine was established first, Women'S Suffrage Journal or Mostar (Magazine)?",
+      "prediction": "The answer is Women's Suffrage Journal. The evidence states that the Women's Suffrage Journal was founded in 1870, while Mostar (Magazine) is not mentioned in any of the provided documents.",
+      "answers": [
+        "Women'S Suffrage Journal"
+      ],
+      "em": 0,
+      "f1": 0.20689655172413793,
+      "loose": 1,
+      "latency_ms": 10127.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Women's Suffrage Journal",
+        "Women's Suffrage Journal",
+        "Lydia Becker",
+        "Lydia Becker",
+        "Women's Suffrage Journal",
+        "Northern Men's League for Women's Suffrage",
+        "Northern Men's League for Women's Suffrage"
+      ],
+      "context_tokens": 884
+    },
+    {
+      "question": "What is the place of birth of Carrie Watson Fleming's husband?",
+      "prediction": "",
+      "answers": [
+        "Fairmont, West Virginia"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 785.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Carrie Watson Fleming",
+        "Aretas B. Fleming",
+        "Carrie Watson Fleming",
+        "Aretas B. Fleming",
+        "Carrie Watson Fleming",
+        "Carrie Watson Fleming",
+        "Lucy Fleming"
+      ],
+      "context_tokens": 736
+    },
+    {
+      "question": "Which film has the director who died earlier, Mayor Muthanna or The Market Of Souls?",
+      "prediction": "Mayor Muthanna",
+      "answers": [
+        "The Market Of Souls"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 735.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Mayor Muthanna",
+        "Mayor Muthanna",
+        "S. Siddalingaiah",
+        "Mayor Muthanna",
+        "S. Siddalingaiah",
+        "S. Siddalingaiah",
+        "Mayor Muthanna"
+      ],
+      "context_tokens": 657
+    },
+    {
+      "question": "Do both films, The Glass Castle (1950 Film) and The Ferret (Film), have the directors who are from the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 275.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Glass Castle (1950 film)",
+        "The Ferret (film)",
+        "The Glass Castle (1950 film)",
+        "The Glass Castle (2017 film)",
+        "The Glass Castle (2017 film)",
+        "The Glass Castle (2017 film)",
+        "The Ferret (film)"
+      ],
+      "context_tokens": 824
+    },
+    {
+      "question": "Where was the father of Muhammad Al-Nasir born?",
+      "prediction": "",
+      "answers": [
+        "Morocco"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 270.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Muhammad al-Nasir",
+        "Muhammad al-Nasir",
+        "Abu Yusuf Yaqub al-Mansur",
+        "Abu Yusuf Yaqub al-Mansur",
+        "Umar of Borno",
+        "Muhammad al-Nasir",
+        "Muhammad al-Nasir"
+      ],
+      "context_tokens": 930
+    },
+    {
+      "question": "Where was the place of death of Enheduanna's father?",
+      "prediction": "",
+      "answers": [
+        "Akkadian empire"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 10731.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sennedjem",
+        "Enheduanna",
+        "Sargon of Akkad",
+        "Enheduanna",
+        "Sennedjem",
+        "Enheduanna",
+        "Enheduanna"
+      ],
+      "context_tokens": 955
+    },
+    {
+      "question": "Which film whose director was born first, Solemn Promise or Tarzan The Magnificent?",
+      "prediction": "The answer is Tarzan The Magnificent. Robert Day was born in 1922, while Solemn Promise's director, Frank Launder, was born in 1886.",
+      "answers": [
+        "Tarzan The Magnificent"
+      ],
+      "em": 0,
+      "f1": 0.18181818181818182,
+      "loose": 1,
+      "latency_ms": 1288.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Tarzan the Magnificent",
+        "Tarzan the Magnificent",
+        "Robert Day (director)",
+        "Tarzan the Magnificent",
+        "Tarzan the Magnificent",
+        "Tarzan the Magnificent",
+        "Robert Day (director)"
+      ],
+      "context_tokens": 589
+    },
+    {
+      "question": "Which film has the director who was born later, The Man Is Armed or Wolf Warrior?",
+      "prediction": "Wolf Warrior. The director of Wolf Warrior is Wu Jing, born in 1974, while the director of The Man Is Armed is Franklin Adreon, born in 1920.",
+      "answers": [
+        "Wolf Warrior"
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 1,
+      "latency_ms": 9758.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Wolf Warrior",
+        "The Man Is Armed",
+        "Wu Jing (actor)",
+        "Wolf Warrior",
+        "Wu Jing (actor)",
+        "Wu Jing (actor)",
+        "Wu Jing (actor)"
+      ],
+      "context_tokens": 696
+    },
+    {
+      "question": "Who is the paternal grandfather of Trịnh Doanh?",
+      "prediction": "Trịnh Cương",
+      "answers": [
+        "Trịnh Bính"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 1365.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Trịnh Doanh",
+        "Trịnh Doanh",
+        "Nguyễn Thị Ngọc Diễm",
+        "Nguyễn Thị Ngọc Diễm",
+        "Nguyễn Thị Ngọc Diễm",
+        "Trịnh Cương",
+        "Trịnh Doanh"
+      ],
+      "context_tokens": 799
+    },
+    {
+      "question": "Where was the director of film Hellcats Of The Navy born?",
+      "prediction": "The director of the film Hellcats of the Navy was born in Berlin, Green Lake County, Wisconsin.",
+      "answers": [
+        "Gura Humorului"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1019.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hellcats of the Navy",
+        "Hellcats of the Navy",
+        "Hellcats of the Navy",
+        "Hellcats of the Navy",
+        "Hellcats of the Navy",
+        "James J. Carey",
+        "Mary Joan Nielubowicz"
+      ],
+      "context_tokens": 595
+    },
+    {
+      "question": "Where was the performer of song Feelin' Myself (Nipsey Hussle Song) born?",
+      "prediction": "The performer of the song \"Feelin' Myself\" is Nipsey Hussle, born in Los Angeles.",
+      "answers": [
+        "Crenshaw"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 430.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Feelin' Myself (Nipsey Hussle song)",
+        "Feelin' Myself (Nipsey Hussle song)",
+        "Feelin' Myself (Nipsey Hussle song)",
+        "Feelin' Myself (Nipsey Hussle song)",
+        "Feelin' Myself (Nipsey Hussle song)",
+        "Feelin' Myself (Nipsey Hussle song)",
+        "Feelin' Myself (Nipsey Hussle song)"
+      ],
+      "context_tokens": 738
+    },
+    {
+      "question": "Which film whose director is younger, Winter Sleepers or Poveri Milionari?",
+      "prediction": "Winter Sleepers was released in 1997, Poveri Milionari in 1959. So Winter Sleepers is newer.",
+      "answers": [
+        "Winter Sleepers"
+      ],
+      "em": 0,
+      "f1": 0.23529411764705882,
+      "loose": 1,
+      "latency_ms": 10491.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Poveri milionari",
+        "Winter Sleepers",
+        "Dino Risi",
+        "Dino Risi",
+        "Dino Risi",
+        "Dino Risi",
+        "Dino Risi"
+      ],
+      "context_tokens": 938
+    },
+    {
+      "question": "Who is the paternal grandfather of Bruno Ii Von Berg?",
+      "prediction": "The paternal grandfather of Bruno II von Berg is Adolf III of Berg.",
+      "answers": [
+        "Adolf II of Berg"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 1124.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Bruno II von Berg",
+        "Bruno II von Berg",
+        "Adolf III of Berg",
+        "Adolf III of Berg",
+        "Adolf III of Berg",
+        "Adolf III of Berg",
+        "Friedrich von Berg"
+      ],
+      "context_tokens": 986
+    },
+    {
+      "question": "Are The Other Half (2016 Film) and Spy Kids 2: The Island Of Lost Dreams from the same country?",
+      "prediction": "Yes.",
+      "answers": [
+        "no"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 304.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Spy Kids 2: The Island of Lost Dreams",
+        "Spy Kids 2: The Island of Lost Dreams",
+        "Spy Kids 2: The Island of Lost Dreams",
+        "Spy Kids 2: The Island of Lost Dreams",
+        "Spy Kids 2: The Island of Lost Dreams",
+        "Spy Kids 3-D: Game Over",
+        "Spy Kids 3-D: Game Over"
+      ],
+      "context_tokens": 937
+    },
+    {
+      "question": "Where was the director of film 00 Schneider – Jagd Auf Nihil Baxter born?",
+      "prediction": "The director of the film 00 Schneider – Jagd auf Nihil Baxter was born in Germany.",
+      "answers": [
+        "Mülheim an der Ruhr"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 10463.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "00 Schneider – Jagd auf Nihil Baxter",
+        "00 Schneider – Jagd auf Nihil Baxter",
+        "Helge Schneider",
+        "Werner Abrolat",
+        "00 Schneider – Jagd auf Nihil Baxter",
+        "Helge Schneider",
+        "Werner Abrolat"
+      ],
+      "context_tokens": 1200
+    },
+    {
+      "question": "Which film came out first, Una Prostituta Al Servizio Del Pubblico E In Regola Con Le Leggi Dello Stato or The Bag Man?",
+      "prediction": "The Bag Man came out first.",
+      "answers": [
+        "Una Prostituta Al Servizio Del Pubblico E In Regola Con Le Leggi Dello Stato"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1040.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Bag Man",
+        "The Bag Man",
+        "Bagman (disambiguation)",
+        "The Bag Man",
+        "It's in the Bag",
+        "Io piaccio",
+        "The Bag Man"
+      ],
+      "context_tokens": 835
+    },
+    {
+      "question": "Are the movies The Hatton Garden Job and Carry On Cleo, from the same country?",
+      "prediction": "No.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 353.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Hatton Garden Job",
+        "The Hatton Garden Job",
+        "The Hatton Garden Job",
+        "The Hatton Garden Job",
+        "The Hatton Garden Job",
+        "The Hatton Garden Job",
+        "The Hatton Garden Job"
+      ],
+      "context_tokens": 1120
+    },
+    {
+      "question": "Who is the paternal grandfather of Dibyasambandh?",
+      "prediction": "",
+      "answers": [
+        "Mongkut"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 349.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Dibyasambandh",
+        "Dibyasambandh",
+        "Dibyasambandh",
+        "Bhanurangsi Savangwongse",
+        "Dibyasambandh",
+        "Bhanurangsi Savangwongse",
+        "Bhanurangsi Savangwongse"
+      ],
+      "context_tokens": 1209
+    },
+    {
+      "question": "Who is Charles Willoughby, 10Th Baron Willoughby Of Parham's paternal grandmother?",
+      "prediction": "",
+      "answers": [
+        "Lady Frances Manners"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 9284.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Charles Willoughby, 2nd Baron Willoughby of Parham",
+        "Hugh Willoughby, 15th Baron Willoughby of Parham",
+        "Hugh Willoughby, 15th Baron Willoughby of Parham",
+        "Thomas Willoughby, 11th Baron Willoughby of Parham",
+        "George Willoughby, 7th Baron Willoughby of Parham",
+        "Henry Willoughby, 16th Baron Willoughby of Parham",
+        "Thomas Willoughby, 11th Baron Willoughby of Parham"
+      ],
+      "context_tokens": 915
+    },
+    {
+      "question": "Where does the director of film L'Arbre, Le Maire Et La Médiathèque work at?",
+      "prediction": "The director of L'Arbre, Le Maire Et La Médiathèque is Julie Bertuccelli. She works at the Ateliers Varan.",
+      "answers": [
+        "Cahiers du cinéma"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2324.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "L'Arbre, le maire et la médiathèque",
+        "Julie Bertuccelli",
+        "Julie Bertuccelli",
+        "Julie Bertuccelli",
+        "Julie Bertuccelli",
+        "L'Arbre, le maire et la médiathèque",
+        "Julie Bertuccelli"
+      ],
+      "context_tokens": 1464
+    },
+    {
+      "question": "Where was the director of film Eisenstein In Guanajuato born?",
+      "prediction": "The director of Eisenstein in Guanajuato was born in Amsterdam.",
+      "answers": [
+        "Newport, Wales"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 8183.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Eisenstein in Guanajuato",
+        "Eisenstein in Guanajuato",
+        "Elmer Bäck",
+        "Eisenstein in Guanajuato",
+        "Peter Greenaway",
+        "Peter Greenaway",
+        "Peter Greenaway"
+      ],
+      "context_tokens": 852
+    },
+    {
+      "question": "What is the place of birth of Sextus Barbour's father?",
+      "prediction": "The place of birth of Sextus Barbour's father is Gordonsville, Virginia.",
+      "answers": [
+        "Gordonsville, Virginia"
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 1,
+      "latency_ms": 3321.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sextus Barbour",
+        "Sextus Barbour",
+        "John Templeton (botanist)",
+        "Sextus Barbour",
+        "Philip Pendleton Barbour",
+        "Philip Pendleton Barbour",
+        "Philip Pendleton Barbour"
+      ],
+      "context_tokens": 743
+    },
+    {
+      "question": "What is the place of birth of the performer of song Ruleta (Inna Song)?",
+      "prediction": "The place of birth of the performer is Mangalia.",
+      "answers": [
+        "Mangalia"
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 1,
+      "latency_ms": 396.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ruleta (Inna song)",
+        "Ruleta (Inna song)",
+        "Ruleta (Inna song)",
+        "Ruleta (Inna song)",
+        "Ruleta (Inna song)",
+        "Inna",
+        "Inna"
+      ],
+      "context_tokens": 667
+    },
+    {
+      "question": "Who is the father of the director of film A No-Hit No-Run Summer?",
+      "prediction": "The father of the director is Félix Leclerc.",
+      "answers": [
+        "Félix Leclerc"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 1,
+      "latency_ms": 8345.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "A No-Hit No-Run Summer",
+        "A No-Hit No-Run Summer",
+        "Francis Leclerc",
+        "Pier-Luc Funk",
+        "Francis Leclerc",
+        "Francis Leclerc",
+        "A No-Hit No-Run Summer"
+      ],
+      "context_tokens": 1406
+    },
+    {
+      "question": "Who is Henri Ii, Duke Of Nemours's paternal grandfather?",
+      "prediction": "",
+      "answers": [
+        "Jacques"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1558.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Henri I, Duke of Nemours",
+        "Henri II, Duke of Nemours",
+        "Henri I, Duke of Nemours",
+        "Henri I, Duke of Nemours",
+        "Henri I, Duke of Nemours",
+        "Henri II, Duke of Nemours",
+        "Henri II, Duke of Nemours"
+      ],
+      "context_tokens": 788
+    },
+    {
+      "question": "Who is Gisela Of Hungary's father-in-law?",
+      "prediction": "",
+      "answers": [
+        "Géza"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 735.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Gisela of Hungary",
+        "Gisela of Hungary",
+        "Stephen I of Hungary",
+        "Stephen I of Hungary",
+        "Stephen I of Hungary",
+        "Stephen I of Hungary",
+        "Gisela of Hungary"
+      ],
+      "context_tokens": 754
+    },
+    {
+      "question": "Who is the paternal grandmother of King Kang Of Zhou?",
+      "prediction": "",
+      "answers": [
+        "Yi Jiang"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 477.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "King Kang of Zhou",
+        "King Kang of Zhou",
+        "King Cheng of Zhou",
+        "King An of Zhou",
+        "King Ding of Zhou",
+        "King Cheng of Zhou",
+        "King Kang of Chu"
+      ],
+      "context_tokens": 747
+    },
+    {
+      "question": "What is the date of death of Maria Isabel De Alcântara, Countess Of Iguaçu's mother?",
+      "prediction": "The date of death of Maria Isabel De Alcântara, Countess Of Iguaçu's mother is 5 September 1896.",
+      "answers": [
+        "November 3, 1867"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 523.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Maria Isabel de Alcântara, Countess of Iguaçu",
+        "Maria Isabel de Alcântara, Countess of Iguaçu",
+        "Maria Isabel de Alcântara, Countess of Iguaçu",
+        "Maria Isabel of Braganza",
+        "Maria Isabel de Alcântara, Countess of Iguaçu",
+        "Maria Isabel de Alcântara, Countess of Iguaçu",
+        "Maria Isabel of Braganza"
+      ],
+      "context_tokens": 974
+    },
+    {
+      "question": "Who is the spouse of the director of film Rodney Steps In?",
+      "prediction": "",
+      "answers": [
+        "Ivy Duke"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 12518.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rodney Steps In",
+        "Guy Newall",
+        "Guy Newall",
+        "Guy Newall",
+        "Guy Newall",
+        "Maria Teresa, Grand Duchess of Luxembourg",
+        "Maria Teresa, Grand Duchess of Luxembourg"
+      ],
+      "context_tokens": 1275
+    },
+    {
+      "question": "When did Frances Vane, Marchioness Of Londonderry's father die?",
+      "prediction": "The answer is 1813.",
+      "answers": [
+        "1 August 1813"
+      ],
+      "em": 0,
+      "f1": 0.3333333333333333,
+      "loose": 0,
+      "latency_ms": 311.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Frances Vane, Marchioness of Londonderry",
+        "Frances Vane, Marchioness of Londonderry",
+        "Henry Vane-Tempest",
+        "Henry Vane-Tempest",
+        "Frances Vane, Marchioness of Londonderry",
+        "Frances Vane, Marchioness of Londonderry",
+        "Frances Vane, Marchioness of Londonderry"
+      ],
+      "context_tokens": 788
+    },
+    {
+      "question": "Which film has the director who is older than the other, Season Of Strangers or The Yellow Teddy Bears? ",
+      "prediction": "The Yellow Teddy Bears was released in 1963, Season Of Strangers in 1959. So the answer is The Yellow Teddy Bears.",
+      "answers": [
+        "Season Of Strangers"
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 1,
+      "latency_ms": 8953.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Yellow Teddy Bears",
+        "Season of Strangers",
+        "Maya Deren",
+        "Maya Deren",
+        "Season of Strangers",
+        "Elliot Silverstein",
+        "Robert Hartford-Davis"
+      ],
+      "context_tokens": 838
+    },
+    {
+      "question": "Were Jake Eisenhart and Michael T. Ullman of the same nationality?",
+      "prediction": "No.",
+      "answers": [
+        "yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1442.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "James Michael Ullman",
+        "James Michael Ullman",
+        "Michael T. Ullman",
+        "James Michael Ullman",
+        "James Michael Ullman",
+        "James Michael Ullman",
+        "James Michael Ullman"
+      ],
+      "context_tokens": 660
+    },
+    {
+      "question": "Who was born first, Antoine Casavant or Abdul Ali Lalu?",
+      "prediction": "Antoine Casavant",
+      "answers": [
+        "Antoine Casavant"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 927.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Abdul Ali Lalu",
+        "Antoine Casavant",
+        "Antoine Casavant",
+        "Antoine Casavant",
+        "Antoine Casavant",
+        "Abdul Ali Lalu",
+        "Abdul Ali Lalu"
+      ],
+      "context_tokens": 606
+    },
+    {
+      "question": "Where did Rameshwari Nehru's husband graduate from?",
+      "prediction": "",
+      "answers": [
+        "Oxford"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 281.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rameshwari Nehru",
+        "Brijlal Nehru",
+        "Braj Kumar Nehru",
+        "Braj Kumar Nehru",
+        "Braj Kumar Nehru",
+        "Braj Kumar Nehru",
+        "Brijlal Nehru"
+      ],
+      "context_tokens": 795
+    },
+    {
+      "question": "Who is the paternal grandfather of Sir John Hamilton-Dalrymple, 5Th Baronet?",
+      "prediction": "",
+      "answers": [
+        "Sir Hew Dalrymple, 2nd Baronet"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 252.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sir John Hamilton-Dalrymple, 5th Baronet",
+        "Sir John Hamilton-Dalrymple, 5th Baronet",
+        "Sir Hew Dalrymple-Hamilton, 4th Baronet",
+        "Sir Hew Dalrymple, 3rd Baronet",
+        "Sir John Hamilton-Dalrymple, 5th Baronet",
+        "Sir Hew Dalrymple, 3rd Baronet",
+        "Sir Hew Dalrymple, 3rd Baronet"
+      ],
+      "context_tokens": 802
+    },
+    {
+      "question": "Which film has the director who was born earlier, Khud-Daar or Murderer In The Fog?",
+      "prediction": "Khud-Daar. The director of Khud-Daar is Ravi Tandon, who was born in 1935. Murderer In The Fog is not mentioned in the documents.",
+      "answers": [
+        "Murderer In The Fog"
+      ],
+      "em": 0,
+      "f1": 0.2608695652173913,
+      "loose": 1,
+      "latency_ms": 6274.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Khud-Daar",
+        "Khud-Daar",
+        "Ravi Tandon",
+        "Ravi Tandon",
+        "Ravi Tandon",
+        "Driver Babu",
+        "Driver Babu"
+      ],
+      "context_tokens": 642
+    },
+    {
+      "question": "Who is the spouse of the director of film Soldier (1998 American Film)?",
+      "prediction": "The director of Soldier (1998 American Film) is Paul W. S. Anderson, but there's no information about his spouse in the provided documents.",
+      "answers": [
+        "Milla"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2757.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Soldier (1998 American film)",
+        "Soldier (1998 American film)",
+        "Soldier (1998 American film)",
+        "Soldier (1998 American film)",
+        "Soldier (1998 American film)",
+        "Soldier (1998 American film)",
+        "Soldier (1998 American film)"
+      ],
+      "context_tokens": 708
+    },
+    {
+      "question": "Where did Catherine Of Taranto, Countess Of Copertino's mother die?",
+      "prediction": "",
+      "answers": [
+        "Lecce"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 272.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Catherine of Taranto, Countess of Copertino",
+        "Catherine of Taranto, Countess of Copertino",
+        "Mary of Enghien",
+        "Catherine of Valois–Courtenay",
+        "Isabella of Clermont",
+        "Catherine of Taranto, Countess of Copertino",
+        "Catherine of Valois–Courtenay"
+      ],
+      "context_tokens": 889
+    },
+    {
+      "question": "Which award the director of film Lady Magdalene'S got?",
+      "prediction": "The director of Lady Magdalene's is J. Neil Schulman, who won three film-festival awards.",
+      "answers": [
+        "Prometheus Award"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 9409.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Lady Magdalene's",
+        "Lady Magdalene's",
+        "J. Neil Schulman",
+        "Lady Magdalene's",
+        "Reg Allen (set decorator)",
+        "J. Neil Schulman",
+        "Dana Blankstein"
+      ],
+      "context_tokens": 1024
+    },
+    {
+      "question": "What nationality is Princess Charlotte Of Saxe-Meiningen's husband?",
+      "prediction": "",
+      "answers": [
+        "Duchy of Saxe-Gotha-Altenburg"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 2400.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Princess Charlotte of Saxe-Meiningen",
+        "Princess Charlotte of Saxe-Meiningen",
+        "Bernhard III, Duke of Saxe-Meiningen",
+        "Bernhard, Prince of Saxe-Meiningen",
+        "Princess Feodora of Saxe-Meiningen",
+        "Princess Louise Eleonore of Hohenlohe-Langenburg",
+        "Princess Feodora of Saxe-Meiningen"
+      ],
+      "context_tokens": 1082
+    },
+    {
+      "question": "Which film has the director who was born first, The Longshots or Station For Two?",
+      "prediction": "The Longshots",
+      "answers": [
+        "Station For Two"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 662.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Station for Two",
+        "The Longshots",
+        "Eldar Ryazanov",
+        "Eldar Ryazanov",
+        "Eldar Ryazanov",
+        "Eldar Ryazanov",
+        "Eldar Ryazanov"
+      ],
+      "context_tokens": 953
+    },
+    {
+      "question": "What is the place of birth of Aleksey Greig's father?",
+      "prediction": "",
+      "answers": [
+        "Inverkeithing"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 271.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Aleksey Greig",
+        "Aleksey Greig",
+        "Samuel Greig",
+        "Samuel Greig",
+        "Samuel Greig",
+        "Aleksey Greig",
+        "Aleksey Greig"
+      ],
+      "context_tokens": 936
+    },
+    {
+      "question": "When did Thomas Of Galloway (Bastard)'s father die?",
+      "prediction": "The father died in 1234. Wait, but that's from Document 3 about Alan of Galloway. But the question is about Thomas's father. Thomas's father was Alan of Galloway. So according to Document 3, Alan died in 1234. However, looking at Document 1: \"After the death of his father, who left no",
+      "answers": [
+        "1234"
+      ],
+      "em": 0,
+      "f1": 0.04081632653061225,
+      "loose": 1,
+      "latency_ms": 12091.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Thomas of Galloway (bastard)",
+        "Thomas of Galloway (bastard)",
+        "Alan of Galloway",
+        "Alan of Galloway",
+        "Thomas of Galloway (bastard)",
+        "Gille Brigte of Galloway",
+        "Gille Brigte of Galloway"
+      ],
+      "context_tokens": 881
+    },
+    {
+      "question": "When did Robert Bertie, 3Rd Earl Of Lindsey's father die?",
+      "prediction": "The answer is in Document 2. It says \"Robert Bertie, 3rd Earl of Lindsey PC FRS (8 November 1630 – 8 May 1701)\". So the father died on 8 May 1701.",
+      "answers": [
+        "25 July 1666"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 11015.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Robert Bertie, 3rd Earl of Lindsey",
+        "Robert Bertie, 3rd Earl of Lindsey",
+        "Robert Bertie, 3rd Earl of Lindsey",
+        "Robert Bertie, 3rd Earl of Lindsey",
+        "Robert Bertie, 3rd Earl of Lindsey",
+        "Robert Bertie, 1st Duke of Ancaster and Kesteven",
+        "Robert Bertie, 1st Earl of Lindsey"
+      ],
+      "context_tokens": 1018
+    },
+    {
+      "question": "Which film has the director born later, The Wind'S Fierce or Special Delivery (1927 Film)?",
+      "prediction": "The Wind'S Fierce.",
+      "answers": [
+        "The Wind'S Fierce"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 1864.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Special Delivery (1927 film)",
+        "Special Delivery (1927 film)",
+        "Special Delivery (1927 film)",
+        "Special Delivery (1955 film)",
+        "Special Delivery (1927 film)",
+        "Special Delivery (1927 film)",
+        "Roscoe Arbuckle"
+      ],
+      "context_tokens": 656
+    },
+    {
+      "question": "Why did the director of film Port Of Seven Seas die?",
+      "prediction": "",
+      "answers": [
+        "drowning"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 233.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Port of Seven Seas",
+        "Port of Seven Seas",
+        "Raiders of the Seven Seas",
+        "James Whale",
+        "James Whale",
+        "Raiders of the Seven Seas",
+        "James Whale"
+      ],
+      "context_tokens": 766
+    },
+    {
+      "question": "What is the place of birth of Abdulaziz Nasser Al Shamsi's wife?",
+      "prediction": "",
+      "answers": [
+        "Abu Dhabi"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 213.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Abdulaziz Nasser Al Shamsi",
+        "Saeed Mohammed Al Shamsi",
+        "Hissa Abdulla Ahmed Al-Otaiba",
+        "Hissa Abdulla Ahmed Al-Otaiba",
+        "Nasser al-Qudwa",
+        "Khalfan Mubarak",
+        "Saeed Mohammed Al Shamsi"
+      ],
+      "context_tokens": 706
+    },
+    {
+      "question": "What is the place of birth of Frank Wartenberg's wife?",
+      "prediction": "",
+      "answers": [
+        "Prenzlau"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 8987.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Frank Wartenberg",
+        "Alma Wartenberg",
+        "Alma Wartenberg",
+        "Alma Wartenberg",
+        "Elke Büdenbender",
+        "Alma Wartenberg",
+        "Elke Büdenbender"
+      ],
+      "context_tokens": 728
+    },
+    {
+      "question": "Where was the director of film Edges Of The Lord born?",
+      "prediction": "The director of Edges Of The Lord was born in Poznań.",
+      "answers": [
+        "Poznań"
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 1,
+      "latency_ms": 2833.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Edges of the Lord",
+        "Edges of the Lord",
+        "Yurek Bogayevicz",
+        "Yurek Bogayevicz",
+        "Yurek Bogayevicz",
+        "Edges of the Lord",
+        "Edges of the Lord"
+      ],
+      "context_tokens": 1251
+    },
+    {
+      "question": "Where was the father of Teobaldo Ii Ordelaffi born?",
+      "prediction": "",
+      "answers": [
+        "Italy"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 211.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Teobaldo II Ordelaffi",
+        "Teobaldo II Ordelaffi",
+        "Giorgio Ordelaffi",
+        "Giorgio Ordelaffi",
+        "Giorgio Ordelaffi",
+        "Teobaldo II Ordelaffi",
+        "Teobaldo II Ordelaffi"
+      ],
+      "context_tokens": 685
+    },
+    {
+      "question": "Where was the husband of Maude Smith born?",
+      "prediction": "The husband of Maude Smith was born in Paris, France.",
+      "answers": [
+        "Toronto, Ontario"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 311.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Maude Smith",
+        "Maude Smith",
+        "James Randall Marsh",
+        "James Randall Marsh",
+        "Stan Rice",
+        "Alan Pownall",
+        "Stan Rice"
+      ],
+      "context_tokens": 554
+    },
+    {
+      "question": "Which film was released earlier, Forbidden Daughters or The Third Kiss?",
+      "prediction": "Forbidden Daughters was released in 1927, The Third Kiss in 1919. So the answer is Forbidden Daughters.",
+      "answers": [
+        "Forbidden Daughters"
+      ],
+      "em": 0,
+      "f1": 0.23529411764705882,
+      "loose": 1,
+      "latency_ms": 11300.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Forbidden Daughters",
+        "The Third Kiss (1919 film)",
+        "The Third Kiss (1919 film)",
+        "The Third Kiss (1919 film)",
+        "The Third Kiss (1919 film)",
+        "The Third Kiss (1919 film)",
+        "The Third Kiss (1919 film)"
+      ],
+      "context_tokens": 619
+    },
+    {
+      "question": "Does Leslie Pietrzyk have the same nationality as Marianne Wiggins?",
+      "prediction": "Yes.",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 964.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Marianne Wiggins",
+        "Marianne Wiggins",
+        "Marianne Wiggins",
+        "Marianne Wiggins",
+        "Marianne Wiggins",
+        "Leslie Pietrzyk",
+        "Lara Porzak"
+      ],
+      "context_tokens": 777
+    },
+    {
+      "question": "Who was born first, Bogdan Țăruș or Robert Wulnikowski?",
+      "prediction": "Bogdan Țăruș was born first.",
+      "answers": [
+        "Bogdan Țăruș"
+      ],
+      "em": 0,
+      "f1": 0.5714285714285715,
+      "loose": 1,
+      "latency_ms": 318.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Robert Wulnikowski",
+        "Robert Wulnikowski",
+        "Robert Wulnikowski",
+        "Robert Wulnikowski",
+        "Robert Wulnikowski",
+        "Robert Wulnikowski",
+        "Robert Wulnikowski"
+      ],
+      "context_tokens": 674
+    },
+    {
+      "question": "Which film has the director who died first, Folgore Division or Sandflow?",
+      "prediction": "\"Folgore Division\" is the film with the director who died first. But according to the evidence, which one is correct?",
+      "answers": [
+        "Sandflow"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 429.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sandflow",
+        "Folgore Division",
+        "Lesley Selander",
+        "Lesley Selander",
+        "Lesley Selander",
+        "Lesley Selander",
+        "Lesley Selander"
+      ],
+      "context_tokens": 756
+    },
+    {
+      "question": "Which film has the director born later, From Corleone To Brooklyn or Durango Valley Raiders?",
+      "prediction": "The answer is Durango Valley Raiders. But the question is about which film has the director born later, so I need to check the birth dates of the directors of both films.",
+      "answers": [
+        "From Corleone To Brooklyn"
+      ],
+      "em": 0,
+      "f1": 0.06451612903225806,
+      "loose": 0,
+      "latency_ms": 11376.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Durango Valley Raiders",
+        "Durango Valley Raiders",
+        "Sam Newfield",
+        "Sam Newfield",
+        "Sam Newfield",
+        "Sam Newfield",
+        "Sam Newfield"
+      ],
+      "context_tokens": 766
+    },
+    {
+      "question": "Are both Howard Lake (British Columbia) and North Buck Lake (Alberta) located in the same country?",
+      "prediction": "Yes",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 511.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Buck Lake",
+        "Buck Lake (Alberta)",
+        "Buck Lake (Alberta)",
+        "Buck Lake (Alberta)",
+        "Howard Lake (Northwest Territories)",
+        "Loon Lake, British Columbia",
+        "Buck Lake (Alberta)"
+      ],
+      "context_tokens": 1119
+    },
+    {
+      "question": "Where was the place of death of the composer of song Gretchen Am Spinnrade?",
+      "prediction": "The composer of \"Gretchen am Spinnrade\" is Franz Schubert. His place of death was Vienna, Austria.",
+      "answers": [
+        "Vienna"
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 1,
+      "latency_ms": 444.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Gretchen am Spinnrade",
+        "Gretchen am Spinnrade",
+        "Franz Schubert",
+        "Franz Schubert",
+        "Franz Schubert",
+        "Franz Schubert",
+        "Gretchen am Spinnrade"
+      ],
+      "context_tokens": 768
+    },
+    {
+      "question": "Who was born later, Hugh Evelyn Wortham or Johnny Ekström?",
+      "prediction": "Johnny Ekström",
+      "answers": [
+        "Johnny Ekström"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 11925.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hugh Evelyn Wortham",
+        "Johnny Ekström",
+        "Johnny Ekström",
+        "Johnny Ekström",
+        "Johnny Ekström",
+        "Johnny Ekström",
+        "Johnny Ekström"
+      ],
+      "context_tokens": 895
+    },
+    {
+      "question": "Are both mountains, Yana Urqu (Q'Umirqucha) and Puka Rumi, located in the same country?",
+      "prediction": "Yes",
+      "answers": [
+        "yes"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 748.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Yana Urqu (Q'umirqucha)",
+        "Yana Urqu (Yayamari)",
+        "Yana Urqu (Huancavelica)",
+        "Yana Urqu (Chapi Urqu)",
+        "Yana Urqu (Castrovirreyna)",
+        "Puka Rumi",
+        "Yana Urqu (Apurímac)"
+      ],
+      "context_tokens": 743
+    },
+    {
+      "question": "What nationality is Elizabeth Of Rhuddlan's father?",
+      "prediction": "The answer is English. But the evidence says: \"Elizabeth of Rhuddlan (7 August 1282 – 5 May 1316) was the eighth and youngest daughter of King Edward I of England and Queen Eleanor of Castile.\" So, the father's nationality is English.",
+      "answers": [
+        "England"
+      ],
+      "em": 0,
+      "f1": 0.052631578947368425,
+      "loose": 1,
+      "latency_ms": 9078.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Elizabeth of Rhuddlan",
+        "Elizabeth of Celje",
+        "John de Bohun, 5th Earl of Hereford",
+        "Elizabeth of Celje",
+        "Edward I of England",
+        "Elizabeth of Celje",
+        "John de Bohun, 5th Earl of Hereford"
+      ],
+      "context_tokens": 754
+    },
+    {
+      "question": "What is the cause of death of director of film I Will, I Will... For Now?",
+      "prediction": "The answer is:",
+      "answers": [
+        "Parkinson"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 3638.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "I Will, I Will... for Now",
+        "I Will, I Will... for Now",
+        "Norman Panama",
+        "Norman Panama",
+        "Norman Panama",
+        "Norman Panama",
+        "Norman Panama"
+      ],
+      "context_tokens": 795
+    },
+    {
+      "question": "Who is Maurice De Berkeley, 4Th Baron Berkeley's maternal grandfather?",
+      "prediction": "",
+      "answers": [
+        "Roger Mortimer, 1st Earl of March"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 252.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Maurice de Berkeley, 4th Baron Berkeley",
+        "Maurice de Berkeley, 4th Baron Berkeley",
+        "James Berkeley, 1st Baron Berkeley",
+        "James Berkeley, 1st Baron Berkeley",
+        "Maurice de Berkeley, 4th Baron Berkeley",
+        "Norborne Berkeley, 4th Baron Botetourt",
+        "Maurice de Berkeley, 4th Baron Berkeley"
+      ],
+      "context_tokens": 791
+    },
+    {
+      "question": "Who died first, Albertus Seba or Ali Dinar?",
+      "prediction": "",
+      "answers": [
+        "Albertus Seba"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 239.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ali Dinar",
+        "Ali Dinar",
+        "Sultan Buyung",
+        "Sultan Buyung",
+        "Ali Farzat",
+        "Sultan Buyung",
+        "Albertus Seba"
+      ],
+      "context_tokens": 698
+    },
+    {
+      "question": "Who is the maternal grandfather of Marie Louise, Duchess Of Parma?",
+      "prediction": "The maternal grandfather of Marie Louise, Duchess Of Parma is Maria Theresa of Naples and Sicily.",
+      "answers": [
+        "Ferdinand I of the Two Sicilies"
+      ],
+      "em": 0,
+      "f1": 0.1,
+      "loose": 0,
+      "latency_ms": 8692.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Marie Louise, Duchess of Parma",
+        "Marie Louise, Duchess of Parma",
+        "Maria d'Este",
+        "Maria d'Este",
+        "Maria Theresa of Naples and Sicily",
+        "Maria Theresa of Naples and Sicily",
+        "Maria d'Este"
+      ],
+      "context_tokens": 743
+    },
+    {
+      "question": "Which film was released earlier, Prince Of Arcadia or Italia-Germania 4-3?",
+      "prediction": "Prince Of Arcadia was released earlier. The answer is in Document 1: \"It is a remake of the 1932 German film The Prince of Arcadia.\" and Document 2: \"Italia-Germania 4-3 is a 1990 Italian comedy film directed by Andrea Barzini.\" So, 1932 vs. 19",
+      "answers": [
+        "Prince Of Arcadia"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 1,
+      "latency_ms": 3172.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Prince of Arcadia",
+        "Italia-Germania 4-3",
+        "Italia-Germania 4-3",
+        "Prince of Arcadia",
+        "3Below: Tales of Arcadia",
+        "3Below: Tales of Arcadia",
+        "Pontifical Academy of Arcadia"
+      ],
+      "context_tokens": 987
+    },
+    {
+      "question": "Where was the director of film Love At First Sight (1985 Film) born?",
+      "prediction": "The director of Love At First Sight (1985 film) was born in Italy.",
+      "answers": [
+        "Milan"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 8007.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Love at First Sight (1985 film)",
+        "Love at First Sight (1985 film)",
+        "Love at First Sight (1985 film)",
+        "Love at First Sight (1985 film)",
+        "Love at First Sight (1985 film)",
+        "Love at First Sight (1985 film)",
+        "Love at First Sight (1985 film)"
+      ],
+      "context_tokens": 1023
+    },
+    {
+      "question": "Where did the director of film Nanon (1938 Film) die?",
+      "prediction": "The director of Nanon (1938 film) died in Köln.",
+      "answers": [
+        "Köln"
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 1,
+      "latency_ms": 1637.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Nanon (1938 film)",
+        "Nanon (1938 film)",
+        "Nanon (1938 film)",
+        "Nanon (1938 film)",
+        "Nanon (1938 film)",
+        "Herbert Maisch",
+        "Nanon (1938 film)"
+      ],
+      "context_tokens": 874
+    }
+  ]
+}

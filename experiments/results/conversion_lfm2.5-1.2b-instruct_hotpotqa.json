@@ -1,0 +1,34 @@
+{
+  "model": "lfm2.5-1.2b-instruct",
+  "dataset": "hotpotqa",
+  "top_k": 5,
+  "rag": {
+    "n": 7405,
+    "retrieval_hit_rate": 0.6606347062795408,
+    "em_rate": 0.06076975016880486,
+    "conversion_rate": 0.06357318070318888,
+    "buckets": {
+      "useful": 311,
+      "wasted": 4581,
+      "lucky": 139,
+      "missed": 2374
+    }
+  },
+  "ctks": {
+    "n": 7405,
+    "retrieval_hit_rate": 0.4599594868332208,
+    "em_rate": 0.13315327481431466,
+    "conversion_rate": 0.25220199647680563,
+    "buckets": {
+      "useful": 859,
+      "wasted": 2547,
+      "lucky": 127,
+      "missed": 3872
+    }
+  },
+  "delta": {
+    "conversion_rate": 0.18862881577361676,
+    "retrieval_hit_rate": -0.20067521944632,
+    "em_rate": 0.07238352464550979
+  }
+}

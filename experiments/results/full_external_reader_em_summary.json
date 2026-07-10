@@ -1,0 +1,91 @@
+{
+  "dataset": "HotpotQA full validation",
+  "reader": "LFM2.5-Instruct 1.2B",
+  "baseline": "raw_article",
+  "cells": {
+    "raw_article": {
+      "label": "Raw article",
+      "file": "lfm2.5-1.2b-instruct_hotpotqa_rag_fairRag.json",
+      "n": 7404,
+      "em": 17.76,
+      "f1": 29.68,
+      "avg_ttft_ms": 198.15,
+      "p50_ttft_ms": 178.17,
+      "p95_ttft_ms": 330.63
+    },
+    "extractive_note": {
+      "label": "Extractive minimal note",
+      "file": "lfm2.5-1.2b-instruct_hotpotqa_entity_extractCtks.json",
+      "n": 7405,
+      "em": 17.68,
+      "f1": 29.57,
+      "avg_ttft_ms": 286.19,
+      "p50_ttft_ms": 263.71,
+      "p95_ttft_ms": 486.27
+    },
+    "smart_note": {
+      "label": "Smart minimal note",
+      "file": "lfm2.5-1.2b-instruct_hotpotqa_entity_smartCtks.json",
+      "n": 7405,
+      "em": 17.57,
+      "f1": 29.28,
+      "avg_ttft_ms": 294.42,
+      "p50_ttft_ms": 265.8,
+      "p95_ttft_ms": 508.92
+    },
+    "llm_entity_note": {
+      "label": "LLM entity note",
+      "file": "lfm2.5-1.2b-instruct_hotpotqa_entity.json",
+      "n": 7405,
+      "em": 13.32,
+      "f1": 24.3,
+      "avg_ttft_ms": 93.85,
+      "p50_ttft_ms": 79.42,
+      "p95_ttft_ms": 160.26
+    }
+  },
+  "paired_vs_raw_article": {
+    "extractive_note": {
+      "em": {
+        "n_common": 7404,
+        "delta_pp": -0.08103727595880628,
+        "ci95_low": -0.6212857961654663,
+        "ci95_high": 0.4727174639701843
+      },
+      "f1": {
+        "n_common": 7404,
+        "delta_pp": -0.10557890636846423,
+        "ci95_low": -0.6461066603660583,
+        "ci95_high": 0.4378525912761688
+      }
+    },
+    "smart_note": {
+      "em": {
+        "n_common": 7404,
+        "delta_pp": -0.18908698111772537,
+        "ci95_low": -0.8103727102279663,
+        "ci95_high": 0.43219882249832153
+      },
+      "f1": {
+        "n_common": 7404,
+        "delta_pp": -0.39404681883752346,
+        "ci95_low": -1.0069867372512817,
+        "ci95_high": 0.21344099938869476
+      }
+    },
+    "llm_entity_note": {
+      "em": {
+        "n_common": 7404,
+        "delta_pp": -4.443544149398804,
+        "ci95_low": -5.2539167404174805,
+        "ci95_high": -3.633171319961548
+      },
+      "f1": {
+        "n_common": 7404,
+        "delta_pp": -5.374099314212799,
+        "ci95_low": -6.1917290687561035,
+        "ci95_high": -4.582714080810547
+      }
+    }
+  }
+}

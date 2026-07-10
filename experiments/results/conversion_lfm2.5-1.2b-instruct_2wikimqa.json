@@ -1,0 +1,34 @@
+{
+  "model": "lfm2.5-1.2b-instruct",
+  "dataset": "2wikimqa",
+  "top_k": 5,
+  "rag": {
+    "n": 12576,
+    "retrieval_hit_rate": 0.5489821882951654,
+    "em_rate": 0.12078562340966921,
+    "conversion_rate": 0.17077056778679026,
+    "buckets": {
+      "useful": 1179,
+      "wasted": 5725,
+      "lucky": 340,
+      "missed": 5332
+    }
+  },
+  "ctks": {
+    "n": 12576,
+    "retrieval_hit_rate": 0.46620547073791346,
+    "em_rate": 0.1432888040712468,
+    "conversion_rate": 0.25123656830973906,
+    "buckets": {
+      "useful": 1473,
+      "wasted": 4390,
+      "lucky": 329,
+      "missed": 6384
+    }
+  },
+  "delta": {
+    "conversion_rate": 0.0804660005229488,
+    "retrieval_hit_rate": -0.08277671755725197,
+    "em_rate": 0.022503180661577596
+  }
+}

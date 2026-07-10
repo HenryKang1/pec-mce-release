@@ -1,0 +1,2967 @@
+{
+  "task": "qasper",
+  "model": "gemma-4-e4b",
+  "variant": "llmlingua2_extractive",
+  "n_samples": 200,
+  "top_k": 5,
+  "metrics": {
+    "em": 0.5,
+    "f1": 3.15,
+    "loose": 2.0,
+    "avg_latency_ms": 957.7,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 792.5
+  },
+  "results": [
+    {
+      "question": "How is the ground truth for fake news established?",
+      "prediction": "use meta-data for differences",
+      "answers": [
+        "Ground truth is not established in the paper"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1596.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 910
+    },
+    {
+      "question": "What is the GhostVLAD approach?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "extension of the NetVLAD, adds Ghost clusters along with the NetVLAD clusters",
+        "An extension of NetVLAD which replaces hard assignment-based clustering with soft assignment-based clustering with the additon o fusing Ghost clusters to deal with noisy content."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1006.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "By how much does their model outperform the state of the art results?",
+      "prediction": "substantial improvements in performance",
+      "answers": [
+        "the attention model, MDREA, also outperforms the best existing research results (WAP 0.690 to 0.688)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 919.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 720
+    },
+    {
+      "question": "What additional features and context are proposed?",
+      "prediction": "subjectivity context-dependent characteristics",
+      "answers": [
+        "using tweets that one has replied or quoted to as contextual information",
+        "text sequences of context tweets"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1011.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "Which Facebook pages did they look at?",
+      "prediction": "Facebook",
+      "answers": [
+        "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney",
+        "FoxNews, CNN, ESPN, New York Times, Time magazine, Huffington Post Weird News, The Guardian, Cartoon Network, Cooking Light, Home Cooking Adventure, Justin Bieber, Nickelodeon, Spongebob, Disney."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 917.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 805
+    },
+    {
+      "question": "Do the hashtag and SemEval datasets contain only English data?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 937.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "What type of evaluation is proposed for this task?",
+      "prediction": "study of summarization with similarly structured outputs",
+      "answers": [
+        "Answer with content missing: (Evaluation Metrics section) Precision, Recall, F1-scores, Strict match, METEOR, ROUGE-2"
+      ],
+      "em": 0,
+      "f1": 0.09523809523809523,
+      "loose": 0,
+      "latency_ms": 1047.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "What are the datasets used for evaluation?",
+      "prediction": "No information provided.",
+      "answers": [
+        "CNN/DailyMail news highlights, New York Times Annotated Corpus, XSum",
+        "the CNN/DailyMail news highlights dataset BIBREF24, the New York Times Annotated Corpus (NYT; BIBREF25), XSum BIBREF22"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 944.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 780
+    },
+    {
+      "question": "How does this approach compare to other WSD approaches employing word embeddings?",
+      "prediction": "models handle words multiple meanings (polysemies.",
+      "answers": [
+        "GM$\\_$KL achieves better correlation than existing approaches for various metrics on SCWS dataset."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1166.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 800
+    },
+    {
+      "question": "How does their ensemble method work?",
+      "prediction": "N/A (No information)",
+      "answers": [
+        "simply averaging the predictions from the constituent single models"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1061.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 830
+    },
+    {
+      "question": "What are the sources of the datasets?",
+      "prediction": "large text corpus social media",
+      "answers": [
+        "Friends TV sitcom, Facebook messenger chats"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1044.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "what language does this paper focus on?",
+      "prediction": "monolingual machine translation problem",
+      "answers": [
+        "English",
+        "Simple English"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 994.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "What sentiment analysis dataset is used?",
+      "prediction": "None found in text.",
+      "answers": [
+        "IMDb dataset of movie reviews",
+        "IMDb"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1024.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 870
+    },
+    {
+      "question": "What accuracy does the proposed system achieve?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data ",
+        "F1 of 85.99 on the DL-PS dataset (dialog domain); 75.15 on EC-MT and 71.53 on EC-UQ (e-commerce domain)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 976.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 690
+    },
+    {
+      "question": "Did they experiment with this new dataset?",
+      "prediction": "\"Human cognitive language processing data useful for NLP\"",
+      "answers": [
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1087.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 750
+    },
+    {
+      "question": "What datasets are used?",
+      "prediction": "not mentioned in evidence",
+      "answers": [
+        "Custom dataset with user questions; set of documents, twitter posts and news articles, all related to finance.",
+        "a self-collected financial intents dataset in Portuguese"
+      ],
+      "em": 0,
+      "f1": 0.2,
+      "loose": 0,
+      "latency_ms": 989.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 720
+    },
+    {
+      "question": "Which stock market sector achieved the best performance?",
+      "prediction": "N/A (No sector mentioned)",
+      "answers": [
+        "Energy with accuracy of 0.538",
+        "Energy"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1028.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 765
+    },
+    {
+      "question": "what NMT models did they compare with?",
+      "prediction": "Neural machine translation)",
+      "answers": [
+        "RNN-based NMT model, Transformer-NMT"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1003.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "What are the three regularization terms?",
+      "prediction": "Not found in evidence.",
+      "answers": [
+        "a regularization term associated with neutral features, the maximum entropy of class distribution regularization term, the KL divergence between reference and predicted class distribution",
+        "a regularization term associated with neutral features,  the maximum entropy of class distribution, KL divergence between reference and predicted class distribution"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1009.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 750
+    },
+    {
+      "question": "What are the baselines?",
+      "prediction": "BIBREF0, BIBREF1, BIBREF2.",
+      "answers": [
+        "SVM with unigram, bigram, and trigram features, SVM with average word embedding, SVM with average transformed word embeddings, CNN, ecurrent Convolutional Neural Networks, SVM and deep learning models with comment information",
+        "SVM with unigram, bigram, trigram features, with average word embedding, with average transformed word embeddings, CNN and RCNN, SVM, CNN, RCNN with comment information"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1110.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 820
+    },
+    {
+      "question": "By how much did they improve?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "They decrease MAE in 0.34"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 975.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "How does their model improve interpretability compared to softmax transformers?",
+      "prediction": "\"zero probabilities for irrelevant words\"",
+      "answers": [
+        "the attention heads in the proposed adaptively sparse Transformer can specialize more and with higher confidence",
+        "We introduce sparse attention into the Transformer architecture"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1088.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "what was the baseline?",
+      "prediction": "previous work on context-aware NMT",
+      "answers": [
+        " MT system on the data released by BIBREF11",
+        "Transformer base, two-pass CADec model"
+      ],
+      "em": 0,
+      "f1": 0.16666666666666666,
+      "loose": 0,
+      "latency_ms": 1115.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 840
+    },
+    {
+      "question": "What metrics are used for evaluation?",
+      "prediction": "five NLP tasks",
+      "answers": [
+        "translation probabilities, Labeled Attachment Scores (LAS)",
+        "accuracy, Labeled Attachment Scores (LAS)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 983.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 930
+    },
+    {
+      "question": "What is the attention module pretrained on?",
+      "prediction": "leverage large-scale datasets of ASR and MT.",
+      "answers": [
+        "the model is pre-trained on CTC-based ASR task and MT task in the pre-training stage."
+      ],
+      "em": 0,
+      "f1": 0.3,
+      "loose": 0,
+      "latency_ms": 1143.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 855
+    },
+    {
+      "question": "What kind of stylistic features are obtained?",
+      "prediction": "tone, body-language gestures linguistic artifacts",
+      "answers": [
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1102.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 780
+    },
+    {
+      "question": "What architecture does the encoder have?",
+      "prediction": "baseline seq2seq model",
+      "answers": [
+        "LSTM",
+        "LSTM"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1073.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 920
+    },
+    {
+      "question": "Is WordNet useful for taxonomic reasoning for this task?",
+      "prediction": "ISA relation",
+      "answers": [
+        "Unanswerable",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1025.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 855
+    },
+    {
+      "question": "what were the baselines?",
+      "prediction": "LibriSpeech 2000hr Fisher+Switchboard tasks",
+      "answers": [
+        "Unanswerable",
+        "LF-MMI Attention\nSeq2Seq \nRNN-T \nChar E2E LF-MMI \nPhone E2E LF-MMI \nCTC + Gram-CTC"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1219.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 955
+    },
+    {
+      "question": "How many users do they look at?",
+      "prediction": "N/A",
+      "answers": [
+        "22,880 users",
+        "20,000"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 934.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 710
+    },
+    {
+      "question": "What metrics are used for evaluation?",
+      "prediction": "Quantitative, qualitative analysis",
+      "answers": [
+        "Byte-Pair Encoding perplexity  (BPE PPL),\nBLEU-1,\nBLEU-4,\nROUGE-L,\npercentage of distinct unigram (D-1),\npercentage of distinct bigrams(D-2),\nuser matching accuracy(UMA),\nMean Reciprocal Rank(MRR)\nPairwise preference over baseline(PP)",
+        "BLEU-1/4 and ROUGE-L, likelihood of generated recipes using identical input specifications but conditioned on ten different user profiles, user matching accuracy (UMA), Mean Reciprocal Rank (MRR), neural scoring model from BIBREF33 to measure recipe-level coherence",
+        " Distinct-1/2, UMA = User Matching Accuracy, MRR\n= Mean Reciprocal Rank, PP = Pairwise preference over baseline (evaluated for 310 recipe pairs per model)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1014.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "What labels do they create on their dataset?",
+      "prediction": "limited-annotated large-scale data",
+      "answers": [
+        "(1) the time the patient has been experiencing the symptom, (2) activities that trigger the symptom (to occur or worsen), (3) the extent of seriousness, (4) the frequency occurrence of the symptom, and (5) the location of symptom, No Answer",
+        "the time the patient has been experiencing the symptom, activities that trigger the symptom, the extent of seriousness, the frequency occurrence of the symptom, the location of symptom, 9 symptoms"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1065.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "How much data is needed to train the task-specific encoder?",
+      "prediction": "similar number of randomly selected abstracts.",
+      "answers": [
+        "57,505 sentences",
+        "57,505 sentences"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 990.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 675
+    },
+    {
+      "question": "What tasks are used for evaluation?",
+      "prediction": "\"sparsity\"",
+      "answers": [
+        "four machine translation tasks: German -> English, Japanese -> English, Romanian -> English, English -> German",
+        " four machine translation tasks, IWSLT 2017 German $\\rightarrow $ English BIBREF27, KFTT Japanese $\\rightarrow $ English BIBREF28, WMT 2016 Romanian $\\rightarrow $ English BIBREF29, WMT 2014 English $\\rightarrow $ German BIBREF30"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 991.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "What is the improvement in performance for Estonian in the NER task?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "5 percent points.",
+        "0.05 F1"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 952.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 790
+    },
+    {
+      "question": "What background do they have?",
+      "prediction": "BIBREF0 used online data",
+      "answers": [
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1075.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 725
+    },
+    {
+      "question": "LDA is an unsupervised method; is this paper introducing an unsupervised approach to spam detection?",
+      "prediction": "\"researchers focus on clustering urls\"",
+      "answers": [
+        "No",
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1147.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 825
+    },
+    {
+      "question": "Which languages are similar to each other?",
+      "prediction": "four conjunctively written Nguni languages",
+      "answers": [
+        "Nguni languages (zul, xho, nbl, ssw), Sotho languages (nso, sot, tsn)",
+        "The Nguni languages are similar to each other, The same is true of the Sotho languages"
+      ],
+      "em": 0,
+      "f1": 0.25000000000000006,
+      "loose": 0,
+      "latency_ms": 1041.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 730
+    },
+    {
+      "question": "which lstm models did they compare with?",
+      "prediction": "Fully-connected feed-forward deep neural network",
+      "answers": [
+        "Unidirectional LSTM networks with 2, 6, 7, 8, and  9 layers."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1127.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "How large is their data set?",
+      "prediction": "volume documents large.",
+      "answers": [
+        "a sample of  29,794 wikipedia articles and 2,794 arXiv papers "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1020.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 715
+    },
+    {
+      "question": "How were the human judgements assembled?",
+      "prediction": "N/A (No evidence)",
+      "answers": [
+        "50 human annotators ranked a random sample of 100 translations by Adequacy, Fluency and overall ranking on a 5-point scale.",
+        "adequacy, precision and ranking values"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1075.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 700
+    },
+    {
+      "question": "Do they test their framework performance on commonly used language pairs, such as English-to-German?",
+      "prediction": "N/A (No evidence)",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1048.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 790
+    },
+    {
+      "question": "How are models evaluated in this human-machine communication game?",
+      "prediction": "optimize efficiency accuracy.",
+      "answers": [
+        "by training an autocomplete system on 500K randomly sampled sentences from Yelp reviews",
+        "efficiency of a communication scheme $(q_{\\alpha },p_{\\beta })$ by the retention rate of tokens, which is measured as the fraction of tokens that are kept in the keywords, accuracy of a scheme is measured as the fraction of sentences generated by greedily decoding the model that exactly matches the target sentence"
+      ],
+      "em": 0,
+      "f1": 0.08888888888888889,
+      "loose": 0,
+      "latency_ms": 982.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 830
+    },
+    {
+      "question": "What evaluation metrics are looked at for classification tasks?",
+      "prediction": "mechanism goals to employee's-day activities performance.",
+      "answers": [
+        "Precision, Recall, F-measure, accuracy",
+        "Precision, Recall and F-measure"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1107.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "What are the source and target domains?",
+      "prediction": "source domain, target domain.",
+      "answers": [
+        "Book, electronics, beauty, music, IMDB, Yelp, cell phone, baby, DVDs, kitchen",
+        "we use set 1 of the source domain as the only source with sentiment label information during training, and we evaluate the trained model on set 1 of the target domain, Book (BK), Electronics (E), Beauty (BT), and Music (M)"
+      ],
+      "em": 0,
+      "f1": 0.15,
+      "loose": 0,
+      "latency_ms": 989.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 735
+    },
+    {
+      "question": "what previous RNN models do they compare with?",
+      "prediction": "regularized LSTMs",
+      "answers": [
+        "Variational LSTM, CharCNN, Pointer Sentinel-LSTM, RHN, NAS Cell, SRU, QRNN, RAN, 4-layer skip-connection LSTM, AWD-LSTM, Quantized LSTM"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1006.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 735
+    },
+    {
+      "question": "What neural network modules are included in NeuronBlocks?",
+      "prediction": "suggested 90% of networks of several common components,",
+      "answers": [
+        "Embedding Layer, Neural Network Layers, Loss Function, Metrics",
+        "Embedding Layer, Neural Network Layers, Loss Function, Metrics"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1114.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "what datasets did they use?",
+      "prediction": "IPA.",
+      "answers": [
+        "the Carnegie Mellon Pronouncing Dictionary BIBREF12, the multilingual pronunciation corpus collected by deri2016grapheme , ranscriptions extracted from Wiktionary",
+        "multilingual pronunciation corpus collected by deri2016grapheme"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 938.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 850
+    },
+    {
+      "question": "What were the baselines?",
+      "prediction": "each task, participants provided train",
+      "answers": [
+        "varied from Maximum Entropy Classifiers (BIBREF4) to Support Vector Machines (BIBREF5,BIBREF6,BIBREF7,BIBREF8), Recursive Neural Networks (BIBREF9,BIBREF10), Convolutional Neural Networks (BIBREF11) and most recently transfer learning-based architectures like Bidirectional Encoder Representation from Transformers (BERT) (BIBREF12)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1063.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 805
+    },
+    {
+      "question": "What are the languages they use in their experiment?",
+      "prediction": "English-specific, multilingual benchmarks.",
+      "answers": [
+        "English\nFrench\nSpanish\nGerman\nGreek\nBulgarian\nRussian\nTurkish\nArabic\nVietnamese\nThai\nChinese\nHindi\nSwahili\nUrdu\nFinnish",
+        "English, Spanish, Finnish"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1051.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 785
+    },
+    {
+      "question": "What other tasks do they test their method on?",
+      "prediction": "social media posts composing from constituent characters",
+      "answers": [
+        "None"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1031.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "Do they use pretrained embeddings?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 973.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 765
+    },
+    {
+      "question": "Was PolyReponse evaluated against some baseline?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "No",
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 1,
+      "latency_ms": 1008.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 800
+    },
+    {
+      "question": "How do they obtain psychological dimensions of people?",
+      "prediction": "\"distributions of psycholinguistic semantic word classes.\"",
+      "answers": [
+        "using the Meaning Extraction Method",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1108.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 780
+    },
+    {
+      "question": "What argument components do the ML methods aim to identify?",
+      "prediction": "discourse pragmatics level",
+      "answers": [
+        "claim, premise, backing, rebuttal, and refutation",
+        "claim, premise, backing, rebuttal, refutation"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 993.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 720
+    },
+    {
+      "question": "Ngrams of which length are aligned using PARENT?",
+      "prediction": "N/A (No mention)",
+      "answers": [
+        "Unanswerable",
+        "Answer with content missing: (Parent subsections) combine precisions for n-gram orders 1-4"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1039.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 800
+    },
+    {
+      "question": "How large is the Twitter dataset?",
+      "prediction": "Not mentioned in text.",
+      "answers": [
+        "1,873 Twitter conversation threads, roughly 14k tweets",
+        "1,873 Twitter conversation threads, roughly 14k tweets"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1024.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 840
+    },
+    {
+      "question": "What are the 12 languages covered?",
+      "prediction": "manually consistently annotated semantic datasets for 12 languages",
+      "answers": [
+        "Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese",
+        "Chinese Mandarin, Welsh, English, Estonian, Finnish, French, Hebrew, Polish, Russian, Spanish, Kiswahili, Yue Chinese"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1157.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 890
+    },
+    {
+      "question": "What are two datasets model is applied to?",
+      "prediction": "No datasets mentioned.",
+      "answers": [
+        " `Conversations Gone Awry' dataset, subreddit ChangeMyView",
+        "An expanded version of the existing 'Conversations Gone Awry' dataset and the ChangeMyView dataset, a subreddit whose only annotation is whether the conversation required action by the Reddit moderators. "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1000.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 795
+    },
+    {
+      "question": "Were any of the pipeline components based on deep learning models?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "No",
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 1,
+      "latency_ms": 954.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 725
+    },
+    {
+      "question": "How is the quality of the data empirically evaluated? ",
+      "prediction": "lack of labeled data",
+      "answers": [
+        "Validated transcripts were sent to professional translators., various sanity checks to the translations,  sanity check the overlaps of train, development and test sets",
+        "computed sentence-level BLEU, We manually inspected examples where the source transcript was identical to the translation, measured the perplexity of the translations, computed the ratio of English characters in the translations, calculate similarity scores between transcripts and translations"
+      ],
+      "em": 0,
+      "f1": 0.08,
+      "loose": 0,
+      "latency_ms": 1103.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1120
+    },
+    {
+      "question": "How do they combine audio and text sequences in their RNN?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "combines the information from these sources using a feed-forward neural model",
+        "encodes the information from audio and text sequences using dual RNNs and then combines the information from these sources using a feed-forward neural model"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 991.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 720
+    },
+    {
+      "question": "by how much did their model improve?",
+      "prediction": "No direct answer provided.",
+      "answers": [
+        "For the WikiLarge dataset, the improvement over baseline NMT is 2.11 BLEU, 1.7 FKGL and 1.07 SARI.\nFor the WikiSmall dataset, the improvement over baseline NMT is  8.37 BLEU.",
+        "6.37 BLEU"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 996.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "how many humans evaluated the results?",
+      "prediction": "human raters show preference",
+      "answers": [
+        "Unanswerable",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1059.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 840
+    },
+    {
+      "question": "What is their definition of tweets going viral?",
+      "prediction": "\"tweets viral\"",
+      "answers": [
+        "Viral tweets are the ones that are retweeted more than 1000 times",
+        "those that contain a high number of retweets"
+      ],
+      "em": 0,
+      "f1": 0.3076923076923077,
+      "loose": 0,
+      "latency_ms": 1073.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 910
+    },
+    {
+      "question": "Which basic neural architecture perform best by itself?",
+      "prediction": "N/A (No information provided)",
+      "answers": [
+        "BERT"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1092.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "what is the source of the data?",
+      "prediction": "VoxCeleb BIBREF0.",
+      "answers": [
+        "Android application"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1058.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "What machine learning and deep learning methods are used for RQE?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "Logistic Regression, neural networks"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1012.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 755
+    },
+    {
+      "question": "What is the benchmark dataset and is its quality high?",
+      "prediction": "build benchmark dataset",
+      "answers": [
+        "Social Honeypot dataset (public) and Weibo dataset (self-collected); yes",
+        "Social Honeypot, which is not of high quality"
+      ],
+      "em": 0,
+      "f1": 0.16666666666666666,
+      "loose": 0,
+      "latency_ms": 972.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 825
+    },
+    {
+      "question": "What architecture does the decoder have?",
+      "prediction": "baseline seq2seq model",
+      "answers": [
+        "LSTM",
+        "LSTM"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1015.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 920
+    },
+    {
+      "question": "Do they report results only on English data?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Unanswerable",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 980.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 755
+    },
+    {
+      "question": "What is best performing model among author's submissions, what performance it had?",
+      "prediction": "No information provided.",
+      "answers": [
+        "For SLC task, the \"ltuorp\" team  has the best performing  model (0.6323/0.6028/0.6649 for F1/P/R  respectively) and for FLC task the \"newspeak\" team  has the best performing  model (0.2488/0.2863/0.2201 for F1/P/R respectively)."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1023.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "what was the baseline?",
+      "prediction": "characteristics of phrase-based statistical machine translation (PBSMT).",
+      "answers": [
+        "pivot-based translation relying on a helping language BIBREF10, nduction of phrase tables from monolingual data BIBREF14 , attentional RNN-based model (RNMT) BIBREF2, Transformer model BIBREF18, bi-directional model BIBREF11, multi-to-multi (M2M) model BIBREF8, back-translation BIBREF17",
+        "M2M Transformer"
+      ],
+      "em": 0,
+      "f1": 0.10256410256410256,
+      "loose": 0,
+      "latency_ms": 1099.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 815
+    },
+    {
+      "question": "What was their highest recall score?",
+      "prediction": "List-type question answering task highest recall score",
+      "answers": [
+        "0.7033",
+        "0.7033"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1134.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 820
+    },
+    {
+      "question": "What embedding techniques are explored in the paper?",
+      "prediction": "word embedding techniques word2vec",
+      "answers": [
+        "Skip–gram, CBOW",
+        "integrated vector-res, vector-faith, Skip–gram, CBOW"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1091.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 815
+    },
+    {
+      "question": "How do they match words before reordering them?",
+      "prediction": "fine-tunes learned parent model weights",
+      "answers": [
+        "Unanswerable",
+        "CFILT-preorder system"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1057.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 720
+    },
+    {
+      "question": "Does the paper explore extraction from electronic health records?",
+      "prediction": "\"electronic health records,\"",
+      "answers": [
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 929.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 670
+    },
+    {
+      "question": "Who were the experts used for annotation?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Individuals with legal training",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 466.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 830
+    },
+    {
+      "question": "What models are used for painting embedding and what for language style transfer?",
+      "prediction": "model used in machine translation",
+      "answers": [
+        "generating a poem from images we use an existing actor-critic architecture, various types of sequence to sequence models"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 466.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 780
+    },
+    {
+      "question": "On top of BERT does the RNN layer work better or the transformer layer?",
+      "prediction": "",
+      "answers": [
+        "Transformer over BERT (ToBERT)",
+        "The transformer layer"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 429.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 860
+    },
+    {
+      "question": "Do the authors hypothesize that humans' robustness to noise is due to their general knowledge?",
+      "prediction": "NOT. huge gap between MRC models human beings",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 507.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 835
+    },
+    {
+      "question": "What cyberbulling topics did they address?",
+      "prediction": "race, religion, gender.",
+      "answers": [
+        "personal attack, racism, and sexism",
+        "racism, sexism, personal attack, not specifically about any single topic"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 477.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 765
+    },
+    {
+      "question": "How do they obtain the new context represetation?",
+      "prediction": "uses all parts sentence relation",
+      "answers": [
+        "They use two independent convolutional and max-pooling layers on (1) a combination of the left context, the left entity and the middle context; and (2) a combination of the middle context, the right entity and the right context. They concatenated the two results after pooling to get the new context representation."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 484.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 845
+    },
+    {
+      "question": "How many different types of entities exist in the dataset?",
+      "prediction": "\"PERSON, \"LOCATION, \"ORGANIZATION.\"",
+      "answers": [
+        "OurNepali contains 3 different types of entities, ILPRL contains 4 different types of entities",
+        "three"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 523.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "How much higher quality is the resulting annotated data?",
+      "prediction": "high-quality annotations.",
+      "answers": [
+        "improvement when the difficult subset with expert annotations is mixed with the remaining crowd annotation is 3.5 F1 score, much larger than when a random set of expert annotations are added"
+      ],
+      "em": 0,
+      "f1": 0.06666666666666667,
+      "loose": 0,
+      "latency_ms": 453.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 675
+    },
+    {
+      "question": "How big is imbalance in analyzed corpora?",
+      "prediction": "drop during high-audience hours",
+      "answers": [
+        "Women represent 33.16% of the speakers"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 490.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 860
+    },
+    {
+      "question": "What dataset does this approach achieve state of the art results on?",
+      "prediction": "Multi30K dataset BIBREF21",
+      "answers": [
+        "the English-German dataset"
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 523.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 970
+    },
+    {
+      "question": "What are strong baselines model is compared to?",
+      "prediction": "BIBREF4,,,,,,,",
+      "answers": [
+        "Baseline models are:\n- Chen et al., 2015a\n- Chen et al., 2015b\n- Liu et al., 2016\n- Cai and Zhao, 2016\n- Cai et al., 2017\n- Zhou et al., 2017\n- Ma et al., 2018\n- Wang et al., 2019"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 461.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "What type of classifiers are used?",
+      "prediction": "statistical machine learning models",
+      "answers": [
+        "probabilistic model",
+        "Logistic Regression, Multilayer Perceptron"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 454.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 765
+    },
+    {
+      "question": "Which toolkits do they use?",
+      "prediction": "new machine learning system",
+      "answers": [
+        "BIBREF17, BIBREF18, TensiStrength BIBREF13, TwitterNLP BIBREF6, BIBREF19, CogComp-NLP BIBREF20, Stanford NLP NER BIBREF21",
+        "BIBREF23, BIBREF17, BIBREF18, BIBREF19, BIBREF24, BIBREF25, BIBREF26"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 450.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 715
+    },
+    {
+      "question": "On what datasets are experiments performed?",
+      "prediction": "question answering dataset construction.",
+      "answers": [
+        "SQuAD",
+        "SQuAD"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 490.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 945
+    },
+    {
+      "question": "what are the existing approaches?",
+      "prediction": "approaches proposed for modelling urban regions",
+      "answers": [
+        "BOW-Tags, BOW-KL(Tags), BOW-All, GloVe"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 484.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "Do they use attention?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 460.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 810
+    },
+    {
+      "question": "What datasets did they use for evaluation?",
+      "prediction": "No datasets mentioned.",
+      "answers": [
+        "CSAT dataset, 20 newsgroups, Fisher Phase 1 corpus",
+        "CSAT dataset , 20 newsgroups, Fisher Phase 1 corpus"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 511.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 860
+    },
+    {
+      "question": "What sentiment classification dataset is used?",
+      "prediction": "No mention of dataset.",
+      "answers": [
+        "the IMDb movie review dataset BIBREF17",
+        "IMDb movie review"
+      ],
+      "em": 0,
+      "f1": 0.22222222222222224,
+      "loose": 0,
+      "latency_ms": 530.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 785
+    },
+    {
+      "question": "Were any of these tasks evaluated in any previous work?",
+      "prediction": "BIBREF1 evaluate naturally occurring wikipedia sentences.",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 512.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 830
+    },
+    {
+      "question": "Is datasets for sentiment analysis balanced?",
+      "prediction": "provided dataset of tweets sentiments towards political candidates labeled by experts crowdworkers not.",
+      "answers": [
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 1,
+      "latency_ms": 536.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 715
+    },
+    {
+      "question": "What is the invertibility condition?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "The neural projector must be invertible.",
+        "we constrain our neural projector with two requirements: (1) INLINEFORM0 and (2) INLINEFORM1 exists"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 448.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "How does proposed qualitative annotation schema looks like?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "The resulting taxonomy of the framework is shown in Figure FIGREF10",
+        "FIGREF10"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 493.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 755
+    },
+    {
+      "question": "what are the sizes of both datasets?",
+      "prediction": "No information provided.",
+      "answers": [
+        "training set has 89,042 sentence pairs, and the test set has 100 pairs, training set contains 296,402, 2,000 for development and 359 for testing",
+        "WikiSmall  89 142 sentence pair and  WikiLarge 298 761 sentence pairs. "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 780.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "What are the baselines?",
+      "prediction": "cascaded method, end-to-end method",
+      "answers": [
+        "Vanilla ST baseline, encoder pre-training, in which the ST encoder is initialized from an ASR model, decoder pre-training, in which the ST decoder is initialized from an MT model, encoder-decoder pre-training, where both the encoder and decoder are pre-trained, many-to-many multi-task model where the encoders and decoders are derived from pre-trained ASR and MT models, Triangle+pre-train: BIBREF18 DBLP:conf/naacl/AnastasopoulosC18 proposed a triangle multi-task strategy for speech translation",
+        "Vanilla ST baseline, Pre-training baselines, Multi-task baselines, Many-to-many+pre-training, Triangle+pre-train",
+        "Vanilla ST baseline: The vanilla ST BIBREF9 has only a speech encoder and a decoder. It is trained from scratch on the ST-TED corpus.\n\nPre-training baselines: We conduct three pre-training baseline experiments: 1) encoder pre-training, in which the ST encoder is initialized from an ASR model; 2) decoder pre-training, in which the ST decoder is initialized from an MT model; and 3) encoder-decoder pre-training, where both the encoder and decoder are pre-trained. The ASR model has the same architecture with vanilla ST model, trained on the mixture of ST-TED and TED-LIUM2 corpus. The MT model has a text encoder and decoder with the same architecture of which in TCEN. It is first trained on WMT data (out-of-domain) and then fine-tuned on in-domain data.\n\nMulti-task baselines: We also conduct three multi-task baseline experiments including one-to-many setting, many-to-one setting, and many-to-many setting. In the first two settings, we train the model with $\\alpha _{st}=0.75$ while $\\alpha _{asr}=0.25$ or $\\alpha _{mt}=0.25$. For many-to-many setting, we use $\\alpha _{st}=0.6, \\alpha _{asr}=0.2$ and $\\alpha _{mt}=0.2$.. For MT task, we use only in-domain data.\n\nMany-to-many+pre-training: We train a many-to-many multi-task model where the encoders and decoders are derived from pre-trained ASR and MT models. "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1109.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 855
+    },
+    {
+      "question": "Which natural language(s) are studied in this paper?",
+      "prediction": "NLP",
+      "answers": [
+        "Unanswerable",
+        "English"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 916.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 755
+    },
+    {
+      "question": "What models are used in the experiment?",
+      "prediction": "can be deleted or set for human moderation.",
+      "answers": [
+        "linear SVM, bidirectional Long Short-Term-Memory (BiLSTM), Convolutional Neural Network (CNN)",
+        "linear SVM, bidirectional Long Short-Term-Memory (BiLSTM), Convolutional Neural Network (CNN)",
+        "linear SVM trained on word unigrams,  bidirectional Long Short-Term-Memory (BiLSTM),  Convolutional Neural Network (CNN) "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1014.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 730
+    },
+    {
+      "question": "Do the answered questions measure for the usefulness of the answer?",
+      "prediction": "\"Quality question posting getting answered\"",
+      "answers": [
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1062.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 805
+    },
+    {
+      "question": "what pretrained word embeddings were used?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Pretrained word embeddings  were not used",
+        "GloVe, Edinburgh embeddings BIBREF14, Emoji embeddings BIBREF16"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 925.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "What were their results on the new dataset?",
+      "prediction": "Quantitative, qualitative analysis",
+      "answers": [
+        "average recipe-level coherence scores of 1.78-1.82, human evaluators preferred personalized model outputs to baseline 63% of the time"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1030.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "What is the combination of rewards for reinforcement learning?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "irony accuracy, sentiment preservation",
+        " irony accuracy and sentiment preservation"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 924.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 695
+    },
+    {
+      "question": "What limitations do the authors demnostrate of their model?",
+      "prediction": "difficult with traditional sequence to models",
+      "answers": [
+        "Since we do not have an end-to-end dataset, the generated English poem may not work well with Shakespeare style transfer",
+        "we do not have an end-to-end dataset, the generated English poem may not work well with Shakespeare style transfer as shown in Figure FIGREF12 for \"Starry Night\" with a low average content score"
+      ],
+      "em": 0,
+      "f1": 0.08333333333333333,
+      "loose": 0,
+      "latency_ms": 930.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 780
+    },
+    {
+      "question": "Which existing benchmarks did they compare to?",
+      "prediction": "",
+      "answers": [
+        "Affective Text, Fairy Tales, ISEAR",
+        " Affective Text dataset, Fairy Tales dataset, ISEAR dataset"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 846.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 805
+    },
+    {
+      "question": "What were their distribution results?",
+      "prediction": "found significant differences on distribution of followers",
+      "answers": [
+        "Distributions of Followers, Friends and URLs are significantly different between the set of tweets containing fake news and those non containing them, but for Favourites, Mentions, Media, Retweets and Hashtags they are not significantly different"
+      ],
+      "em": 0,
+      "f1": 0.0975609756097561,
+      "loose": 0,
+      "latency_ms": 1020.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 910
+    },
+    {
+      "question": "How is the dataset of hashtags sourced?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "1,268 randomly selected tweets in the Stanford Sentiment Analysis Dataset BIBREF36, all 12,594 unique English hashtags and their associated tweets from the same Stanford dataset",
+        "Stanford Sentiment Analysis Dataset BIBREF36"
+      ],
+      "em": 0,
+      "f1": 0.07407407407407408,
+      "loose": 0,
+      "latency_ms": 995.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "what accents are present in the corpus?",
+      "prediction": "None mentioned in evidence.",
+      "answers": [
+        "Unanswerable",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 959.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "What can word subspace represent?",
+      "prediction": "Each dimension represents term.",
+      "answers": [
+        "Word vectors, usually in the context of others within the same class"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 999.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 770
+    },
+    {
+      "question": "What baseline model is used?",
+      "prediction": "distant supervision BIBREF5",
+      "answers": [
+        "For Article-Entity placement, they consider two baselines: the first one using only salience-based features, and the second baseline checks if the entity appears in the title of the article. \n\nFor Article-Section Placement, they consider two baselines: the first picks the section with the highest lexical similarity to the article, and the second one picks the most frequent section.",
+        "B1. The first baseline uses only the salience-based features by Dunietz and Gillick BIBREF11 ., B2. The second baseline assigns the value relevant to a pair INLINEFORM0 , if and only if INLINEFORM1 appears in the title of INLINEFORM2 .\n\n, S1: Pick the section from template INLINEFORM0 with the highest lexical similarity to INLINEFORM1 : S1 INLINEFORM2, S2: Place the news into the most frequent section in INLINEFORM0"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1063.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 705
+    },
+    {
+      "question": "Is SemCor3.0 reflective of English language data in general?",
+      "prediction": "N/A (No evidence)",
+      "answers": [
+        "Yes",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1039.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 845
+    },
+    {
+      "question": "How big is Augmented LibriSpeech dataset?",
+      "prediction": "110-hour German-English ST corpus",
+      "answers": [
+        "Unanswerable",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1185.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1120
+    },
+    {
+      "question": "What dataset did they use?",
+      "prediction": "Table TABREF3 presents examples",
+      "answers": [
+        " high-quality datasets  from SemEval-2016 “Sentiment Analysis in Twitter” task",
+        " SemEval-2016 “Sentiment Analysis in Twitter”"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 974.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "Do they use large or small BERT?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "small BERT",
+        "small BERT"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 975.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 845
+    },
+    {
+      "question": "Are the automatically constructed datasets subject to quality control?",
+      "prediction": "existing MCQA datasets constructed through expensive crowd-sourcing or hand engineering effort,",
+      "answers": [
+        "No",
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1249.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 855
+    },
+    {
+      "question": "Are the images from a specific domain?",
+      "prediction": "multimodal task in computer vision",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 978.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 830
+    },
+    {
+      "question": "What was their performance on emotion detection?",
+      "prediction": "post wordlessly marked with expression",
+      "answers": [
+        "Answer with content missing: (Table 3) Best author's model B-M average micro f-score is 0.409, 0.459, 0.411 on Affective, Fairy Tales and ISEAR datasets respectively. "
+      ],
+      "em": 0,
+      "f1": 0.06666666666666667,
+      "loose": 0,
+      "latency_ms": 1000.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 805
+    },
+    {
+      "question": "What is the tagging scheme employed?",
+      "prediction": "heterographic puns pun latent target phonologically similar) homographic puns",
+      "answers": [
+        "A new tagging scheme that tags the words before and after the pun as well as the pun words.",
+        "a new tagging scheme consisting of three tags, namely { INLINEFORM0 }"
+      ],
+      "em": 0,
+      "f1": 0.08333333333333334,
+      "loose": 0,
+      "latency_ms": 1141.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 750
+    },
+    {
+      "question": "Is Arabic one of the 11 languages in CoVost?",
+      "prediction": "No",
+      "answers": [
+        "No",
+        "No"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 1033.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1120
+    },
+    {
+      "question": "How do they define robustness of a model?",
+      "prediction": "model robust or sensitive",
+      "answers": [
+        "ability to accurately classify texts even when the amount of prior knowledge for different classes is unbalanced, and when the class distribution of the dataset is unbalanced",
+        "Low sensitivity to bias in prior knowledge"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 981.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 750
+    },
+    {
+      "question": "What other sentence embeddings methods are evaluated?",
+      "prediction": "Sentence-BERT (SBERT)",
+      "answers": [
+        "GloVe, BERT, Universal Sentence Encoder, TF-IDF, InferSent",
+        "Avg. GloVe embeddings, Avg. fast-text embeddings, Avg. BERT embeddings, BERT CLS-vector, InferSent - GloVe and Universal Sentence Encoder."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1051.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 890
+    },
+    {
+      "question": "What are method's improvements of F1 for NER task for English and Chinese datasets?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "English datasets including CoNLL2003 and OntoNotes5.0, our proposed method outperforms BERT-MRCBIBREF38 by +0.29 and +0.96 respectively, Chinese datasets, achieving F1 improvements by +0.97 and +2.36 on MSRA and OntoNotes4.0, respectively",
+        "For English datasets including CoNLL2003 and OntoNotes5.0, our proposed method outperforms BERT-MRCBIBREF38 by +0.29 and +0.96 respectively., huge performance boosts on Chinese datasets, achieving F1 improvements by +0.97 and +2.36 on MSRA and OntoNotes4.0, respectively"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1045.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 900
+    },
+    {
+      "question": "On which tasks do they test their conflict method?",
+      "prediction": "passage retrieval.",
+      "answers": [
+        "Task 1: Quora Duplicate Question Pair Detection, Task 2: Ranking questions",
+        "Quora Duplicate Question Pair Detection, Ranking questions in Bing's People Also Ask"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 945.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 675
+    },
+    {
+      "question": "Which baselines did they compare against?",
+      "prediction": "RNN, LSTM, GRU",
+      "answers": [
+        "Various tree structured neural networks including variants of Tree-LSTM, Tree-based CNN, RNTN, and non-tree models including variants of LSTMs, CNNs, residual, and self-attention based networks",
+        "Sentence classification baselines: RNTN (Socher et al. 2013), AdaMC-RNTN (Dong et al. 2014), TE-RNTN (Qian et al. 2015), TBCNN (Mou et al. 2015), Tree-LSTM (Tai, Socher, and Manning 2015), AdaHT-LSTM-CM (Liu, Qiu, and Huang 2017), DC-TreeLSTM (Liu, Qiu, and Huang 2017), TE-LSTM (Huang, Qian, and Zhu 2017), BiConTree (Teng and Zhang 2017), Gumbel Tree-LSTM (Choi, Yoo, and Lee 2018), TreeNet (Cheng et al. 2018), CNN (Kim 2014), AdaSent (Zhao, Lu, and Poupart 2015), LSTM-CNN (Zhou et al. 2016), byte-mLSTM (Radford, Jozefowicz, and Sutskever 2017), BCN + Char + CoVe (McCann et al. 2017), BCN + Char + ELMo (Peters et al. 2018). \nStanford Natural Language Inference baselines: Latent Syntax Tree-LSTM (Yogatama et al. 2017), Tree-based CNN (Mou et al. 2016), Gumbel Tree-LSTM (Choi, Yoo, and Lee 2018), NSE (Munkhdalai and Yu 2017), Reinforced Self- Attention Network (Shen et al. 2018), Residual stacked encoders: (Nie and Bansal 2017), BiLSTM with generalized pooling (Chen, Ling, and Zhu 2018)."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 983.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 795
+    },
+    {
+      "question": "What is te core component for KBQA?",
+      "prediction": "relation detection",
+      "answers": [
+        "answer questions by obtaining information from KB tuples ",
+        "hierarchical matching between questions and relations with residual learning"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 950.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 825
+    },
+    {
+      "question": "What are the baseline models?",
+      "prediction": "BIBREF0.",
+      "answers": [
+        "name-based Nearest-Neighbor model (NN), Encoder-Decoder baseline with ingredient attention (Enc-Dec)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1005.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "Which methods are considered to find examples of biases and unwarranted inferences??",
+      "prediction": "\"assumption overlooks interpretation recontextualization by annotators.\"",
+      "answers": [
+        "spot patterns by just looking at a collection of images, tag all descriptions with part-of-speech information, I applied Louvain clustering",
+        "Looking for adjectives marking the noun \"baby\" and also looking for most-common adjectives related to certain nouns using POS-tagging"
+      ],
+      "em": 0,
+      "f1": 0.08,
+      "loose": 0,
+      "latency_ms": 1105.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 825
+    },
+    {
+      "question": "What language do they explore?",
+      "prediction": "Winograd schema",
+      "answers": [
+        "English, French, German ",
+        "French, English, Spanish, Italian, Portuguese, Hebrew, Arabic"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1050.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "Which models did they experiment with?",
+      "prediction": "LSTM and GRU",
+      "answers": [
+        "Stacked LSTMs, Cell-aware Stacked LSTMs, Sentence Encoders, Top-layer Classifiers"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1022.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 735
+    },
+    {
+      "question": "Do they report results only on English data?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Yes",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 950.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 715
+    },
+    {
+      "question": "What summarization algorithms did the authors experiment with?",
+      "prediction": "automated statistical, data-mining text-mining",
+      "answers": [
+        "LSA, TextRank, LexRank and ILP-based summary.",
+        "LSA, TextRank, LexRank"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1075.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "What was the previous state of the art for this task?",
+      "prediction": "works proposed systems..",
+      "answers": [
+        "hLSTM",
+        "hLSTM"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 959.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 770
+    },
+    {
+      "question": "Which component is the least impactful?",
+      "prediction": "Few studies focused on application",
+      "answers": [
+        "Based on table results provided changing directed to undirected edges had least impact - max abs difference of 0.33 points on all three datasets."
+      ],
+      "em": 0,
+      "f1": 0.07142857142857142,
+      "loose": 0,
+      "latency_ms": 991.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 845
+    },
+    {
+      "question": "What is the corpus used for the task?",
+      "prediction": "German based on annotated data set",
+      "answers": [
+        "DTA18, DTA19",
+        "Diachronic Usage Relatedness (DURel) gold standard data set"
+      ],
+      "em": 0,
+      "f1": 0.28571428571428575,
+      "loose": 0,
+      "latency_ms": 942.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 730
+    },
+    {
+      "question": "Which 7 Indian languages do they experiment with?",
+      "prediction": "No information provided.",
+      "answers": [
+        "Hindi, English, Kannada, Telugu, Assamese, Bengali and Malayalam",
+        "Kannada, Hindi, Telugu, Malayalam, Bengali,  English and Assamese (in table, missing in text)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 952.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "What is the model performance on target language reading comprehension?",
+      "prediction": "RC on languages other than English limited",
+      "answers": [
+        "Table TABREF6, Table TABREF8",
+        "when testing on English, the F1 score of the model training on Chinese (Zh) is 53.8,  F1 score is only 44.1 for the model training on Zh-En"
+      ],
+      "em": 0,
+      "f1": 0.12903225806451613,
+      "loose": 0,
+      "latency_ms": 1093.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 855
+    },
+    {
+      "question": "How big is the difference in performance between proposed model and baselines?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Metric difference between Aloha and best baseline score:\nHits@1/20: +0.061 (0.3642 vs 0.3032)\nMRR: +0.0572(0.5114 vs 0.4542)\nF1: -0.0484 (0.3901 vs 0.4385)\nBLEU: +0.0474 (0.2867 vs 0.2393)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 980.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 725
+    },
+    {
+      "question": "How much improvement is gained from Adversarial Reward Augmented Maximum Likelihood (ARAML)?",
+      "prediction": "N/A",
+      "answers": [
+        "ARAM has achieved improvement over all baseline methods using reverese perplexity and  slef-BLEU metric.  The maximum reverse perplexity improvement 936,16 is gained for EMNLP2017  WMT  dataset and  48,44 for COCO dataset.",
+        "Compared to the baselines, ARAML does not do better in terms of perplexity on COCO and EMNLP 2017 WMT datasets, but it does by up to 0.27 Self-BLEU points on COCO and 0.35 Self-BLEU on EMNLP 2017 WMT. In terms of Grammaticality and Relevance, it scores better than the baselines on up to 75.5% and 73% of the cases respectively."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 954.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 725
+    },
+    {
+      "question": "What evidence do the authors present that the model can capture some biases in data annotation and collection?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "The authors showed few tweets where neither and implicit hatred content exist but the model was able to discriminate"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 954.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 665
+    },
+    {
+      "question": "Were other baselines tested to compare with the neural baseline?",
+      "prediction": "seldom case",
+      "answers": [
+        "SVM, No-Answer Baseline (NA) , Word Count Baseline, Human Performance",
+        "No-Answer Baseline (NA), Word Count Baseline, Human Performance"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 941.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 830
+    },
+    {
+      "question": "What is the size of the dataset?",
+      "prediction": "limited data set to train model.",
+      "answers": [
+        "Dataset contains 3606 total sentences and 79087 total entities.",
+        "ILPRL contains 548 sentences, OurNepali contains 3606 sentences"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1030.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "What are method improvements of F1 for paraphrase identification?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Using DSC loss improves the F1 score by +0.58 for MRPC and +0.73 for QQP",
+        "+0.58"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 988.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 900
+    },
+    {
+      "question": "What datasets are used?",
+      "prediction": "EEG temporal",
+      "answers": [
+        "Answer with content missing: (Whole Method and Results sections) The primary dataset we use is the ERP data collected and computed by Frank et al. (2015), and we also use behavioral data (eye-tracking data and self-paced reading times) from Frank et al. (2013) which were collected on the same set of 205 sentences.\nSelect:\n- ERP data collected and computed by Frank et al. (2015)\n- behavioral data (eye-tracking data and self-paced reading times) from Frank et al. (2013)",
+        "the ERP data: BIBREF0"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 916.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 700
+    },
+    {
+      "question": "What data was presented to the subjects to elicit event-related responses?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)",
+        "KARA ONE BIBREF17 , composed of multimodal data for stimulus-based, imagined and articulated speech state corresponding to 7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well as 4 words(pat, pot, knew and gnaw)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1030.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 845
+    },
+    {
+      "question": "Which baselines are used for evaluation?",
+      "prediction": "\"two main challenges.\"",
+      "answers": [
+        "Pointer-Gen, Pointer-Gen+Pos, Pointer-Gen+Same-FT, Pointer-Gen+Pos-FT, Pointer-Gen+RL-ROUGE, Pointer-Gen+RL-SEN"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 914.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 690
+    },
+    {
+      "question": "What learning models are used on the dataset?",
+      "prediction": "artificial intelligence, human reviewers",
+      "answers": [
+        "Naïve Bayes (NB), Logistic Regression (LR), Support Vector Machine (SVM), Random Forests (RF), Gradient Boosted Trees (GBT),  Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN)",
+        "Naïve Bayes (NB), Logistic Regression (LR), Support Vector Machine (SVM), Random Forests (RF), Gradient Boosted Trees (GBT), CNN, RNN"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1036.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "What language model architectures are used?",
+      "prediction": "strong transformer-based language models",
+      "answers": [
+        "uni-directional model to augment the decoder",
+        "bi-directional language model to augment the sequence to sequence encoder ,  uni-directional model to augment the decoder"
+      ],
+      "em": 0,
+      "f1": 0.11111111111111112,
+      "loose": 0,
+      "latency_ms": 1013.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 725
+    },
+    {
+      "question": "How are weights dynamically adjusted?",
+      "prediction": "Without balancing labels",
+      "answers": [
+        "One can think $(1-p_{i1})$ as a weight associated with each example, which changes as training proceeds. The intuition of changing $p_{i1}$ to $(1-p_{i1}) p_{i1}$ is to push down the weight of easy examples. For easy examples whose probability are approaching 0 or 1, $(1-p_{i1}) p_{i1}$ makes the model attach significantly less focus to them. Figure FIGREF23 gives gives an explanation from the perspective in derivative: the derivative of $\\frac{(1-p)p}{1+(1-p)p}$ with respect to $p$ approaches 0 immediately after $p$ approaches 0, which means the model attends less to examples once they are correctly classified.",
+        "associates each training example with a weight in proportion to $(1-p)$, and this weight dynamically changes as training proceeds"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1034.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 900
+    },
+    {
+      "question": "What are the results from these proposed strategies?",
+      "prediction": "\"work, focus on exploring space surpassing bottlenecks\"",
+      "answers": [
+        "Reward of 11.8 for the A2C-chained model, 41.8 for the KG-A2C-chained model, 40 for A2C-Explore and 44 for KG-A2C-Explore.",
+        "KG-A2C-chained and KG-A2C-Explore both pass the bottleneck of a score of 40"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1055.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 840
+    },
+    {
+      "question": "What does an individual model consist of?",
+      "prediction": "predicate-argument structure in sentence",
+      "answers": [
+        "Bayesian model of garg2012unsupervised as our base monolingual model"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1062.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 800
+    },
+    {
+      "question": "How is non-standard pronunciation identified?",
+      "prediction": "N/A (No evidence)",
+      "answers": [
+        "Unanswerable",
+        "Original transcription was labeled with additional labels in [] brackets with nonstandard pronunciation."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 983.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 725
+    },
+    {
+      "question": "What is a semicharacter architecture?",
+      "prediction": "No evidence found.",
+      "answers": [
+        "A semi-character based RNN (ScRNN) treats the first and last characters individually, and is agnostic to the ordering of the internal characters",
+        "processes a sentence of words with misspelled characters, predicting the correct words at each step"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 962.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 770
+    },
+    {
+      "question": "which languages are explored?",
+      "prediction": "variety of languages",
+      "answers": [
+        "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish and Swedish",
+        "Bulgarian, Croatian, Czech, Danish, English, French, German, Indonesian, Italian, Norwegian, Persian, Polish, Portuguese, Slovenian, Spanish , Swedish"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 948.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 820
+    },
+    {
+      "question": "How effective is their NCEL approach overall?",
+      "prediction": "\"Entity linking system correct entity\"",
+      "answers": [
+        "NCEL consistently outperforms various baselines with a favorable generalization ability"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1052.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "Is the data de-identified?",
+      "prediction": "BIBREF4, BIBREF5 alleviate documentation burden physician",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1110.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 875
+    },
+    {
+      "question": "What was the baseline used?",
+      "prediction": "prepositions",
+      "answers": [
+        "error detection system by Rei2016",
+        "error detection system by Rei2016"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 988.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 700
+    },
+    {
+      "question": "where did they obtain the annotated clinical notes from?",
+      "prediction": "N/A (No evidence)",
+      "answers": [
+        "clinical notes from the CE task in 2010 i2b2/VA",
+        "clinical notes from the CE task in 2010 i2b2/VA "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1021.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "Why masking words in the decoder is helpful?",
+      "prediction": "\"complete context predicting word.\"",
+      "answers": [
+        "ecause this process is similar to the cloze task in BERT's pre-train process, therefore by using the ability of the contextual language model the decoder can generate more fluent and natural sequences."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1014.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 785
+    },
+    {
+      "question": "Which dataset do they use?",
+      "prediction": "No dataset mentioned.",
+      "answers": [
+        "Unanswerable",
+        " Paraphrase Database (PPDB) ,  book corpus",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 952.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "What features are used?",
+      "prediction": "histopathological indicators crucial for diagnosing malignancies.",
+      "answers": [
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1024.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "How is the dataset annotated?",
+      "prediction": "\"lexical features\"",
+      "answers": [
+        "no evidence of depression, depressed mood, disturbed sleep, fatigue or loss of energy",
+        "The annotations are based on evidence of depression and further annotated by the depressive symptom if there is evidence of depression"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 979.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 690
+    },
+    {
+      "question": "Which eight NER tasks did they evaluate on?",
+      "prediction": "biomedical Named Entity Recognition",
+      "answers": [
+        "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800",
+        "BC5CDR-disease, NCBI-disease, BC5CDR-chem, BC4CHEMD, BC2GM, JNLPBA, LINNAEUS, Species-800"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1050.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 905
+    },
+    {
+      "question": "How was the training data translated?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "using the machine translation platform Apertium ",
+        "machine translation platform Apertium BIBREF5"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 978.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 690
+    },
+    {
+      "question": "What model did they use for their system?",
+      "prediction": "identifying industry indicative text",
+      "answers": [
+        "AllWords model by counting the frequencies of all the remaining words and training a multinomial Naive Bayes classifier"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 933.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 710
+    },
+    {
+      "question": "What was the baseline for this task?",
+      "prediction": "18 propagandist techniques",
+      "answers": [
+        "The baseline system for the SLC task is a very simple logistic regression classifier with default parameters. The baseline for the FLC task generates spans and selects one of the 18 techniques randomly.",
+        "SLC task is a very simple logistic regression classifier, FLC task generates spans and selects one of the 18 techniques randomly"
+      ],
+      "em": 0,
+      "f1": 0.18181818181818182,
+      "loose": 0,
+      "latency_ms": 989.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 825
+    },
+    {
+      "question": "What baselines do they compare with?",
+      "prediction": "latent target phonologically similar) homographic puns",
+      "answers": [
+        "They compare with the following models: by Pedersen (2017), by Pramanick and Das (2017), by Mikhalkova and Karyakin (2017),  by Vadehra (2017), Indurthi and Oota (2017), by Vechtomova (2017), by (Cai et al., 2018), and CRF."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1064.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 750
+    },
+    {
+      "question": "How is the political bias of different sources included in the model?",
+      "prediction": "\"not mentioned\"",
+      "answers": [
+        "By assigning a political bias label to each news article and training only on left-biased or right-biased outlets of both disinformation and mainstream domains",
+        "we also account for political biases inherent to different news sources, referring to the procedure proposed in BIBREF2 to label different outlets. Overall we show that we are able to classify credible vs non-credible diffusion networks (and consequently news articles) with high accuracy (AUROC up to 94%), even when accounting for the political bias of sources (and training only on left-biased or right-biased articles). We observe that the layer of mentions alone conveys useful information for the classification, denoting a different usage of this functionality when sharing news belonging to the two news domains. We also show that most discriminative features, which are relative to the breadth and depth of largest cascades in different layers, are the same across the two countries."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1004.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "Where does the ancient Chinese dataset come from?",
+      "prediction": "treasure of Chinese culture",
+      "answers": [
+        "ancient Chinese history records in several dynasties (about 1000BC-200BC) and articles written by celebrities of that era",
+        "Ancient Chinese history records in several dynasties and articles written by celebrities during 1000BC-200BC collected from the internet "
+      ],
+      "em": 0,
+      "f1": 0.19047619047619047,
+      "loose": 0,
+      "latency_ms": 943.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "In what language are the tweets?",
+      "prediction": "Twitter",
+      "answers": [
+        "English",
+        "English ",
+        "English"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 984.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 730
+    },
+    {
+      "question": "which chinese datasets were used?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Answer with content missing: (Data section) Chinese with version 5.1 of the Chinese Penn Treebank (CTB)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 953.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 765
+    },
+    {
+      "question": "How many layers does the UTCNN model have?",
+      "prediction": "Not mentioned in evidence.",
+      "answers": [
+        "eight layers"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 937.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 820
+    },
+    {
+      "question": "what dataset is used in this paper?",
+      "prediction": "Flickr tags capture ecological information",
+      "answers": [
+        " the same datasets as BIBREF7",
+        "same datasets as BIBREF7"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 955.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "What are the clinical datasets used in the paper?",
+      "prediction": "case medical domain BIBREF0.",
+      "answers": [
+        "MEDDOCAN, NUBes-PHI",
+        "MEDDOCAN, NUBes "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1042.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 710
+    },
+    {
+      "question": "What traditional linguistics features did they use?",
+      "prediction": "traditional NLP tools techniques",
+      "answers": [
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 949.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 780
+    },
+    {
+      "question": "What metrics are used to establish that this makes chatbots more knowledgeable and better at learning and conversation? ",
+      "prediction": "KBs miss large number of facts",
+      "answers": [
+        "Coverage, Avg. MCC and avg. +ve F1 score",
+        "strategy formulation ability, we introduce a measure called Coverage( INLINEFORM0 ), To evaluate the predictive performance, we use Avg. MCC and avg. +ve F1 score"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1081.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 800
+    },
+    {
+      "question": "Do they employ their indexing-based method to create a sample of a QA Wikipedia dataset?",
+      "prediction": "wang:07a created QASent dataset",
+      "answers": [
+        "Yes",
+        "No"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1116.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 920
+    },
+    {
+      "question": "Which sports clubs are the targets?",
+      "prediction": "No sports clubs mentioned.",
+      "answers": [
+        "Galatasaray, Fenerbahçe",
+        "Galatasaray , Fenerbahçe "
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 991.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 720
+    },
+    {
+      "question": "What experiments are conducted?",
+      "prediction": "previous studies focus on irony detection",
+      "answers": [
+        "Irony Classifier, Sentiment Classifier for Irony, Sentiment Classifier for Non-irony, transformation from ironic sentences to non-ironic sentences"
+      ],
+      "em": 0,
+      "f1": 0.08695652173913045,
+      "loose": 0,
+      "latency_ms": 998.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 695
+    },
+    {
+      "question": "How does Gaussian-masked directional multi-head attention works?",
+      "prediction": "N/A",
+      "answers": [
+        "pays attentions to adjacent characters and casts a localness relationship between the characters as a fixed Gaussian weight assuming the weight relies on the distance between characters",
+        "Gaussian-masked directional attention can be described as a function to map queries and key-value pairs to the representation of input, Gaussian-masked directional attention expects to pay attention to the adjacent characters of each positions and cast the localness relationship between characters as a fix Gaussian weight for attention, Gaussian weight only relys on the distance between characters"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 953.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 775
+    },
+    {
+      "question": "What types of social media did they consider?",
+      "prediction": "social media language",
+      "answers": [
+        "Facebook status update messages",
+        "Facebook status update messages"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 883.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 735
+    },
+    {
+      "question": "What are the network's baseline features?",
+      "prediction": "\"sharp, bitter, cutting expression\"",
+      "answers": [
+        " The features extracted from CNN."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1018.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 745
+    },
+    {
+      "question": "Which hyperparameters were varied in the experiments on the four tasks?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "number of clusters, seed value in clustering, selection of word vectors, window size and dimension of embedding",
+        "different number of clusters, different embeddings"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 991.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 685
+    },
+    {
+      "question": "What were the scores of their system?",
+      "prediction": "goal to predict continuous regression",
+      "answers": [
+        "column Ens Test in Table TABREF19"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 911.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 690
+    },
+    {
+      "question": "How large is the corpus?",
+      "prediction": "few annotated corpora",
+      "answers": [
+        "8,275 sentences and 167,739 words in total",
+        "The corpus comprises 8,275 sentences and 167,739 words in total."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 994.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 915
+    },
+    {
+      "question": "Is it possible to convert a cloze-style questions to a naturally-looking questions?",
+      "prediction": "construct cloze-style questions from unlabeled corpus",
+      "answers": [
+        "Unanswerable",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1017.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 760
+    },
+    {
+      "question": "What NLP tasks do they consider?",
+      "prediction": "text categorization",
+      "answers": [
+        "text classification for themes including sentiment, web-page, science, medical and healthcare"
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 0,
+      "latency_ms": 925.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 750
+    },
+    {
+      "question": "What previous methods is their model compared to?",
+      "prediction": "open-domain TREC questions",
+      "answers": [
+        "bag-of-words model, CNN"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1078.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 840
+    },
+    {
+      "question": "How larger are the training sets of these versions of ELMo compared to the previous ones?",
+      "prediction": "N/A",
+      "answers": [
+        "By 14 times.",
+        "up to 1.95 times larger"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 988.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 790
+    },
+    {
+      "question": "How many sentences does the dataset contain?",
+      "prediction": "limited data set to train model.",
+      "answers": [
+        "3606",
+        "6946"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1036.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 865
+    },
+    {
+      "question": "Which models/frameworks do they compare to?",
+      "prediction": "DNNs, convolutional recurrent neural networks",
+      "answers": [
+        "MLP",
+        "Eusboost, MWMOTE"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1029.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 790
+    },
+    {
+      "question": "Does their NER model learn NER from both text and images?",
+      "prediction": "\"free-form text images without tags.\"",
+      "answers": [
+        "Yes",
+        "Yes"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1071.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 820
+    },
+    {
+      "question": "Do they evaluate only on English datasets?",
+      "prediction": "No evidence provided.",
+      "answers": [
+        "Yes",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 954.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "What was their highest MRR score?",
+      "prediction": "highest ‘MRR’ score",
+      "answers": [
+        "0.5115",
+        "0.6103"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 1048.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 820
+    },
+    {
+      "question": "What datasets do they evaluate on?",
+      "prediction": "unlabeled corpora",
+      "answers": [
+        " Wall Street Journal (WSJ) portion of the Penn Treebank",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 912.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "How do the authors evidence the claim that many engineers find it a big overhead to choose from multiple frameworks, models and optimization techniques?",
+      "prediction": "challenges hinder productivity",
+      "answers": [
+        "By conducting a survey among engineers",
+        "Unanswerable"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 928.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 740
+    },
+    {
+      "question": "On which benchmarks they achieve the state of the art?",
+      "prediction": "BIBREF0, BIBREF1, BIBREF2, BIBREF3",
+      "answers": [
+        "SimpleQuestions, WebQSP",
+        "WebQSP, SimpleQuestions"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 631.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 825
+    }
+  ]
+}

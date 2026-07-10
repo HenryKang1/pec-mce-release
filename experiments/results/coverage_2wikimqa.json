@@ -1,0 +1,40 @@
+{
+  "dataset": "2wikimqa",
+  "n_evaluated": 1000,
+  "top_k": 5,
+  "raw": {
+    "gold_tokens": 38.323,
+    "retrieved_tokens": 299.294,
+    "title_recall": 0.93775,
+    "answer_recall": 0.55,
+    "entity_recall": 0.615492798610127,
+    "token_recall": 0.7667156917192753,
+    "token_precision": 0.14617778623720196,
+    "token_f1": 0.23358289576256727,
+    "answer_density_per_1k": 2.2576009609351106,
+    "entity_density_per_1k": 2.512003084193019,
+    "n": 1000
+  },
+  "entity": {
+    "gold_tokens": 38.323,
+    "retrieved_tokens": 263.412,
+    "title_recall": 0.88275,
+    "answer_recall": 0.464,
+    "entity_recall": 0.4822508264296212,
+    "token_recall": 0.5401697212711758,
+    "token_precision": 0.09581463768034497,
+    "token_f1": 0.159499230837892,
+    "answer_density_per_1k": 1.7786600094699687,
+    "entity_density_per_1k": 1.8358869510860232,
+    "n": 1000
+  },
+  "delta": {
+    "title_recall": -0.05499999999999994,
+    "answer_recall": -0.08600000000000002,
+    "entity_recall": -0.13324197218050576,
+    "token_recall": -0.22654597044809954,
+    "retrieved_tokens_ratio": 0.8801111950122622,
+    "answer_density_ratio": 0.7878540274598563,
+    "entity_density_ratio": 0.7308458188759756
+  }
+}

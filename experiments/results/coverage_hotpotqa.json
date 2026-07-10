@@ -1,0 +1,40 @@
+{
+  "dataset": "hotpotqa",
+  "n_evaluated": 200,
+  "top_k": 5,
+  "raw": {
+    "gold_tokens": 37.78,
+    "retrieved_tokens": 275.19,
+    "title_recall": 0.895,
+    "answer_recall": 0.635,
+    "entity_recall": 0.6650728290366947,
+    "token_recall": 0.8447199282385398,
+    "token_precision": 0.1626217162332077,
+    "token_f1": 0.26626313033949,
+    "answer_density_per_1k": 2.5000760390775394,
+    "entity_density_per_1k": 2.6130094950056435,
+    "n": 200
+  },
+  "entity": {
+    "gold_tokens": 37.78,
+    "retrieved_tokens": 262.505,
+    "title_recall": 0.8125,
+    "answer_recall": 0.45,
+    "entity_recall": 0.5149311379515422,
+    "token_recall": 0.5287964247367377,
+    "token_precision": 0.09542705923368557,
+    "token_f1": 0.15867808679552822,
+    "answer_density_per_1k": 1.7387539468191966,
+    "entity_density_per_1k": 1.9713556968226402,
+    "n": 200
+  },
+  "delta": {
+    "title_recall": -0.08250000000000002,
+    "answer_recall": -0.185,
+    "entity_recall": -0.15014169108515252,
+    "token_recall": -0.3159235035018021,
+    "retrieved_tokens_ratio": 0.9539045750208947,
+    "answer_density_ratio": 0.6954804252516855,
+    "entity_density_ratio": 0.7544387804906857
+  }
+}

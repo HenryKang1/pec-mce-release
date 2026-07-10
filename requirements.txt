@@ -1,0 +1,15 @@
+# Core pipeline
+numpy
+tqdm
+faiss-cpu
+sentence-transformers
+llama-cpp-python        # build with CUDA for GPU offload (see README)
+huggingface_hub
+
+# External-retrieval stress test (dataset download)
+datasets
+
+# Trained-compressor baselines only (Table 1 rows LLMLingua-2 / Provence)
+llmlingua
+transformers
+torch

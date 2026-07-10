@@ -1,0 +1,31 @@
+{
+  "task": "hotpotqa",
+  "model": "gemma-4-e4b",
+  "variant": "raw_topk",
+  "n_samples": 1,
+  "top_k": 5,
+  "metrics": {
+    "em": 100.0,
+    "f1": 100.0,
+    "loose": 100.0,
+    "avg_latency_ms": 14703.9,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 1283.0
+  },
+  "results": [
+    {
+      "question": "Which case was brought to court first Miller v. California or Gates v. Collier ?",
+      "prediction": "Miller v. California",
+      "answers": [
+        "Miller v. California"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 14703.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 1283
+    }
+  ]
+}

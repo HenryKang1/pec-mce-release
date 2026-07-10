@@ -1,0 +1,3297 @@
+{
+  "task": "multifieldqa_en",
+  "model": "lfm2.5-1.2b-instruct",
+  "variant": "pec_hop_no_anchor",
+  "n_samples": 150,
+  "top_k": 5,
+  "metrics": {
+    "em": 6.0,
+    "f1": 29.15,
+    "loose": 12.0,
+    "avg_latency_ms": 179.8,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 1014.4
+  },
+  "results": [
+    {
+      "question": "What is the name of the most active fan club?",
+      "prediction": "Yerevan FC Banants.",
+      "answers": [
+        "South West Ultras fan club."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 446.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb"
+      ],
+      "context_tokens": 792
+    },
+    {
+      "question": "Is the ISR necessary for transgene reactivation?",
+      "prediction": "No, the ISR is not necessary for transgene reactivation.",
+      "answers": [
+        "No, it is not necessary."
+      ],
+      "em": 0,
+      "f1": 0.6153846153846154,
+      "loose": 0,
+      "latency_ms": 135.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom.",
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom.",
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom.",
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom.",
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom.",
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom.",
+        "Current address: Division of Brain Sciences, Department of Medicine, Imperial College London, London, United Kingdom."
+      ],
+      "context_tokens": 1085
+    },
+    {
+      "question": "What experimental techniques were used to study the quantum dot structures in this research?",
+      "prediction": "The research utilized low temperature scanning tunneling microscopy and spectroscopy (STM/STS) to study the quantum dot structures.",
+      "answers": [
+        "Low temperature scanning tunneling microscopy and spectroscopy (STM/STS)."
+      ],
+      "em": 0,
+      "f1": 0.6956521739130436,
+      "loose": 1,
+      "latency_ms": 182.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the purpose of an ICD?",
+      "prediction": "An ICD (Implantable Cardioverter Defibrillator) is a small device implanted under the skin that monitors heart rhythm and delivers electric shocks to correct life-threatening arrhythmias like ventricular fibrillation or sustained ventricular tachycardia.",
+      "answers": [
+        "Implantable Cardioverter Defibrillator (ICD) is a surgically implanted electronic device to treat life-threatening heartbeat irregularities."
+      ],
+      "em": 0,
+      "f1": 0.4186046511627907,
+      "loose": 0,
+      "latency_ms": 214.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Do you know the difference between V.T. and T.V?",
+        "Do you know the difference between V.T. and T.V?",
+        "Do you know the difference between V.T. and T.V?",
+        "Do you know the difference between V.T. and T.V?",
+        "Do you know the difference between V.T. and T.V?",
+        "Do you know the difference between V.T. and T.V?",
+        "Do you know the difference between V.T. and T.V?"
+      ],
+      "context_tokens": 897
+    },
+    {
+      "question": "Why is it important for the sides of the fuselage to be sloped (tumbled home)?",
+      "prediction": "The sides are sloped to provide a more aerodynamic shape and better structural integrity, which is crucial for the stability and performance of the aircraft.",
+      "answers": [
+        "The sides of the fuselage are sloped to create a conical section when the fuselage is formed."
+      ],
+      "em": 0,
+      "f1": 0.35294117647058826,
+      "loose": 0,
+      "latency_ms": 186.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu"
+      ],
+      "context_tokens": 815
+    },
+    {
+      "question": "What is the effect of the proximity of superconductivity on the Kondo effect?",
+      "prediction": "The proximity of superconductivity can alter the Kondo effect by modifying the local exchange interactions between the magnetic impurities and the conduction electrons, thereby influencing the formation and stability of the Kondo singlet.",
+      "answers": [
+        "It tends to suppress the Kondo effect."
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 0,
+      "latency_ms": 374.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1353
+    },
+    {
+      "question": "How is electricity used in everyday life?",
+      "prediction": "Electricity powers homes, businesses, and devices through circuits involving active components like transistors and passive interconnections.",
+      "answers": [
+        "Electricity is used for transport, heating, lighting, communications, and computation."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 0,
+      "latency_ms": 219.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation)."
+      ],
+      "context_tokens": 732
+    },
+    {
+      "question": "What was Hugh H. Goodwin's rank in the United States Navy?",
+      "prediction": "Hugh H. Goodwin held the rank of Ensign in the United States Navy.",
+      "answers": [
+        "Vice Admiral."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 192.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r"
+      ],
+      "context_tokens": 1058
+    },
+    {
+      "question": "What was the Buckeyes' record in their first game of the season?",
+      "prediction": "The Buckeyes' record in their first game of the season was 7–8.",
+      "answers": [
+        "They won their first game with a score of 15-3."
+      ],
+      "em": 0,
+      "f1": 0.4210526315789474,
+      "loose": 0,
+      "latency_ms": 163.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "The 1951 Ohio State Buckeyes baseball team represented the Ohio State University in the 1951 NCAA baseball season. The h",
+        "The 1951 Ohio State Buckeyes baseball team represented the Ohio State University in the 1951 NCAA baseball season. The h",
+        "The 1951 Ohio State Buckeyes baseball team represented the Ohio State University in the 1951 NCAA baseball season. The h",
+        "The 1951 Ohio State Buckeyes baseball team represented the Ohio State University in the 1951 NCAA baseball season. The h"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the three synthetic types of vitamin K?",
+      "prediction": "The three synthetic types of vitamin K are vitamin K1 (phylloquinone), vitamin K2 (menaquinones), and vitamin K3 (menadione).",
+      "answers": [
+        "Vitamins K3, K4, and K5."
+      ],
+      "em": 0,
+      "f1": 0.1818181818181818,
+      "loose": 0,
+      "latency_ms": 156.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia"
+      ],
+      "context_tokens": 653
+    },
+    {
+      "question": "Can individual molecules of indeno[1,2-a]fluorene switch between open-shell and closed-shell states?",
+      "prediction": "Yes, individual molecules of indeno[1,2-a]fluorene can switch between open-shell and closed-shell states. The document describes experiments where the molecule is adsorbed on various surfaces (Au(111), Ag(111)) and subjected to voltage pulses. On bilayer NaCl/Au(111) and bilayer NaCl/Ag(111), the molecules exhibit",
+      "answers": [
+        "Yes, individual molecules of indeno[1,2-a]fluorene can switch between open-shell and closed-shell states by changing their adsorption site on the surface."
+      ],
+      "em": 0,
+      "f1": 0.48275862068965514,
+      "loose": 0,
+      "latency_ms": 302.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What field does Danny work in in Tennessee?",
+      "prediction": "Tennessee.",
+      "answers": [
+        "3-D printing and software development."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 79.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]"
+      ],
+      "context_tokens": 521
+    },
+    {
+      "question": "What is the recommended daily intake of vitamin K for adult women and men?",
+      "prediction": "The recommended daily intake varies by age and life stage. For adults aged 19–50, the RDA is 90 micrograms for women and 120 micrograms for men. Pregnant women require 900 mcg per day.",
+      "answers": [
+        "90 μg for women and 120 μg for men."
+      ],
+      "em": 0,
+      "f1": 0.30000000000000004,
+      "loose": 0,
+      "latency_ms": 197.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia"
+      ],
+      "context_tokens": 642
+    },
+    {
+      "question": "What is the SI unit of power?",
+      "prediction": "Watt",
+      "answers": [
+        "Watt, one joule per second."
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 0,
+      "latency_ms": 80.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation).",
+        "For other uses, see Electricity (disambiguation)."
+      ],
+      "context_tokens": 621
+    },
+    {
+      "question": "What is the main advantage of a horizontal business model for mobile devices?",
+      "prediction": "A horizontal business model allows for the widespread adoption of mobile devices by providing a low-cost, accessible platform that can be easily integrated into existing ecosystems.",
+      "answers": [
+        "Flexibility."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 137.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica"
+      ],
+      "context_tokens": 584
+    },
+    {
+      "question": "Who was Brooksley Elizabeth's first husband?",
+      "prediction": "Jacob C. Landau",
+      "answers": [
+        "Jacob C. Landau."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 88.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, "
+      ],
+      "context_tokens": 737
+    },
+    {
+      "question": "What is the main methodology used in the research?",
+      "prediction": "The research uses an unsupervised method based on the information bottleneck to capture referential complexity and task-specific utility, enabling effective communication in multi-agent reinforcement learning.",
+      "answers": [
+        "An unsupervised method based on the information bottleneck and contrastive learning."
+      ],
+      "em": 0,
+      "f1": 0.5161290322580644,
+      "loose": 0,
+      "latency_ms": 176.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1159
+    },
+    {
+      "question": "How is the function beta(r) determined in the derivation?",
+      "prediction": "The function beta(r) is determined by solving the ordinary differential equation derived from the Einstein field equations, specifically tailored to the Schwarzschild solution. This process involves applying standard mathematical techniques and ensuring consistency with the physical constraints of the problem.",
+      "answers": [
+        "Using the vacuum Einstein equation and the Baez-Bunn form."
+      ],
+      "em": 0,
+      "f1": 0.14634146341463417,
+      "loose": 0,
+      "latency_ms": 258.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1104
+    },
+    {
+      "question": "What is the water depth in the Greater Ekofisk Area?",
+      "prediction": "70-75 metres.",
+      "answers": [
+        "The water depth in the Greater Ekofisk Area is 70-75 meters."
+      ],
+      "em": 0,
+      "f1": 0.1818181818181818,
+      "loose": 0,
+      "latency_ms": 166.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Filip Fremo Minge – Ekofisk",
+        "Filip Fremo Minge – Ekofisk",
+        "Filip Fremo Minge – Ekofisk",
+        "Filip Fremo Minge – Ekofisk",
+        "Filip Fremo Minge – Ekofisk",
+        "Filip Fremo Minge – Ekofisk",
+        "Filip Fremo Minge – Ekofisk"
+      ],
+      "context_tokens": 749
+    },
+    {
+      "question": "What were the vaccines trialed against?",
+      "prediction": "The vaccines were trialed against the population of children in the United States.",
+      "answers": [
+        "Other toxic products."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 224.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va"
+      ],
+      "context_tokens": 1127
+    },
+    {
+      "question": "Where was Margaret Way born and where did she die?",
+      "prediction": "Brisbane",
+      "answers": [
+        "Margaret Way was born in Brisbane and died in Cleveland, Queensland, Australia."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 0,
+      "latency_ms": 124.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What size chains were used in the benchmarking?",
+      "prediction": "The chains used were periodic chains of size L = 14.",
+      "answers": [
+        "L = 8 and L = 14."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 0,
+      "latency_ms": 151.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many experiments were demonstrated to test the capabilities of the controller?",
+      "prediction": "The document mentions four experiments, but only three are explicitly described in detail. A precise count from the provided text is not fully clear due to formatting limitations.",
+      "answers": [
+        "5."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 162.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1038
+    },
+    {
+      "question": "What are the three teams that used conflict optimization in the challenge?",
+      "prediction": "The three teams that used conflict optimization in the challenge are Luc Libralesso, Guilherme Da Fonseca, and Florian Fontan.",
+      "answers": [
+        "Lasa, Gitastrophe, and Shadoks."
+      ],
+      "em": 0,
+      "f1": 0.09523809523809523,
+      "loose": 0,
+      "latency_ms": 182.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1436
+    },
+    {
+      "question": "What did the court in In re Ferguson conclude about the transformation prong of the Bilski test?",
+      "prediction": "The court concluded that the transformation prong of the Bilski test is not dispositive.",
+      "answers": [
+        "It required the transformation to be limited to specific data and a visual depiction representing specific objects or substances."
+      ],
+      "em": 0,
+      "f1": 0.07142857142857142,
+      "loose": 0,
+      "latency_ms": 124.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Xpp-pdf support utility",
+        "Xpp-pdf support utility",
+        "Xpp-pdf support utility",
+        "Xpp-pdf support utility",
+        "Xpp-pdf support utility",
+        "Xpp-pdf support utility",
+        "Xpp-pdf support utility"
+      ],
+      "context_tokens": 812
+    },
+    {
+      "question": "How does the transition probability of the environment affect the learning rate in the static agent?",
+      "prediction": "The transition probability of the environment affects the learning rate in the static agent by influencing how quickly the agent adapts to changes. Higher transition probabilities typically lead to faster adaptation, which can result in a higher initial learning rate to capture these rapid changes effectively.",
+      "answers": [
+        "As the transition probability increases, the learning rate initially rises and then declines."
+      ],
+      "em": 0,
+      "f1": 0.15686274509803924,
+      "loose": 0,
+      "latency_ms": 241.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1482
+    },
+    {
+      "question": "What kind of ultracold neutral plasmas does this study focus on?",
+      "prediction": "The study focuses on ultracold neutral plasmas that form via kinetic rate processes from state-selected Rydberg gases, and emphasize in particular the distinctive dynamics of molecular ultracold plasmas.",
+      "answers": [
+        "A subset that form via kinetic rate processes from state-selected Rydberg gases."
+      ],
+      "em": 0,
+      "f1": 0.5405405405405405,
+      "loose": 0,
+      "latency_ms": 209.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1472
+    },
+    {
+      "question": "What types of sensors are now capable of estimating physical activity levels and physiological outcomes of older adults?",
+      "prediction": "Wearable sensors are now capable of estimating physical activity levels and physiological outcomes such as heart rate, skin conductance, number of steps taken, sleep patterns, and other continuous functional behavior.",
+      "answers": [
+        "Wearable sensors."
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 1,
+      "latency_ms": 189.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 854
+    },
+    {
+      "question": "What did the decision to base the water rates on usage reflect?",
+      "prediction": "The decision to base water rates on usage reflects a focus on fairness and accountability in resource management.",
+      "answers": [
+        "Fairness."
+      ],
+      "em": 0,
+      "f1": 0.11764705882352941,
+      "loose": 1,
+      "latency_ms": 149.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Time to clean house in Paso Robles Home",
+        "Time to clean house in Paso Robles Home",
+        "Time to clean house in Paso Robles Home",
+        "Time to clean house in Paso Robles Home",
+        "Time to clean house in Paso Robles Home",
+        "Time to clean house in Paso Robles Home",
+        "Time to clean house in Paso Robles Home"
+      ],
+      "context_tokens": 647
+    },
+    {
+      "question": "What did Mary tell the disciples?",
+      "prediction": "Mary told them that Jesus had said these things to her.",
+      "answers": [
+        "\"I have seen the Lord.\"."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 182.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "A Homily from Easter Sunday, 2017.",
+        "A Homily from Easter Sunday, 2017.",
+        "A Homily from Easter Sunday, 2017.",
+        "A Homily from Easter Sunday, 2017.",
+        "A Homily from Easter Sunday, 2017.",
+        "A Homily from Easter Sunday, 2017.",
+        "A Homily from Easter Sunday, 2017."
+      ],
+      "context_tokens": 849
+    },
+    {
+      "question": "What is the future direction mentioned in the conclusion?",
+      "prediction": "The future direction is to explore the use of additional structured metadata beyond the four types mentioned.",
+      "answers": [
+        "Verifying other meta-information such as patient's gender, age, race, etc."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 261.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 877
+    },
+    {
+      "question": "What types of data did the authors use in their experiments?",
+      "prediction": "The provided documents do not explicitly mention the specific types of data used in the authors' experiments.",
+      "answers": [
+        "The authors used simulated data and real data from a wireless MISO channel."
+      ],
+      "em": 0,
+      "f1": 0.23999999999999996,
+      "loose": 0,
+      "latency_ms": 186.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 857
+    },
+    {
+      "question": "What is the purpose of the baseline in the layout procedure?",
+      "prediction": "The baseline serves as a reference line for accurate measurements and ensures the fuselage is built with precise straight lines, compensating for the sloped sides.",
+      "answers": [
+        "The baseline is used as a reference for the mid point of the firewall for the developed side panel."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 0,
+      "latency_ms": 170.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu"
+      ],
+      "context_tokens": 865
+    },
+    {
+      "question": "What does the new Iraqi Body Count organization do?",
+      "prediction": "The new Iraqi Body Count organization tracks and reports on violence against civilians, particularly targeting women and children.",
+      "answers": [
+        "It provides cover for the war and allows supporters of the illegal war to point to it."
+      ],
+      "em": 0,
+      "f1": 0.0625,
+      "loose": 0,
+      "latency_ms": 150.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10"
+      ],
+      "context_tokens": 1070
+    },
+    {
+      "question": "What is the main advantage of the proposed method in terms of computation time?",
+      "prediction": "The method does not require additional computation time beyond the standard operations, as it efficiently handles uncertainty in goal and path preference using a stochastic model.",
+      "answers": [
+        "The time required to update the belief does not increase with the complexity of the environment."
+      ],
+      "em": 0,
+      "f1": 0.1714285714285714,
+      "loose": 0,
+      "latency_ms": 187.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1348
+    },
+    {
+      "question": "When did the Tevatron Collider Run II start and when is it expected to end?",
+      "prediction": "The Tevatron Collider Run II started in March 2002 and is expected to continue until the end of this decade.",
+      "answers": [
+        "The Tevatron Collider Run II started in March 2002 and is expected to continue until the end of this decade."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 146.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{INTRODUCTION}",
+        "\\section{INTRODUCTION}",
+        "\\section{INTRODUCTION}",
+        "\\section{INTRODUCTION}",
+        "\\section{INTRODUCTION}",
+        "\\section{INTRODUCTION}",
+        "\\section{INTRODUCTION}"
+      ],
+      "context_tokens": 848
+    },
+    {
+      "question": "How many brother does Njoroge have?",
+      "prediction": "2",
+      "answers": [
+        "Four."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 98.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the "
+      ],
+      "context_tokens": 859
+    },
+    {
+      "question": "What are the stability conditions for a solution of $-\\Delta u = f(u)$?",
+      "prediction": "Based on the provided documents, stability conditions for solutions of $-\\Delta u = f(u)$ are established under certain growth conditions on the weights $\\omega_1(x)$ and $\\omega_2(x)$. Specifically, if these weights satisfy appropriate bounds (e.g., decay at infinity), then the equation admits stable solutions. The key condition involves ensuring that the integral inequality relating $f'(u)$ to",
+      "answers": [
+        "$\\int f'(u) \\psi^2 \\le \\int | \\nabla \\psi|^2, \\forall \\psi \\in C_c^2$."
+      ],
+      "em": 0,
+      "f1": 0.03333333333333333,
+      "loose": 0,
+      "latency_ms": 300.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction and main results}",
+        "\\section{Introduction and main results}",
+        "\\section{Introduction and main results}",
+        "\\section{Introduction and main results}",
+        "\\section{Introduction and main results}",
+        "\\section{Introduction and main results}",
+        "\\section{Introduction and main results}"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What algorithm is engaged in the PLMS-PPIC method?",
+      "prediction": "The normalized least mean square (NLMS) algorithm is engaged in the PLMS-PPIC method.",
+      "answers": [
+        "The normalized least mean square (NLMS) algorithm."
+      ],
+      "em": 0,
+      "f1": 0.7058823529411764,
+      "loose": 1,
+      "latency_ms": 131.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}"
+      ],
+      "context_tokens": 854
+    },
+    {
+      "question": "Who compiled the 88-page letter to the HHS regarding vaccine safety?",
+      "prediction": "Del Bigtree and his team at ICAN.",
+      "answers": [
+        "Del Bigtree and his team at ICAN."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 119.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va",
+        "A special tribute to Del Bigtree (pictured) and his team at ICAN for his stunning 88 page letter to the HHS regarding va"
+      ],
+      "context_tokens": 1058
+    },
+    {
+      "question": "What molecule was the focus of the study?",
+      "prediction": "The study focused on the reactive radical ethynyl (C$_2$H).",
+      "answers": [
+        "The focus of the study was on the reactive radical ethynyl (C$_2$H)."
+      ],
+      "em": 0,
+      "f1": 0.75,
+      "loose": 0,
+      "latency_ms": 147.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 998
+    },
+    {
+      "question": "When was Weep Not, Child first published?",
+      "prediction": "1964.",
+      "answers": [
+        "Weep Not, Child was first published in 1964."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 125.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the "
+      ],
+      "context_tokens": 827
+    },
+    {
+      "question": "What is the relationship between the maximum velocity and the amplitude of the blob or depletion?",
+      "prediction": "The relationship between the maximum velocity and the amplitude of the blob or depletion is not explicitly stated in the provided documents.",
+      "answers": [
+        "The maximum velocity scales with the square root of the amplitude."
+      ],
+      "em": 0,
+      "f1": 0.31999999999999995,
+      "loose": 0,
+      "latency_ms": 337.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Model equations} \\label{sec:equations}",
+        "\\section{Model equations} \\label{sec:equations}",
+        "\\section{Model equations} \\label{sec:equations}",
+        "\\section{Model equations} \\label{sec:equations}",
+        "\\section{Model equations} \\label{sec:equations}",
+        "\\section{Model equations} \\label{sec:equations}",
+        "\\section{Model equations} \\label{sec:equations}"
+      ],
+      "context_tokens": 1470
+    },
+    {
+      "question": "What do dendritic spines contain?",
+      "prediction": "Dendritic spines contain actin and are rich in proteins that link extracellular signals with the actin cytoskeleton.",
+      "answers": [
+        "They are rich in actin and have been shown to be highly dynamic."
+      ],
+      "em": 0,
+      "f1": 0.3448275862068966,
+      "loose": 0,
+      "latency_ms": 217.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols",
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols",
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols",
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols",
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols",
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols",
+        "JoVE | Peer Reviewed Scientific Video Journal - Methods and Protocols"
+      ],
+      "context_tokens": 761
+    },
+    {
+      "question": "How many people attend the 233rd ACS national meeting?",
+      "prediction": "The document does not provide the exact number of attendees for the 233rd ACS national meeting.",
+      "answers": [
+        "There are 14,520 attendees, including 7,152 chemical scientists, 5,059 students, 1,283 exhibitors, 119 precollege teachers, 573 exposition visitors, and 453 guests."
+      ],
+      "em": 0,
+      "f1": 0.058823529411764705,
+      "loose": 0,
+      "latency_ms": 130.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&",
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&",
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&",
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&",
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&",
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&",
+        "The major actions taken by the board of directors and council during the national meeting in Chicago were reported in C&"
+      ],
+      "context_tokens": 853
+    },
+    {
+      "question": "What did Justice Kennedy argue about Quill in Direct Marketing Ass'n v. Brohl?",
+      "prediction": "He argued that the Court should not have invalidated Quill, as it was a valid precedent at the time.",
+      "answers": [
+        "Quill harmed states more than anticipated due to the Internet."
+      ],
+      "em": 0,
+      "f1": 0.08,
+      "loose": 0,
+      "latency_ms": 124.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review",
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review",
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review",
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review",
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review",
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review",
+        "South Dakota v. Wayfair, Inc. - Harvard Law Review"
+      ],
+      "context_tokens": 663
+    },
+    {
+      "question": "What factors control the reliance of artificial organisms on plasticity?",
+      "prediction": "Environmental fluctuation and uncertainty control the reliance of artificial organisms on plasticity.",
+      "answers": [
+        "Environmental fluctuation and uncertainty control the reliance of artificial organisms on plasticity."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 150.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the problem encountered when building the fuselage sides?",
+      "prediction": "The sides are sloped (flared) outward, causing the measured distances to be \"foreshortened,\" which doesn't accurately represent the true shape needed for building the fuselage with a flat top longeron.",
+      "answers": [
+        "The longerons bow up from the building surface, forming a \"banana\" shape."
+      ],
+      "em": 0,
+      "f1": 0.11764705882352941,
+      "loose": 0,
+      "latency_ms": 181.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu",
+        "Probably one of the most frustrating things about building experimental aircraft, especially when starting with a minimu"
+      ],
+      "context_tokens": 827
+    },
+    {
+      "question": "When did Goodwin become a Naval aviator?",
+      "prediction": "Based on the documents, Goodwin became a Naval aviator in November 1917.",
+      "answers": [
+        "Goodwin became a Naval aviator in January 1929."
+      ],
+      "em": 0,
+      "f1": 0.588235294117647,
+      "loose": 0,
+      "latency_ms": 132.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r"
+      ],
+      "context_tokens": 1015
+    },
+    {
+      "question": "对于PD3.0协议，FS312BH支持的最高诱骗电压是多少？",
+      "prediction": "48V",
+      "answers": [
+        "48V."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 134.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "'无锡速芯微电子有限公司是一家集芯片 研发，销售和服务于一体的国家高新技 术企业，为客户提供高性能，高集成 度，极致体验的全协议快充芯片。 无锡速芯微电子有限公司 FastSOC Microelectronics Co.,Ltd. 销售联系"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did Born resign as chairperson of the CFTC?",
+      "prediction": "Based on the provided documents, there is no information about when Born resigned as chairperson of the CFTC.",
+      "answers": [
+        "June 1, 1999."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 126.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, "
+      ],
+      "context_tokens": 807
+    },
+    {
+      "question": "Which orders did Mufti-e-Azam-e-Hind receive Khilafat from?",
+      "prediction": "The orders received by Mufti-e-Azam-e-Hind from his father, Sayyiduna A'la Hazrat (radi Allahu anhu), were the following:",
+      "answers": [
+        "Mufti-e-Azam-e-Hind received Khilafat in the Qaderi, Chishti, Nakshbandi, Suharwardi, and Madaari Orders."
+      ],
+      "em": 0,
+      "f1": 0.23076923076923075,
+      "loose": 0,
+      "latency_ms": 194.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th",
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th",
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th",
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th",
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th",
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th",
+        "Ghousul Waqt, Mufti-e-Azam-e-Hind (radi Allahu anhu) was born on Monday, 22nd of Zil Hijjah 1310 AH (18 July 1892) in th"
+      ],
+      "context_tokens": 1299
+    },
+    {
+      "question": "What was the reason given by Governor Rick Scott for not implementing a prescription drug monitoring database in Florida?",
+      "prediction": "The state did not have the resources to implement such a system.",
+      "answers": [
+        "Privacy concerns and skepticism about its effectiveness."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 114.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America",
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America",
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America",
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America",
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America",
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America",
+        "How Oxycontin, Florida and the Sackler Family Created the Opioid Crisis In America"
+      ],
+      "context_tokens": 853
+    },
+    {
+      "question": "In which electorate was Simon English elected to the New Zealand Parliament?",
+      "prediction": "Wallace",
+      "answers": [
+        "The Wallace electorate."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666666,
+      "loose": 0,
+      "latency_ms": 82.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3"
+      ],
+      "context_tokens": 811
+    },
+    {
+      "question": "What was the population of McPherson County according to the 2020 census?",
+      "prediction": "Not provided in the documents.",
+      "answers": [
+        "30,223."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 121.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th"
+      ],
+      "context_tokens": 929
+    },
+    {
+      "question": "When did Margaret Way start self-publishing her books as e-books?",
+      "prediction": "Margaret Way began self-publishing her books as e-books in mid-July 2013.",
+      "answers": [
+        "Margaret Way started self-publishing her books as e-books in 2013."
+      ],
+      "em": 0,
+      "f1": 0.8571428571428572,
+      "loose": 0,
+      "latency_ms": 303.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "When did the 2017 general election be held?",
+      "prediction": "The 2017 general election was held in October.",
+      "answers": [
+        "23 September."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 171.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3"
+      ],
+      "context_tokens": 801
+    },
+    {
+      "question": "What hedge fund's collapse in 1998 highlighted the need for regulation of derivatives?",
+      "prediction": "The collapse of Long-Term Capital Management (LTCM) underscored the risks associated with derivatives and led to increased regulatory scrutiny.",
+      "answers": [
+        "Long Term Capital Management (LTCM)."
+      ],
+      "em": 0,
+      "f1": 0.2727272727272727,
+      "loose": 0,
+      "latency_ms": 140.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, "
+      ],
+      "context_tokens": 789
+    },
+    {
+      "question": "What is the dynamical behavior of the anisotropic order parameter following a quench to the critical point?",
+      "prediction": "The dynamical behavior of the anisotropic order parameter $O$ following a quench to the critical point is well described by the Gaussian theory for all three lattice gas models studied, with $m \\sim t^{1/2}$ in the short-time regime.",
+      "answers": [
+        "It is well described by the Gaussian theory."
+      ],
+      "em": 0,
+      "f1": 0.30769230769230765,
+      "loose": 0,
+      "latency_ms": 238.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the recommended space for using the VR headset?",
+      "prediction": "The recommended space is at least 2×2 meters.",
+      "answers": [
+        "It is recommended to have at least a 2x2 meter space for using the VR headset."
+      ],
+      "em": 0,
+      "f1": 0.4761904761904762,
+      "loose": 0,
+      "latency_ms": 157.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How does the performance of the PLM with decimation compare to other methods?",
+      "prediction": "The PLM with decimation performs substantially better, especially on sparse graphs and in the high-coupling limit, i.e., for low temperature.",
+      "answers": [
+        "It outperforms mean-field methods and the PLM with $l_2$ regularization in terms of reconstruction error and true positive rate."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 180.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1355
+    },
+    {
+      "question": "What are the three phases of the author's preaching process?",
+      "prediction": "The author describes three phases: 1) Being trained to be sensitive to the congregation's needs, 2) Taking a less holy approach of preaching what can be preached well, and 3) Reflecting on their current state as a developing theologian.",
+      "answers": [
+        "The three phases are exegetical, theological, and homiletical."
+      ],
+      "em": 0,
+      "f1": 0.14285714285714285,
+      "loose": 0,
+      "latency_ms": 200.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "// josh vajda // | a blog about theology and everything else",
+        "// josh vajda // | a blog about theology and everything else",
+        "// josh vajda // | a blog about theology and everything else",
+        "// josh vajda // | a blog about theology and everything else",
+        "// josh vajda // | a blog about theology and everything else",
+        "// josh vajda // | a blog about theology and everything else",
+        "// josh vajda // | a blog about theology and everything else"
+      ],
+      "context_tokens": 704
+    },
+    {
+      "question": "When did KSTP switch to a sports radio format?",
+      "prediction": "Based on the documents, KSTP's format changed in 2016.",
+      "answers": [
+        "KSTP switched to a sports radio format on February 15, 2010."
+      ],
+      "em": 0,
+      "f1": 0.22222222222222224,
+      "loose": 0,
+      "latency_ms": 118.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad"
+      ],
+      "context_tokens": 887
+    },
+    {
+      "question": "What was the best performing model for the Spanish language in Track-1?",
+      "prediction": "The best performing model for the Spanish language in Track-1 was Model-* (language of the models used).",
+      "answers": [
+        "The best performing model for the Spanish language in Track-1 was Spanish BERT."
+      ],
+      "em": 0,
+      "f1": 0.7200000000000001,
+      "loose": 0,
+      "latency_ms": 127.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 772
+    },
+    {
+      "question": "How does the infall rate and gas density in the magnetized model compare to non-magnetized accretion?",
+      "prediction": "The infall rate and gas density in the magnetized model are influenced by magnetic field effects, which can inhibit accretion compared to non-magnetized models.",
+      "answers": [
+        "Infall rate is 2-5 times smaller and gas density is 2-5 times smaller."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 0,
+      "latency_ms": 132.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 517
+    },
+    {
+      "question": "According to the text, what is Toby Schindelbeck's observation about the police?",
+      "prediction": "Toby Schindelbeck has observed that the police are being sent to prison for not paying taxes, and he believes they should be held accountable.",
+      "answers": [
+        "Toby Schindelbeck's observation is that the police say they aren't paid enough to enforce the laws in the streets."
+      ],
+      "em": 0,
+      "f1": 0.2564102564102564,
+      "loose": 0,
+      "latency_ms": 149.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "July | 2012 | Chico Taxpayers Association",
+        "July | 2012 | Chico Taxpayers Association",
+        "July | 2012 | Chico Taxpayers Association",
+        "July | 2012 | Chico Taxpayers Association",
+        "July | 2012 | Chico Taxpayers Association",
+        "July | 2012 | Chico Taxpayers Association",
+        "July | 2012 | Chico Taxpayers Association"
+      ],
+      "context_tokens": 861
+    },
+    {
+      "question": "Who is the program chair of this conference?",
+      "prediction": "Mara Liasson.",
+      "answers": [
+        "Peter Denning."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 130.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is ",
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is ",
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is ",
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is ",
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is ",
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is ",
+        "HOFFMAN: I'm delighted to introduce the chair of the last session, Mara Liasson from the National Public Radio. Mara is "
+      ],
+      "context_tokens": 946
+    },
+    {
+      "question": "How does the conduction gap depend on the strain direction?",
+      "prediction": "The conduction gap depends on the strain direction because different orientations of graphene's armchair and zigzag edges induce varying degrees of bandgap opening. Strain applied along certain directions can modify the electronic structure, altering the Dirac points' positions and thus affecting the gap size.",
+      "answers": [
+        "Peaks occur at certain strain directions, while the gap is zero at others."
+      ],
+      "em": 0,
+      "f1": 0.15686274509803919,
+      "loose": 0,
+      "latency_ms": 437.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1088
+    },
+    {
+      "question": "When was the paper published?",
+      "prediction": "7 March 2023",
+      "answers": [
+        "The paper was published on 7 March 2023."
+      ],
+      "em": 0,
+      "f1": 0.6,
+      "loose": 0,
+      "latency_ms": 181.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1009
+    },
+    {
+      "question": "What are the three subsets into which the parameter space V is divided?",
+      "prediction": "The three subsets are V0, V1 and V2.",
+      "answers": [
+        "The three subsets are V+, V0, and V-, determined by the Kullback-Leibler information distance."
+      ],
+      "em": 0,
+      "f1": 0.5263157894736842,
+      "loose": 0,
+      "latency_ms": 247.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What happens to Ngotho after he attacks Jacobo at a workers' strike?",
+      "prediction": "He is arrested.",
+      "answers": [
+        "After attacking Jacobo at a workers' strike, Ngotho loses his job and Njoroge's family is forced to move."
+      ],
+      "em": 0,
+      "f1": 0.1,
+      "loose": 0,
+      "latency_ms": 92.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the ",
+        "Weep Not, Child is a 1964 novel by Kenyan author Ngũgĩ wa Thiong'o. It was his first novel, published in 1964 under the "
+      ],
+      "context_tokens": 791
+    },
+    {
+      "question": "Where is the club's headquarters located?",
+      "prediction": "Yerevan.",
+      "answers": [
+        "The club's headquarters are located on Jivani Street 2 of the Malatia-Sebastia District, Yerevan."
+      ],
+      "em": 0,
+      "f1": 0.15384615384615385,
+      "loose": 0,
+      "latency_ms": 86.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb"
+      ],
+      "context_tokens": 810
+    },
+    {
+      "question": "How do the runtimes and iteration counts of NFPA and FPSA compare to GMRES and DSA in the numerical experiments?",
+      "prediction": "the answer is not provided in the given documents.",
+      "answers": [
+        "NFPA and FPSA greatly outperform GMRES and DSA."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 120.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}\\label{sec1}",
+        "\\section{Introduction}\\label{sec1}",
+        "\\section{Introduction}\\label{sec1}",
+        "\\section{Introduction}\\label{sec1}",
+        "\\section{Introduction}\\label{sec1}",
+        "\\section{Introduction}\\label{sec1}",
+        "\\section{Introduction}\\label{sec1}"
+      ],
+      "context_tokens": 1078
+    },
+    {
+      "question": "What are some reasons for the lack of data sharing in archaeobotany?",
+      "prediction": "The lack of data sharing in archaeobotany can be attributed to several factors. One major reason is the complexity and time-intensive nature of collecting, processing, and analyzing archaeological plant remains. This often leads to a reluctance to share detailed data due to concerns about intellectual property or competitive advantage. Additionally, there may be limited incentives for researchers to engage in open data sharing practices, as traditional academic",
+      "answers": [
+        "Technological limitations, resistance to exposing data to scrutiny, and desire to hold onto data for personal use."
+      ],
+      "em": 0,
+      "f1": 0.09876543209876543,
+      "loose": 0,
+      "latency_ms": 257.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany",
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany",
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany",
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany",
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany",
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany",
+        "Sowing the Seeds of Future Research: Data Sharing, Citation and Reuse in Archaeobotany"
+      ],
+      "context_tokens": 834
+    },
+    {
+      "question": "What are some fields in which the inverse problem is encountered?",
+      "prediction": "The inverse problem is encountered in physics, biology (e.g., \\cite{Balakrishnan11,Ekeberg13,Christoph14}), social sciences and finance (e.g.,\\cite{Mastromatteo12,yamanaka_15}), neuroscience (e.g., \\cite{Schneidman06,Roudi09a,tyrcha_13}), just to",
+      "answers": [
+        "Physics, biology, social sciences, finance, and neuroscience are some fields in which the inverse problem is encountered."
+      ],
+      "em": 0,
+      "f1": 0.6857142857142857,
+      "loose": 0,
+      "latency_ms": 289.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1397
+    },
+    {
+      "question": "What is the maximum radius of the emitting region for the black body model?",
+      "prediction": "The maximum radius of the emitting region for the black body model is 4.5 arcseconds.",
+      "answers": [
+        "4.5x10^8 cm."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 150.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1090
+    },
+    {
+      "question": "Which air unit did Goodwin command during the initial landings of Marines on Saipan?",
+      "prediction": "",
+      "answers": [
+        "VC-10 Squadron."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 83.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r",
+        "Hugh Hilton Goodwin (December 21, 1900 – February 25, 1980) was a decorated officer in the United States Navy with the r"
+      ],
+      "context_tokens": 952
+    },
+    {
+      "question": "How does the receptive field size affect the completion of shapes?",
+      "prediction": "The larger the receptive field size, the more successful the algorithm is in filling in bigger gap sizes.",
+      "answers": [
+        "Bigger receptive field size leads to more successful shape completion."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 149.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1176
+    },
+    {
+      "question": "What is the significance of the interlayer Berry connection polarizability?",
+      "prediction": "The interlayer Berry connection polarizability is significant because it provides a band geometric origin for the novel intrinsic Hall response observed in twisted bilayer systems. This arises from layer hybridization and charge transport mechanisms, enabling unique rectification functionality and serving as a transport probe of chiral symmetry in such materials.",
+      "answers": [
+        "The momentum space curl of the interlayer Berry connection polarizability generates the crossed nonlinear dynamical Hall effect."
+      ],
+      "em": 0,
+      "f1": 0.2,
+      "loose": 0,
+      "latency_ms": 241.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1379
+    },
+    {
+      "question": "Can the denoiser be applied to circuits with non-Clifford noise?",
+      "prediction": "The provided documents do not explicitly address the application of denoisers to circuits with non-Clifford noise. However, based on general principles, denoisers are typically designed for specific noise models and may require adaptation or generalization for different types of noise.",
+      "answers": [
+        "Yes, the denoiser works for non-Clifford local noise channels."
+      ],
+      "em": 0,
+      "f1": 0.13043478260869565,
+      "loose": 0,
+      "latency_ms": 381.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is Professor Tulis's forthcoming book?",
+      "prediction": "Legacies of Losing in American Politics, with Nicole Mellow.",
+      "answers": [
+        "Legacies of Losing in American Politics and an expanded edition of The Rhetorical Presidency in the Princeton Classics series."
+      ],
+      "em": 0,
+      "f1": 0.4800000000000001,
+      "loose": 0,
+      "latency_ms": 205.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr",
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr",
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr",
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr",
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr",
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr",
+        "UT College of Liberal Arts: College of Liberal Arts University of Texas at Austin Departments Graduate Resources Undergr"
+      ],
+      "context_tokens": 905
+    },
+    {
+      "question": "How does a media application determine the context of an event?",
+      "prediction": "The application uses a content-recognition module to determine the context of an event.",
+      "answers": [
+        "It uses a content-recognition module or algorithm."
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 200.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV",
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV",
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV",
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV",
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV",
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV",
+        "2015-05-14 Assigned to ROVI GUIDES, INC. reassignment ROVI GUIDES, INC. MERGER (SEE DOCUMENT FOR DETAILS). Assignors: TV"
+      ],
+      "context_tokens": 1148
+    },
+    {
+      "question": "What are the titles of one of Kam W. Leong's publications in Journal of Controlled Release?",
+      "prediction": "Leong, Nanotopography as modulator of human mesenchymal stem cell function.",
+      "answers": [
+        "Sustained viral gene delivery through core-shell fibers and Gene transfer to hemophilia A mice via oral delivery of FVIII-chitosan nanoparticles."
+      ],
+      "em": 0,
+      "f1": 0.06896551724137931,
+      "loose": 0,
+      "latency_ms": 125.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Publications of Kam W. Leong",
+        "Publications of Kam W. Leong",
+        "Publications of Kam W. Leong",
+        "Publications of Kam W. Leong",
+        "Publications of Kam W. Leong",
+        "Publications of Kam W. Leong",
+        "Publications of Kam W. Leong"
+      ],
+      "context_tokens": 740
+    },
+    {
+      "question": "What was the club known as before being officially renamed FC Urartu?",
+      "prediction": "Before being officially renamed FC Urartu, the club was known as FC Banants.",
+      "answers": [
+        "FC Banants."
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 1,
+      "latency_ms": 130.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb"
+      ],
+      "context_tokens": 829
+    },
+    {
+      "question": "What was the conclusion of the study?",
+      "prediction": "The study concluded that fruit consumption may provide a protective effect against mercury exposure in Amazonian communities.",
+      "answers": [
+        "The conclusion was that fruit consumption may provide a protective effect for mercury exposure in Amazonian riparians."
+      ],
+      "em": 0,
+      "f1": 0.7333333333333333,
+      "loose": 0,
+      "latency_ms": 137.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "consumption influences mercury: Topics by WorldWideScience.org",
+        "consumption influences mercury: Topics by WorldWideScience.org",
+        "consumption influences mercury: Topics by WorldWideScience.org",
+        "consumption influences mercury: Topics by WorldWideScience.org",
+        "consumption influences mercury: Topics by WorldWideScience.org",
+        "consumption influences mercury: Topics by WorldWideScience.org",
+        "consumption influences mercury: Topics by WorldWideScience.org"
+      ],
+      "context_tokens": 951
+    },
+    {
+      "question": "How does the scoring engine generate a stream of content for the channel?",
+      "prediction": "The scoring engine generates a stream of content by analyzing user interests and historical trends, then using models to score and prioritize the content for delivery.",
+      "answers": [
+        "By comparing candidate content items to a model and scoring them."
+      ],
+      "em": 0,
+      "f1": 0.30303030303030304,
+      "loose": 0,
+      "latency_ms": 153.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor",
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor",
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor",
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor",
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor",
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor",
+        "A system and method for generating a stream of content for a channel. The channel application includes a content categor"
+      ],
+      "context_tokens": 699
+    },
+    {
+      "question": "When did the club win the Armenian Premier League for the first time?",
+      "prediction": "1992",
+      "answers": [
+        "In the 2013-2014 season."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 89.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb",
+        "Football Club Urartu (, translated Futbolayin Akumb Urartu), commonly known as Urartu, is an Armenian professional footb"
+      ],
+      "context_tokens": 775
+    },
+    {
+      "question": "How many novels did Margaret Way write?",
+      "prediction": "19",
+      "answers": [
+        "Margaret Way wrote more than 120 novels."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 126.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the proposed approach in this research paper?",
+      "prediction": "The proposed approach in this research paper is a probabilistic model that integrates state-space models with least-squares adaptive filtering, combining the strengths of both methodologies.",
+      "answers": [
+        "This research paper proposed an approach based on approximating the posterior distribution with an isotropic Gaussian distribution."
+      ],
+      "em": 0,
+      "f1": 0.33333333333333326,
+      "loose": 0,
+      "latency_ms": 163.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 817
+    },
+    {
+      "question": "Does DUO contain more instances per image than COCO?",
+      "prediction": "Yes, DUO contains more instances per image than COCO.",
+      "answers": [
+        "Yes, DUO has 9.57 instances per image while COCO contains 7.7."
+      ],
+      "em": 0,
+      "f1": 0.7000000000000001,
+      "loose": 0,
+      "latency_ms": 148.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1414
+    },
+    {
+      "question": "What are the symptoms of vitamin K deficiency?",
+      "prediction": "Low levels of vitamin K impair blood coagulation, leading to uncontrolled bleeding and serious health risks.",
+      "answers": [
+        "Symptoms of vitamin K deficiency include anemia, bruising, nosebleeds, bleeding of the gums, and heavy menstrual bleeding in women."
+      ],
+      "em": 0,
+      "f1": 0.29411764705882354,
+      "loose": 0,
+      "latency_ms": 127.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia",
+        "Vitamin K - Wikipedia"
+      ],
+      "context_tokens": 616
+    },
+    {
+      "question": "What is the security parameter for the AES-256 block cipher?",
+      "prediction": "The security parameter for AES-256 is 256 bits.",
+      "answers": [
+        "172."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 116.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction\\label{sct::intro}}",
+        "\\section{Introduction\\label{sct::intro}}",
+        "\\section{Introduction\\label{sct::intro}}",
+        "\\section{Introduction\\label{sct::intro}}",
+        "\\section{Introduction\\label{sct::intro}}",
+        "\\section{Introduction\\label{sct::intro}}",
+        "\\section{Introduction\\label{sct::intro}}"
+      ],
+      "context_tokens": 839
+    },
+    {
+      "question": "What is the definition of mobile device management (MDM)?",
+      "prediction": "MDM is a technology that enables organizations to manage and secure mobile devices, ensuring they are properly configured, updated, and protected.",
+      "answers": [
+        "Centralized control of mobile devices and applications."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 170.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are",
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are",
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are",
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are",
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are",
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are",
+        "Hospitals as critical infrastructures has been historically dependent on various types of devices and equipment that are"
+      ],
+      "context_tokens": 799
+    },
+    {
+      "question": "What models were used for dialect identification?",
+      "prediction": "The models used for dialect identification were fine-tuned versions of LLaMA-7B, LLaMA-13B, and LLaMA-30B.",
+      "answers": [
+        "BERT, RoBERTa, ELECTRA, GPT-2, and XLM-RoBERTa."
+      ],
+      "em": 0,
+      "f1": 0.10526315789473684,
+      "loose": 0,
+      "latency_ms": 263.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 756
+    },
+    {
+      "question": "What are the restrictions on the use of Broadjam's servers?",
+      "prediction": "The restrictions are that the use of Broadjam's servers is subject to their terms and conditions, which may include limitations on usage, data retention policies, and other operational guidelines.",
+      "answers": [
+        "No excessive overloading and no use for illegal activity."
+      ],
+      "em": 0,
+      "f1": 0.1111111111111111,
+      "loose": 0,
+      "latency_ms": 343.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com",
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com",
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com",
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com",
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com",
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com",
+        "We want to make sure you completely understand what using Broadjam is all about. So please email us at info@broadjam.com"
+      ],
+      "context_tokens": 1130
+    },
+    {
+      "question": "How is the vacuum processing system configured in terms of the arrangement of the vacuum processing apparatus?",
+      "prediction": "The vacuum processing system is configured with a central vacuum robot, three concentric process chambers around it, and load and unload lock chambers between the vacuum robot and cassette block.",
+      "answers": [
+        "Multiple vacuum processing apparatuses are arranged in parallel."
+      ],
+      "em": 0,
+      "f1": 0.11428571428571428,
+      "loose": 0,
+      "latency_ms": 280.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "PROBLEM TO BE SOLVED: To provide a vacuum processor which can suppress the rise of manufacture cost while coping with th",
+        "PROBLEM TO BE SOLVED: To provide a vacuum processor which can suppress the rise of manufacture cost while coping with th",
+        "PROBLEM TO BE SOLVED: To provide a vacuum processor which can suppress the rise of manufacture cost while coping with th",
+        "PROBLEM TO BE SOLVED: To provide a vacuum processor which can suppress the rise of manufacture cost while coping with th",
+        "PROBLEM TO BE SOLVED: To provide a vacuum processor which can suppress the rise of manufacture cost while coping with th"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How many massive star-forming regions were studied?",
+      "prediction": "338 to 339 GHz and 1 GHz in the image sideband from 349 to 350 GHz.",
+      "answers": [
+        "21."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 156.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1108
+    },
+    {
+      "question": "What is the average magnetic moment per column in Ge$_{1-x}$Mn$_{x}$ films?",
+      "prediction": "Based on the provided documents, no specific average magnetic moment per column for Ge$_{1-x}$Mn$_{x}$ films is directly stated. The documents focus more on general trends in critical temperatures and synthesis methods rather than detailed measurements of magnetic moments.",
+      "answers": [
+        "1425 $\\mu_{B}$."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 196.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}"
+      ],
+      "context_tokens": 781
+    },
+    {
+      "question": "Is there any evidence of heaven and hell?",
+      "prediction": "No, the documents do not provide specific details about heaven and hell.",
+      "answers": [
+        "Unknown."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 105.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "LOL Anonymous I'm here! & I did answer you back there.",
+        "LOL Anonymous I'm here! & I did answer you back there.",
+        "LOL Anonymous I'm here! & I did answer you back there.",
+        "LOL Anonymous I'm here! & I did answer you back there.",
+        "LOL Anonymous I'm here! & I did answer you back there.",
+        "LOL Anonymous I'm here! & I did answer you back there.",
+        "LOL Anonymous I'm here! & I did answer you back there."
+      ],
+      "context_tokens": 751
+    },
+    {
+      "question": "When will BC leave Boston?",
+      "prediction": "The text does not specify when BC will leave Boston.",
+      "answers": [
+        "August 25."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 97.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Eagle in Atlanta -- atleagle.com: July 2012",
+        "Eagle in Atlanta -- atleagle.com: July 2012",
+        "Eagle in Atlanta -- atleagle.com: July 2012",
+        "Eagle in Atlanta -- atleagle.com: July 2012",
+        "Eagle in Atlanta -- atleagle.com: July 2012",
+        "Eagle in Atlanta -- atleagle.com: July 2012",
+        "Eagle in Atlanta -- atleagle.com: July 2012"
+      ],
+      "context_tokens": 584
+    },
+    {
+      "question": "What are the benefits of using binary variables in the SLAS formulation?",
+      "prediction": "Binary variables in the SLAS formulation allow for precise modeling of lane-changing decisions, enabling the optimization of travel time while balancing safety and comfort. They help capture complex decision-making processes involving uncertainty and dynamic traffic conditions.",
+      "answers": [
+        "Reduced computational complexity."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 184.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 918
+    },
+    {
+      "question": "Where can users go for troubleshooting and support?",
+      "prediction": "Users can visit the official QQ group (445121768) for troubleshooting and support.",
+      "answers": [
+        "Online documentation, QuecPython community, online support: QQ group 445121768."
+      ],
+      "em": 0,
+      "f1": 0.39999999999999997,
+      "loose": 0,
+      "latency_ms": 179.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "'Quectel_QuecPython_BC25 开发板使用说明 版本：Quectel_QuecPython_BC25 开发板使用说明_V1.1日期：2021-11-30 状态：临时文件"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the symptoms of alpha thalassemia major?",
+      "prediction": "Severe anemia, insufficient growth and development, and other common physical complications.",
+      "answers": [
+        "Severe anemia that begins even before birth."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 0,
+      "latency_ms": 119.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary"
+      ],
+      "context_tokens": 797
+    },
+    {
+      "question": "When did Simon English become the leader of the National Party?",
+      "prediction": "October 2001.",
+      "answers": [
+        "October 2001."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 104.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3"
+      ],
+      "context_tokens": 800
+    },
+    {
+      "question": "How are smartphones and tablets different from a technical perspective?",
+      "prediction": "Smartphones and tablets differ in their hardware design, focusing on portability, battery life, and specialized software ecosystems.",
+      "answers": [
+        "Smartphones are more compact and power constrained."
+      ],
+      "em": 0,
+      "f1": 0.16666666666666666,
+      "loose": 0,
+      "latency_ms": 131.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica",
+        "The future of mobile CPUs, part 1: Today’s fork in the road | Ars Technica"
+      ],
+      "context_tokens": 627
+    },
+    {
+      "question": "What is the sticking point in the political showdown over the budget?",
+      "prediction": "The sticking point is the potential government shutdown and its impact on negotiations between Republicans and Democrats.",
+      "answers": [
+        "The sticking point in the political showdown over the budget is how much spending to cut."
+      ],
+      "em": 0,
+      "f1": 0.21428571428571427,
+      "loose": 0,
+      "latency_ms": 158.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "CNN.com - Transcripts",
+        "CNN.com - Transcripts",
+        "CNN.com - Transcripts",
+        "CNN.com - Transcripts",
+        "CNN.com - Transcripts",
+        "CNN.com - Transcripts",
+        "CNN.com - Transcripts"
+      ],
+      "context_tokens": 919
+    },
+    {
+      "question": "Who is responsible for carrying out the functions assigned under the act?",
+      "prediction": "The Union or State Government.",
+      "answers": [
+        "The Director of Town and Country Planning is responsible for carrying out the functions assigned under the act."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 136.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Bare Acts Live",
+        "Bare Acts Live",
+        "Bare Acts Live",
+        "Bare Acts Live",
+        "Bare Acts Live",
+        "Bare Acts Live",
+        "Bare Acts Live"
+      ],
+      "context_tokens": 437
+    },
+    {
+      "question": "How does the framework capture the reduced-order dynamics?",
+      "prediction": "The framework captures reduced-order dynamics by combining a non-linear autoencoder with a time-continuous model for the latent dynamics in complex space, enabling efficient representation of high-dimensional systems.",
+      "answers": [
+        "By using a propagator in the latent space."
+      ],
+      "em": 0,
+      "f1": 0.27586206896551724,
+      "loose": 0,
+      "latency_ms": 347.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 953
+    },
+    {
+      "question": "How can you level up in the early levels?",
+      "prediction": "You can level up by completing challenges and earning experience points.",
+      "answers": [
+        "Keep deploying and harvesting your bases to earn experience points and level up quickly."
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 188.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your ",
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your ",
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your ",
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your ",
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your ",
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your ",
+        "What is this game all about? (short version) Do you like the board game RISK®? Then chances are you’ll like QONQR. Your "
+      ],
+      "context_tokens": 770
+    },
+    {
+      "question": "What is the electron correlation parameter, $\\Gamma_e$?",
+      "prediction": "Based on the documents, $\\Gamma_e$ is defined as the ratio of the average unscreened electron-electron potential energy to the electron kinetic energy.",
+      "answers": [
+        "It is the ratio of the average unscreened electron-electron potential energy to kinetic energy."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666667,
+      "loose": 0,
+      "latency_ms": 204.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1338
+    },
+    {
+      "question": "How can players skip dialogue on the quest map?",
+      "prediction": "Players can skip dialogue on the quest map by using the \"Skip Dialogue\" option in their game settings.",
+      "answers": [
+        "Players can skip dialogue on the quest map by pressing the 'SKIP' button."
+      ],
+      "em": 0,
+      "f1": 0.5925925925925926,
+      "loose": 0,
+      "latency_ms": 131.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that",
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that",
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that",
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that",
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that",
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that",
+        "Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that"
+      ],
+      "context_tokens": 605
+    },
+    {
+      "question": "How many years has KSTP-FM 102.1 been on the air?",
+      "prediction": "Based on the information provided, KSTP-FM 102.1 has been on the air since at least 1924 (as indicated in Document 7). However, the exact current year of its operation is not specified. Given typical radio station histories and the context of the documents, it likely operates for several decades. A reasonable estimate based on common practices would be around **50 years**",
+      "answers": [
+        "Four years."
+      ],
+      "em": 0,
+      "f1": 0.03508771929824561,
+      "loose": 0,
+      "latency_ms": 266.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad",
+        "KSTP (1500 AM; SKOR North) is a commercial AM radio station licensed to Saint Paul, Minnesota. It is the flagship AM rad"
+      ],
+      "context_tokens": 889
+    },
+    {
+      "question": "Besides the Boeing C-17, what other transport aircraft is the IAF considering for acquisition?",
+      "prediction": "The IAF is considering the acquisition of 14 multirole tanker aircraft, known as Voyager in RAF service.",
+      "answers": [
+        "The IAF is considering the acquisition of the Airbus A330 MRTT (Multi-Role Tanker Transport) besides the Boeing C-17."
+      ],
+      "em": 0,
+      "f1": 0.4827586206896552,
+      "loose": 0,
+      "latency_ms": 143.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak",
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak",
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak",
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak",
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak",
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak",
+        "Transport Aircraft for IAF - Page 67 - Bharat Rakshak"
+      ],
+      "context_tokens": 821
+    },
+    {
+      "question": "What may happen if the VR headset lenses are exposed to sunlight or strong light?",
+      "prediction": "It may cause permanent yellow spot damage on the screen.",
+      "answers": [
+        "Exposure to sunlight or strong light may cause permanent yellow spot damage on the screen."
+      ],
+      "em": 0,
+      "f1": 0.6956521739130435,
+      "loose": 0,
+      "latency_ms": 170.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01",
+        "'用户指南 * User Guide 02 CN 11 EN * 包装内含 使用前注意事项 快速引导 产品部件详情说明 操作说明 02 02 03 06 08 01"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Why does Craig want to find his own place?",
+      "prediction": "He wants to find his own place because he is ready for a new chapter in his life, needing independence and stability after the legal challenges.",
+      "answers": [
+        "Because his roommate smokes."
+      ],
+      "em": 0,
+      "f1": 0.14285714285714285,
+      "loose": 0,
+      "latency_ms": 138.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]"
+      ],
+      "context_tokens": 505
+    },
+    {
+      "question": "What did the London Directory proclaim to contain?",
+      "prediction": "The London Directory proclaimed that it contained a list of the principal houses and their occupants in London.",
+      "answers": [
+        "An alphabetical list of names and places of abode of the merchants and principal traders of the cities of London and Westminster, the Borough of Southwark, and their environs, with the number affixed to each house."
+      ],
+      "em": 0,
+      "f1": 0.26086956521739135,
+      "loose": 0,
+      "latency_ms": 131.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu"
+      ],
+      "context_tokens": 794
+    },
+    {
+      "question": "What happens to the high resolution of what we focus on at dawn or dusk?",
+      "prediction": "At dawn or dusk, the high resolution of what we focus on becomes less clear.",
+      "answers": [
+        "It becomes a bit less so that what's off to the left or right can be better noted."
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 0,
+      "latency_ms": 138.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Inner Reality Unveiled",
+        "Inner Reality Unveiled",
+        "Inner Reality Unveiled",
+        "Inner Reality Unveiled",
+        "Inner Reality Unveiled",
+        "Inner Reality Unveiled",
+        "Inner Reality Unveiled"
+      ],
+      "context_tokens": 885
+    },
+    {
+      "question": "What is the group's request to the Connecticut DEEP Commissioner?",
+      "prediction": "The group is requesting that the Connecticut DEEP Commissioner take action to protect and preserve the state's natural resources, specifically mentioning the need for a dedicated commissioner position to oversee environmental issues.",
+      "answers": [
+        "Appointing a blue ribbon commission to conduct the research and develop the management plan and denying or defering approval on any applications for new docks in the Cove until the management plan can be developed and implemented."
+      ],
+      "em": 0,
+      "f1": 0.10169491525423728,
+      "loose": 0,
+      "latency_ms": 194.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "Outdoors\tFebruary 19, 2017",
+        "Outdoors\tFebruary 19, 2017",
+        "Outdoors\tFebruary 19, 2017",
+        "Outdoors\tFebruary 19, 2017",
+        "Outdoors\tFebruary 19, 2017",
+        "Outdoors\tFebruary 19, 2017",
+        "Outdoors\tFebruary 19, 2017"
+      ],
+      "context_tokens": 1166
+    },
+    {
+      "question": "What type of distribution do the tail distributions of price returns follow?",
+      "prediction": "Power-law distributions.",
+      "answers": [
+        "Power-law functions."
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 173.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1282
+    },
+    {
+      "question": "What is the correct expression for the derivative of the function?",
+      "prediction": "(a) a = 2x + 3",
+      "answers": [
+        "It depends on the value of x, either 0 or (6x^2cos(x^2)+sin(x^2))/(3(x^2)^(1/3))."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 186.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 783
+    },
+    {
+      "question": "What award did Brooksley Born receive in 2009?",
+      "prediction": "The \"Outstanding Senior\" award.",
+      "answers": [
+        "In 2009, Brooksley Born received the John F. Kennedy Profiles in Courage Award."
+      ],
+      "em": 0,
+      "f1": 0.13333333333333333,
+      "loose": 0,
+      "latency_ms": 167.5,
+      "fallback_used": false,
+      "selected_titles": [
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, ",
+        "Brooksley Elizabeth Born (born August 27, 1940) is an American attorney and former public official who, from August 26, "
+      ],
+      "context_tokens": 722
+    },
+    {
+      "question": "What does the paper aim to solve?",
+      "prediction": "The paper aims to develop an efficient generalized pole-residue method based on the Volterra series, particularly for solving dynamic analysis problems in nonlinear systems.",
+      "answers": [
+        "The paper aims to solve nonlinear system vibration problems efficiently."
+      ],
+      "em": 0,
+      "f1": 0.33333333333333326,
+      "loose": 0,
+      "latency_ms": 238.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 925
+    },
+    {
+      "question": "What was the name of the first white settlement in McPherson County?",
+      "prediction": "Fuller's Ranch.",
+      "answers": [
+        "The first white settlement in McPherson County was Fuller's Ranch, established by Charles O. Fuller."
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 0,
+      "latency_ms": 94.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th"
+      ],
+      "context_tokens": 871
+    },
+    {
+      "question": "What algorithm is engaged in the PLMS-PPIC method?",
+      "prediction": "The normalized least mean square (NLMS) algorithm is engaged in the PLMS-PPIC method.",
+      "answers": [
+        "The normalized least mean square (NLMS) algorithm."
+      ],
+      "em": 0,
+      "f1": 0.7058823529411764,
+      "loose": 1,
+      "latency_ms": 132.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}",
+        "\\section{Introduction}\\label{S1}"
+      ],
+      "context_tokens": 854
+    },
+    {
+      "question": "What is the effect of accounting for path preference on the robot's belief update?",
+      "prediction": "The robot's belief update is affected by accounting for path preference, as it allows the model to incorporate human preferences into the inference process. This can lead to more accurate predictions of the goal location and better performance in uncertain environments.",
+      "answers": [
+        "The belief entropy decreases more steadily."
+      ],
+      "em": 0,
+      "f1": 0.09523809523809523,
+      "loose": 0,
+      "latency_ms": 228.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What are the two ground states observed for indeno[1,2-a]fluorene on NaCl surfaces?",
+      "prediction": "The two ground states observed are the closed-shell Kekulé (left) and open-shell non-Kekulé (right) resonance structures.",
+      "answers": [
+        "Open-shell π-diradical state and closed-shell state with a para-quinodimethane moiety."
+      ],
+      "em": 0,
+      "f1": 0.2608695652173913,
+      "loose": 0,
+      "latency_ms": 205.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the main focus of the research paper?",
+      "prediction": "The main focus is on the critical baryon chemical potential and its dependence on quark mass, as well as the implications for nuclear matter behavior in lattice QCD studies.",
+      "answers": [
+        "Nuclear liquid-gas transition in lattice QCD."
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 0,
+      "latency_ms": 180.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1165
+    },
+    {
+      "question": "What is the rationality coefficient used in the observation model?",
+      "prediction": "The rationality coefficient is 1.5, as mentioned in Document 6 where it states \"the robot's mission time is Tmax = 30 time steps and we selected γh = 1.5\".",
+      "answers": [
+        "γh."
+      ],
+      "em": 0,
+      "f1": 0.07692307692307693,
+      "loose": 1,
+      "latency_ms": 220.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1442
+    },
+    {
+      "question": "Who was Ralph Rokebye's brother?",
+      "prediction": "Ralph Rokebye's brother was Sir Richard Rokeby.",
+      "answers": [
+        "Sir Richard."
+      ],
+      "em": 0,
+      "f1": 0.4444444444444445,
+      "loose": 1,
+      "latency_ms": 142.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'",
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'",
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'",
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'",
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'",
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'",
+        "Rokebye, Ralph of Yorks, arm. Gloucester Hall, matric. 9 Nov., 1582, aged 15; student of Lincoln's Inn 1585. See Foster'"
+      ],
+      "context_tokens": 1277
+    },
+    {
+      "question": "How are thalassemias classified?",
+      "prediction": "Thalassemias are classified according to the globin that is affected, hence the names alpha and beta thalassemia.",
+      "answers": [
+        "According to the globin that is affected (alpha or beta)."
+      ],
+      "em": 0,
+      "f1": 0.6666666666666667,
+      "loose": 0,
+      "latency_ms": 149.8,
+      "fallback_used": false,
+      "selected_titles": [
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary",
+        "Thalassaemia minor | definition of Thalassaemia minor by Medical dictionary"
+      ],
+      "context_tokens": 806
+    },
+    {
+      "question": "Who is the county seat of McPherson County?",
+      "prediction": "Fullers Ranch.",
+      "answers": [
+        "McPherson."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 101.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th"
+      ],
+      "context_tokens": 890
+    },
+    {
+      "question": "When was McPherson County established as a county?",
+      "prediction": "1860",
+      "answers": [
+        "McPherson County was established as a county in 1867."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 132.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th"
+      ],
+      "context_tokens": 861
+    },
+    {
+      "question": "如何安装并启动Ganache?",
+      "prediction": "The text does not provide a step-by-step guide on installing and starting Ganache. It only mentions that it is used for local Ethereum private network setup with Ganache CLI, which can be installed via package managers or downloaded manually from the provided link.",
+      "answers": [
+        "使用安装包安装Ganache；打开程序，用户可以从显示的界面中查看账户、区块、交易和日志；点击“设置”，用户可以设置绑定的ip和端口、账户数量以及gas限制等，点击“restart”后设置生效。此时，Ganache已经在本机运行了一个以太坊私有网络，并绑定了8545端口。."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 485.4,
+      "fallback_used": false,
+      "selected_titles": [
+        "2008年5月31日 随笔档案 - 狼爱上狸 - BlogJava",
+        "2008年5月31日 随笔档案 - 狼爱上狸 - BlogJava",
+        "2008年5月31日 随笔档案 - 狼爱上狸 - BlogJava",
+        "2008年5月31日 随笔档案 - 狼爱上狸 - BlogJava"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the advantage of decorrelating the data before running the PLS algorithm?",
+      "prediction": "The decorrelation of the data before running PLS helps to improve the accuracy and efficiency of the regression analysis by reducing multicollinearity among predictors, leading to more reliable coefficient estimates.",
+      "answers": [
+        "Decorrelating the data before running the PLS algorithm improves the performance of the algorithm."
+      ],
+      "em": 0,
+      "f1": 0.2777777777777778,
+      "loose": 0,
+      "latency_ms": 230.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "What is the name of the generative interactive model used in the method?",
+      "prediction": "The name of the generative interactive model used in the method is not explicitly provided in the given documents.",
+      "answers": [
+        "The generative interactive model used in the method is called the Coupled Generalized Dynamic Bayesian Network (C-GDBN)."
+      ],
+      "em": 0,
+      "f1": 0.4827586206896552,
+      "loose": 0,
+      "latency_ms": 153.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 842
+    },
+    {
+      "question": "What are some potential applications of ferromagnetic semiconductors?",
+      "prediction": "The potential applications of ferromagnetic semiconductors include memory nanodots, nanochannels for spin injection, and devices that utilize the precise control of inhomogeneities for industrial uses.",
+      "answers": [
+        "Spin injection into non magnetic semiconductors, or electrical manipulation of carrier induced magnetism in magnetic semiconductors."
+      ],
+      "em": 0,
+      "f1": 0.20512820512820512,
+      "loose": 0,
+      "latency_ms": 193.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}",
+        "\\section{introduction}"
+      ],
+      "context_tokens": 789
+    },
+    {
+      "question": "How many underclassmen are on the NBA Draft Early-Entry List?",
+      "prediction": "62",
+      "answers": [
+        "62."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 125.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho",
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho",
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho",
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho",
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho",
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho",
+        "The Official 2006 NBA Draft Early-Entry List. 30 International Players, 62 underclassmen and one lone 5th year high scho"
+      ],
+      "context_tokens": 1077
+    },
+    {
+      "question": "When did the London Paving and Lighting Act pass, which mandated the numbering of houses?",
+      "prediction": "The London Paving and Lighting Act passed in 1756.",
+      "answers": [
+        "1766."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 135.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu",
+        "A Brief History of Benjamin Franklin's Residences on Craven Street, London: 1757 - 1775 - Journal of the American Revolu"
+      ],
+      "context_tokens": 803
+    },
+    {
+      "question": "What is the main topic of the text?",
+      "prediction": "The main topic is the violence and displacement of Iraqi Christians, particularly during the Iraq War.",
+      "answers": [
+        "The main topic of the text is Iraq's politics and current situation."
+      ],
+      "em": 0,
+      "f1": 0.4347826086956522,
+      "loose": 0,
+      "latency_ms": 163.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10",
+        "Ann's Mega Dub: 12/19/10 - 12/26/10"
+      ],
+      "context_tokens": 1120
+    },
+    {
+      "question": "What is the potential of SNNs in modeling the visual system?",
+      "prediction": "SNNs are more biologically plausible models since spiking neurons encode information with time sequences of spikes, just like biological neurons do. However, they highly simplify the computational properties of neurons compared to their biological counterparts.",
+      "answers": [
+        "SNNs have the potential to better model and explain the functional hierarchy and mechanisms of the visual system."
+      ],
+      "em": 0,
+      "f1": 0.12244897959183675,
+      "loose": 0,
+      "latency_ms": 233.1,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1339
+    },
+    {
+      "question": "What position did Simon English hold in the 2008 general election?",
+      "prediction": "He was the deputy prime minister.",
+      "answers": [
+        "He became deputy prime minister and minister of finance."
+      ],
+      "em": 0,
+      "f1": 0.5714285714285714,
+      "loose": 0,
+      "latency_ms": 122.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3",
+        "Sir Simon William English  (born 30 December 1961) is a New Zealand former National Party politician who served as the 3"
+      ],
+      "context_tokens": 854
+    },
+    {
+      "question": "What is the score achieved by the authors for Track-2?",
+      "prediction": "85.61%",
+      "answers": [
+        "85.61%."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 109.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 749
+    },
+    {
+      "question": "How does the specific-heat ratio affect the average motion of the bubble?",
+      "prediction": "The specific-heat ratio significantly influences the average motion of the bubble. Different ratios lead to distinct temporal evolutions, affecting how the shock wave interacts with the bubble and generating various flow patterns.",
+      "answers": [
+        "The specific-heat ratio affects the average motion of the bubble. The bubbles with smaller specific-heat ratios have slower average motion."
+      ],
+      "em": 0,
+      "f1": 0.37209302325581395,
+      "loose": 0,
+      "latency_ms": 300.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info",
+        "Paper Info"
+      ],
+      "context_tokens": 1456
+    },
+    {
+      "question": "Where is McPherson County located?",
+      "prediction": "Kansas.",
+      "answers": [
+        "McPherson County is located in the U.S. state of Kansas."
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 0,
+      "latency_ms": 164.9,
+      "fallback_used": false,
+      "selected_titles": [
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th",
+        "McPherson County (standard abbreviation: MP) is a county located in the U.S. state of Kansas.  As of the 2020 census, th"
+      ],
+      "context_tokens": 847
+    },
+    {
+      "question": "What is the scaling form for the alternative order parameter O?",
+      "prediction": "The scaling form for the alternative order parameter $O$ is given by \\begin{align*} O(t, L_{\\parallel}; S_\\Delta) &= L_{\\parallel}^{-\\beta/[\\nu(1+\\Delta)]} \\tilde f_O (t/L_{\\parallel}^{z/(1+\\Delta)} ; S_\\Delta). \\end{align*} This form shows how $O$ scales with",
+      "answers": [
+        "O(t, L_{\\parallel}; S_\\Delta) = L_{\\parallel}^{-\\beta/[\\nu(1+\\Delta)]} \\tilde f_O(t/L_{\\parallel}^{z/(1+\\Delta)}; S_\\Delta)."
+      ],
+      "em": 0,
+      "f1": 0.2941176470588235,
+      "loose": 0,
+      "latency_ms": 456.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}",
+        "\\section*{Dynamical Behaviour of $O$ in Lattice Gases}"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "How are the relationships between catch per set and fishing behavior variables different for different measures of catch per unit effort (CPUE)?",
+      "prediction": "The answer is not provided in the given documents.",
+      "answers": [
+        "The relationships between catch per set and fishing behavior variables differ when comparing unstandardized CPUE and standardized CPUE."
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 137.6,
+      "fallback_used": false,
+      "selected_titles": [
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi",
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi",
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi",
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi",
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi",
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi",
+        "Overfishing is a major threat to the survival of shark species, primarily driven by international trade in high-value fi"
+      ],
+      "context_tokens": 988
+    },
+    {
+      "question": "What genre did Margaret Way write in?",
+      "prediction": "Romance novels and women's fiction.",
+      "answers": [
+        "Romance novels and women's fiction."
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 158.2,
+      "fallback_used": false,
+      "selected_titles": [
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f",
+        "Margaret Way (b. Brisbane d. Cleveland, Queensland, Australia ) was an Australian writer of romance novels and women's f"
+      ],
+      "context_tokens": 1500
+    },
+    {
+      "question": "Can someone sell or modify the Agency Spotter Content?",
+      "prediction": "No, according to the terms outlined in Document 2.",
+      "answers": [
+        "No."
+      ],
+      "em": 0,
+      "f1": 0.2222222222222222,
+      "loose": 1,
+      "latency_ms": 143.7,
+      "fallback_used": false,
+      "selected_titles": [
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho",
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho",
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho",
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho",
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho",
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho",
+        "By purchasing now, you agree to the following terms. You authorize Agency Spotter to store and charge your payment metho"
+      ],
+      "context_tokens": 1051
+    },
+    {
+      "question": "What are the datasets used in this community for research?",
+      "prediction": "The datasets used in this community are URPC2017, URPC2018, and URPC2020$_{ZJ}$ for research purposes.",
+      "answers": [
+        "URPC2017, URPC2018, URPC2019, URPC2020_ZJ and URPC2020_DL."
+      ],
+      "em": 0,
+      "f1": 0.42105263157894735,
+      "loose": 0,
+      "latency_ms": 200.0,
+      "fallback_used": false,
+      "selected_titles": [
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}",
+        "\\section{Introduction}"
+      ],
+      "context_tokens": 1287
+    },
+    {
+      "question": "What is the research opportunity that is mentioned?",
+      "prediction": "The research opportunity is the need for a better understanding of how to support an Aspergers child in therapy and daily life.",
+      "answers": [
+        "A study on the effects of Brazilian Jiu Jitsu and psychotherapy on people with autism."
+      ],
+      "em": 0,
+      "f1": 0.12903225806451615,
+      "loose": 0,
+      "latency_ms": 147.3,
+      "fallback_used": false,
+      "selected_titles": [
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]",
+        "My Aspergers Child: COMMENTS & QUESTIONS [for Feb., 2017]"
+      ],
+      "context_tokens": 505
+    }
+  ]
+}

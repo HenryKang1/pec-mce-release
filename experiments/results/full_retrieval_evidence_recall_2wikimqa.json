@@ -1,0 +1,46 @@
+{
+  "dataset": "2wikimqa_validation",
+  "n": 12576,
+  "top_k": 5,
+  "variants": {
+    "raw_article": {
+      "answer_recall": 0.5464376590330788,
+      "support_title_recall": 0.9446856446140799,
+      "all_support_titles": 0.8725349872773537,
+      "support_sentence_recall": 0.6537545059372348,
+      "all_support_sentences": 0.3357188295165394,
+      "evidence_words": 292.39257315521627,
+      "answer_density_per_1k": 2.3296906533711237,
+      "title_density_per_1k": 3.993677634771505,
+      "n": 12576,
+      "label": "Raw article",
+      "cache": "2wikimqa_raw_index"
+    },
+    "extractive_note": {
+      "answer_recall": 0.5134382951653944,
+      "support_title_recall": 0.9314289122137406,
+      "all_support_titles": 0.8436704834605598,
+      "support_sentence_recall": 0.5974369168787106,
+      "all_support_sentences": 0.27989821882951654,
+      "evidence_words": 195.93503498727736,
+      "answer_density_per_1k": 2.8064077261046143,
+      "title_density_per_1k": 5.027087444835951,
+      "n": 12576,
+      "label": "Extractive minimal note",
+      "cache": "2wikimqa_extractive_index"
+    },
+    "entity_note": {
+      "answer_recall": 0.46596692111959287,
+      "support_title_recall": 0.8807159139100933,
+      "all_support_titles": 0.7267016539440203,
+      "support_sentence_recall": 0.011218458439355384,
+      "all_support_sentences": 0.00015903307888040714,
+      "evidence_words": 263.385655216285,
+      "answer_density_per_1k": 1.7901766833075143,
+      "title_density_per_1k": 3.3594594341894273,
+      "n": 12576,
+      "label": "LLM entity note",
+      "cache": "2wikimqa_entity_index"
+    }
+  }
+}

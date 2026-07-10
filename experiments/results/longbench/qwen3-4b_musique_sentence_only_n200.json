@@ -1,0 +1,2891 @@
+{
+  "task": "musique",
+  "model": "qwen3-4b",
+  "variant": "sentence_only",
+  "n_samples": 200,
+  "top_k": 5,
+  "metrics": {
+    "em": 2.5,
+    "f1": 9.16,
+    "loose": 14.5,
+    "avg_latency_ms": 355.4,
+    "fallback_rate": 0.0,
+    "avg_context_tokens": 232.5
+  },
+  "results": [
+    {
+      "question": "Who plays the wife of the producer of Here Comes the Boom in Grown Ups?",
+      "prediction": "The answer is Salma Hayek.",
+      "answers": [
+        "Maria Bello"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 557.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 235
+    },
+    {
+      "question": "What was the person who provided evidence to suggest the existence of the neutron a participant of?",
+      "prediction": "The 7th Solvay Conference.",
+      "answers": [
+        "Manhattan Project"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 214.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 211
+    },
+    {
+      "question": "In which borough was Callum McManaman born?",
+      "prediction": "The answer is Huyton. Wait, but in Document 1 it says he was born in Whiston, Merseyside. But Document 3 says he was born in Huyton. Which one is correct? Let me check the documents again.",
+      "answers": [
+        "Knowsley",
+        "Metropolitan Borough of Knowsley"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 488.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 259
+    },
+    {
+      "question": "Who is the child of the Italian navigator who sailed for England and explored the eastern coast of the continent Francisco Bojado's birthplace is located?",
+      "prediction": "The birthplace of Francisco Bojado is not mentioned in the provided documents.",
+      "answers": [
+        "Sebastian Cabot"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 240.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 165
+    },
+    {
+      "question": "Who is the spouse of the actor who played hannibal smith in the a team?",
+      "prediction": "The actor who played Hannibal Smith in The A-Team is George Peppard. His spouse is Patricia Quinlan.",
+      "answers": [
+        "Sherry Boucher"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 315.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 240
+    },
+    {
+      "question": "When was the last time Peter Till's sports team beat the winner of the 1894-95 FA Cup?",
+      "prediction": "The last time Peter Till's sports team beat the winner of the 1894–95 FA Cup was in the 2008 Football League Trophy Final.",
+      "answers": [
+        "1 December 2010"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 421.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 235
+    },
+    {
+      "question": "Who is the child of the cast member of Green Ice?",
+      "prediction": "Chiara, the daughter of Nikki Reed.",
+      "answers": [
+        "Tatum O'Neal"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 215.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 227
+    },
+    {
+      "question": "How many times did plague occur in the birthplace of La Silvia's composer?",
+      "prediction": "The birthplace of La Silvia's composer is not mentioned in the provided documents. Therefore, there is no information to determine how many times plague occurred there.",
+      "answers": [
+        "22"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 365.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 263
+    },
+    {
+      "question": "When did military instruction start at the place where Larry Alcala was educated?",
+      "prediction": "The documents do not provide information about when military instruction started at the place where Larry Alcala was educated. However, Document 3 mentions that in 1867, the courses were transformed into a Military Law Academy. Since Larry Alcala was born in 1926, this event occurred more than 50 years before his birth, which suggests that military instruction at that institution likely",
+      "answers": [
+        "1912"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 707.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 224
+    },
+    {
+      "question": "What is the experimental satellite being forerunner to communication satellite of INSAT-4CR's manufacturer called?",
+      "prediction": "The experimental satellite being forerunner to communication satellite of INSAT-4CR's manufacturer is called I-2K.",
+      "answers": [
+        "ATS - 6 (Applications Technology Satellite - 6)",
+        "ATS-6"
+      ],
+      "em": 0,
+      "f1": 0.10526315789473684,
+      "loose": 0,
+      "latency_ms": 308.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 222
+    },
+    {
+      "question": "Who was the first African American student at the university Robert Khayat was educated at?",
+      "prediction": "Taylor",
+      "answers": [
+        "James Howard Meredith",
+        "James Meredith"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 159.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 157
+    },
+    {
+      "question": "Who gives out the prize named after the author of Lectures on Jurisprudence?",
+      "prediction": "The prize is named after Adam Smith, who wrote the Lectures on Jurisprudence. Based on Document 4, the prize was established in 1891 and awarded triennially for essays on a writer's choice subject. However, the specific entity or organization that gives out the prize isn't explicitly mentioned in the provided documents. But since it's named after Adam Smith, it",
+      "answers": [
+        "University of Cambridge",
+        "Cambridge"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 661.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 187
+    },
+    {
+      "question": "Who is Frances Freeling Broderip's sibling?",
+      "prediction": "Tom Hood. The documents state that she worked with her brother, Tom Hood, on various projects.",
+      "answers": [
+        "Tom Hood",
+        "Thomas Hood"
+      ],
+      "em": 0,
+      "f1": 0.23529411764705882,
+      "loose": 1,
+      "latency_ms": 287.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 269
+    },
+    {
+      "question": "Who is the spouse of the person who voices Jarvis in Iron Man?",
+      "prediction": "The person who voices Jarvis in Iron Man is Jameson, and his spouse is Jennifer Aniston.",
+      "answers": [
+        "Jennifer Connelly"
+      ],
+      "em": 0,
+      "f1": 0.11764705882352941,
+      "loose": 0,
+      "latency_ms": 277.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 291
+    },
+    {
+      "question": "What is the source of the river that is the mouth of the Caledon River?",
+      "prediction": "The source of the river that is the mouth of the Caledon River is the Llewellyn Glacier at the southern end of Atlin Lake in British Columbia.",
+      "answers": [
+        "Thaba Putsoa"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 378.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 337
+    },
+    {
+      "question": "What is the name of the famous bridge located in the birthplace of the composer of Nulla in mundo pax sincera?",
+      "prediction": "The Rialto Bridge.",
+      "answers": [
+        "Rialto Bridge",
+        "Ponte di Rialto"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 210.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 293
+    },
+    {
+      "question": "When did the party that gained control of Congress in the midterm elections in 1946 take control of the government branch that determines the rules of the US House?",
+      "prediction": "The party that gained control of Congress in the 1946 midterm elections, the Republican Party, took control of the government branch that determines the rules of the US House during the 80th United States Congress.",
+      "answers": [
+        "January 2015"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 453.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 254
+    },
+    {
+      "question": "Where did the producer of Julius Caesar study or work?",
+      "prediction": "The documents do not mention where the producer of Julius Caesar studied or worked. Therefore, there is no answer based on the provided information.",
+      "answers": [
+        "Clifton College"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 341.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 275
+    },
+    {
+      "question": "Mehmet Hayri Tarhan's birthplace is the capital of what municipality?",
+      "prediction": "The capital of the municipality of Tarnovo.",
+      "answers": [
+        "Malko Tarnovo Municipality"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 215.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 182
+    },
+    {
+      "question": "What is the performer of Heartbeat named after?",
+      "prediction": "The performer of \"Heartbeat\" is Nina Sky, an American twins duo. The song's title is not directly named after the performer but is inspired by Perry's boyfriend at the time, Russell Brand.",
+      "answers": [
+        "Natalie Albino",
+        "Nina Sky"
+      ],
+      "em": 0,
+      "f1": 0.13793103448275862,
+      "loose": 1,
+      "latency_ms": 401.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 160
+    },
+    {
+      "question": "The author of Elizabeth and After attended which university?",
+      "prediction": "The author of \"Elizabeth and After\" is Matt Cohen. However, the documents do not provide information about which university he attended.",
+      "answers": [
+        "University of Toronto",
+        "UT"
+      ],
+      "em": 0,
+      "f1": 0.18181818181818182,
+      "loose": 1,
+      "latency_ms": 311.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 194
+    },
+    {
+      "question": "What year did the publisher of Labyrinth end?",
+      "prediction": "1984.",
+      "answers": [
+        "1986"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 178.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 167
+    },
+    {
+      "question": "The food safety system of the agency that has the authority to decide if a drug is marketed otc or prescription is known as?",
+      "prediction": "The answer is FDA.",
+      "answers": [
+        "Food Safety Modernization Act (FSMA)"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 181.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 213
+    },
+    {
+      "question": "Who is the president of the newly declared independent country that has a Commission of Truth and Friendship with the country where Ambelau is located?",
+      "prediction": "The president of the newly declared independent country that has a Commission of Truth and Friendship with Indonesia is **Xanana Gusmão**. He was the President of East Timor (Timor-Leste) from 2007 to 2012, and the country gained independence from Indonesia in 1999. The Commission on Truth and Friendship (CVA) was",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 676.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 193
+    },
+    {
+      "question": "Who was the British general in the battle named after the birth city of the person who recorded Mother-in-Law?",
+      "prediction": "Major General James Wolfe.",
+      "answers": [
+        "General Edward Pakenham",
+        "Edward Pakenham"
+      ],
+      "em": 0,
+      "f1": 0.28571428571428575,
+      "loose": 0,
+      "latency_ms": 190.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 225
+    },
+    {
+      "question": "Where is Sean Hampton's birth place in the state of Florida?",
+      "prediction": "Ocala. The answer is correct because Document 2 states that Sean Hampton was born in Ocala, Florida.",
+      "answers": [
+        "in Northern Florida",
+        "Northern Florida"
+      ],
+      "em": 0,
+      "f1": 0.21052631578947367,
+      "loose": 0,
+      "latency_ms": 270.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 168
+    },
+    {
+      "question": "Who is the president of the group Kim Un-yong is a member of?",
+      "prediction": "The president of the group Kim Un-yong is a member of is the Korean Taekwondo Association.",
+      "answers": [
+        "Thomas Bach"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 300.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 252
+    },
+    {
+      "question": "During the war in which The Things They Carried is set, when was conscription introduced by the country where the film Grievous Bodily Harm was later released?",
+      "prediction": "The question is a bit confusing. First, I need to clarify the details.",
+      "answers": [
+        "1964"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 243.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 202
+    },
+    {
+      "question": "Who is the president of the new country who has jointly established a Commission on Truth and Friendship with the birth country of Satyo Husodo?",
+      "prediction": "Xanana Gusmão.",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 192.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 201
+    },
+    {
+      "question": "Who is the spouse of the current queen of England?",
+      "prediction": "The current queen of England is Queen Elizabeth II, and her spouse was Prince Philip. However, since she has been a widow since his death in 2021, the answer would be that there is no spouse currently.",
+      "answers": [
+        "Philip Mountbatten"
+      ],
+      "em": 0,
+      "f1": 0.05555555555555555,
+      "loose": 0,
+      "latency_ms": 449.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 226
+    },
+    {
+      "question": "In which year did Taifa of Francisco Giner de los Rios' birthplace cease to exist?",
+      "prediction": "1010.",
+      "answers": [
+        "1065"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 164.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 279
+    },
+    {
+      "question": "What did M. King Hubbert's employer announce it was in the process of doing in April 2010?",
+      "prediction": "The documents provided do not mention anything about M. King Hubbert's employer or any announcements related to an employer in April 2010. Therefore, the answer cannot be determined from the given information.",
+      "answers": [
+        "trying to find a potential buyer for all of its operations in Finland",
+        "FIN",
+        "fi",
+        "Finland"
+      ],
+      "em": 0,
+      "f1": 0.1,
+      "loose": 0,
+      "latency_ms": 397.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 167
+    },
+    {
+      "question": "Who did the person considered the founder of three major monotheistic religions marry after the death of Sarah?",
+      "prediction": "Keturah.",
+      "answers": [
+        "Keturah"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 186.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 256
+    },
+    {
+      "question": "In what region of the country of S-Fone is The place of birth of John Phan located?",
+      "prediction": "The place of birth of John Phan is located in Da Nang, Vietnam. Since S-Fone is a mobile communication operator in Vietnam, the region is Vietnam.",
+      "answers": [
+        "South Central Coast"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 375.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 230
+    },
+    {
+      "question": "Along with the Closer performer, what notable pop artist started out his career on adult contemporary radio?",
+      "prediction": "The answer is Richard Marx.",
+      "answers": [
+        "Michael Bublé"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 203.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 340
+    },
+    {
+      "question": "The Live Life Loud album's band signed to which label?",
+      "prediction": "The documents provided do not mention the label that Hawk Nelson signed with. Therefore, the answer cannot be determined from the given information.",
+      "answers": [
+        "Fair Trade Services"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 287.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 190
+    },
+    {
+      "question": "Who is the child of Sigrid Eskilsdotter's child?",
+      "prediction": "The child of Sigrid Eskilsdotter's child is King Gustav Vasa.",
+      "answers": [
+        "Svante Stensson Sture"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 283.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 273
+    },
+    {
+      "question": "What is the record label of the Metalworks Studio founder?",
+      "prediction": "The record label of the Metalworks Studio founder is based in New York City.",
+      "answers": [
+        "TML Entertainment"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 251.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 210
+    },
+    {
+      "question": "Who is the president of the new country that jointly established a Commission of Truth and Friendship with the country that broadcasts Dahsyat?",
+      "prediction": "The president of East Timor is Xanana Gusau. However, the documents do not mention who the president of Indonesia was at that time.",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 331.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 203
+    },
+    {
+      "question": "How many times did the plague occur in the city where Flora's painter died?",
+      "prediction": "The plague occurred in the city where Flora's painter died multiple times, but the specific number is not mentioned in the provided documents. However, based on Document 1 and 5, it can be inferred that the plague was a recurring event in North Africa and Europe during the period between 1346 and 1671.",
+      "answers": [
+        "22"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 614.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 246
+    },
+    {
+      "question": "What is the seat of the county sharing a border with the county in which Valley New School is located?",
+      "prediction": "The seat of the county is Appleton, Wisconsin. However, I need to verify if Appleton is in a county that shares a border with another county.",
+      "answers": [
+        "Green Bay"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 341.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 162
+    },
+    {
+      "question": "What is the highest city in the state where Dell ranks sixth by revenue?",
+      "prediction": "The highest city in the state where Dell ranks sixth by revenue is Austin, Texas.",
+      "answers": [
+        "Fort Davis"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 274.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 217
+    },
+    {
+      "question": "Who played the girlfriend of who plays marty mcfly's daughter in back to the future 2?",
+      "prediction": "The girlfriend of Marty McFly is Jennifer Parker. In the second film, she is portrayed by Elisabeth Shue.",
+      "answers": [
+        "Claudia Wells"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 293.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 256
+    },
+    {
+      "question": "What specific part of the book where the quote \"by the skin of your teeth\" comes from document reference for Mary?",
+      "prediction": "The quote \"by the skin of your teeth\" comes from the Bible, specifically from Job 19:20. The reference is in Document 4.",
+      "answers": [
+        "Genesis 3:15"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 383.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 398
+    },
+    {
+      "question": "What is the seat of the county sharing a border with the county in which J. P. Hayes was born?",
+      "prediction": "The seat of the county sharing a border with the county in which J. P. Hayes was born is Appleton, Wisconsin.",
+      "answers": [
+        "Green Bay"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 321.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 208
+    },
+    {
+      "question": "How many times did plague occur in the place where Venus with a Mirror's creator died?",
+      "prediction": "The answer is 1. Because the creator of \"Venus with a Mirror\" died from plague, and according to Document 2, the plague was present in Europe every year between 1346 and 1671. However, we don't know the exact time when the creator died. But since the question is about how many times the plague occurred in that place, it",
+      "answers": [
+        "22"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 683.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 273
+    },
+    {
+      "question": "What is the source of the river Orlam clans crossed to migrate to Namibia?",
+      "prediction": "The source of the river Orlam clans crossed to migrate to Namibia is the Orange River.",
+      "answers": [
+        "Thaba Putsoa"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 257.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 179
+    },
+    {
+      "question": "Why was Common Sense, by the same author as Rights of Man, an important work?",
+      "prediction": "Common Sense was an important work because it was the most widely read pamphlet of the American Revolution, and it compelled readers to make an immediate choice regarding their political future. Additionally, it played a significant role in shaping public opinion during that time period.",
+      "answers": [
+        "crystallized the rebellious demand for independence from Great Britain",
+        "Great Britain"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 477.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 237
+    },
+    {
+      "question": "In which county was Larkin I. Smith born?",
+      "prediction": "Larkin I. Smith was born in Poplarville, Mississippi. However, the documents do not specify which county Poplarville is in. But since he was elected to represent Mississippi and served as Sheriff of Harrison County, it's possible that Poplarville is in Harrison County. However, based solely on the given information, we cannot definitively state the county.",
+      "answers": [
+        "Pearl River County",
+        "Pearl River County, Mississippi"
+      ],
+      "em": 0,
+      "f1": 0.07142857142857144,
+      "loose": 0,
+      "latency_ms": 617.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 173
+    },
+    {
+      "question": "What movie did the person who acted in the comedy film Crime School win his only Oscar for?",
+      "prediction": "The answer is: \"The Maltese Falcon\".",
+      "answers": [
+        "The African Queen"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 227.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 211
+    },
+    {
+      "question": "with what movie did Mary Philips' husband win his only oscar?",
+      "prediction": "Casablanca.",
+      "answers": [
+        "The African Queen"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 189.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 224
+    },
+    {
+      "question": "The all time top goal scorer in premier league in one season is a member of what team?",
+      "prediction": "Manchester City",
+      "answers": [
+        "Egypt national football team"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 190.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 448
+    },
+    {
+      "question": "Where is the province of Gonbad-e Qabus County located?",
+      "prediction": "The province of Gonbad-e Qabus County is located in Golestan Province, Iran.",
+      "answers": [
+        "in the north-east of the country south of the Caspian Sea",
+        "Caspian Sea"
+      ],
+      "em": 0,
+      "f1": 0.2105263157894737,
+      "loose": 0,
+      "latency_ms": 287.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 234
+    },
+    {
+      "question": "Who wrote the song turn me on that is performed by performer of Feelin' the Same Way?",
+      "prediction": "The song \"Turn Me On\" is performed by John D., as stated in Document 2. However, the question asks for the writer of \"Turn Me On,\" which is not directly mentioned in any document. The song \"Feelin' the Same Way\" is from Norah Jones's album, but there is no information about who wrote it. Therefore, based on the provided documents, we",
+      "answers": [
+        "John D. Loudermilk"
+      ],
+      "em": 0,
+      "f1": 0.06896551724137931,
+      "loose": 0,
+      "latency_ms": 650.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 144
+    },
+    {
+      "question": "What institute did the actor playing the voice of John Smith in Pocahontas attend?",
+      "prediction": "The question is asking about the educational background of the actor who provided the voice for John Smith in Pocahontas. From the documents, we know that Mel Gibson played the role of John Smith. However, none of the provided documents mention which institute Mel Gibson attended for his education. Therefore, based on the information given, it's not possible to determine the answer.",
+      "answers": [
+        "National Institute of Dramatic Art",
+        "NIDA"
+      ],
+      "em": 0,
+      "f1": 0.06896551724137931,
+      "loose": 0,
+      "latency_ms": 658.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 346
+    },
+    {
+      "question": "Who led the muslim forces to retake the proposed embassy destination?",
+      "prediction": "Umar",
+      "answers": [
+        "Abu Ubaidah"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 151.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 243
+    },
+    {
+      "question": "Which is the body of water near George Mills' place of birth?",
+      "prediction": "The River Etherow.",
+      "answers": [
+        "River Thames"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 169.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 188
+    },
+    {
+      "question": "When did the party who gained control of congress in the midterm elections in 1946 take control of the determiner of rules of the US House and US Senate?",
+      "prediction": "The party that gained control of Congress in the 1946 midterm elections, the Republicans, took control of the determiner of rules of the US House and US Senate in January 2015.",
+      "answers": [
+        "January 2015"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 1,
+      "latency_ms": 438.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 200
+    },
+    {
+      "question": "Who does the Nothing Suits Me Like a Suit artist play in Batman Under the Red Hood?",
+      "prediction": "Neil Patrick Harris",
+      "answers": [
+        "Nightwing / Dick Grayson",
+        "Nightwing",
+        "Dick Grayson",
+        "Batman",
+        "Robin"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 159.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 175
+    },
+    {
+      "question": "When was the death penalty abolished in the country near the country where the writer of The Book Thief is a citizen of?",
+      "prediction": "1989.",
+      "answers": [
+        "1989"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 193.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 291
+    },
+    {
+      "question": "What is the seat of the county sharing a border with the county in which Miller Electric is headquartered?",
+      "prediction": "The answer is Tolna County. Because Miller Electric is based in Appleton, Wisconsin, and the county that shares a border with Appleton is Tolna County.",
+      "answers": [
+        "Green Bay"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 339.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 151
+    },
+    {
+      "question": "Who is the brother of the Nothin' My Love Can't Fix performer?",
+      "prediction": "The question is based on incorrect information. Joey Lawrence is the performer of \"Nothin' My Love Can't Fix,\" and there is no mention of him having a brother in any of the provided documents. Therefore, the answer cannot be determined from the given information.",
+      "answers": [
+        "Matthew Lawrence"
+      ],
+      "em": 0,
+      "f1": 0.05,
+      "loose": 0,
+      "latency_ms": 528.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 339
+    },
+    {
+      "question": "Who is the brother of the Melissa and Joey Theme Song singer?",
+      "prediction": "Joey Lawrence.",
+      "answers": [
+        "Matthew Lawrence"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 156.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 171
+    },
+    {
+      "question": "When was the last time the team that Arthur James was a member of beat the 1894-95 FA cup winner?",
+      "prediction": "The answer is 1993. Because the document says that in 1993, they were the first side to complete the FA Cup and League Cup double.",
+      "answers": [
+        "1 December 2010"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 390.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 306
+    },
+    {
+      "question": "Who started the foundation that developed the Free Software Directory?",
+      "prediction": "The Free Software Foundation was founded by Richard Stallman. Therefore, he started the foundation that developed the Free Software Directory.",
+      "answers": [
+        "Richard Stallman",
+        "rms"
+      ],
+      "em": 0,
+      "f1": 0.21052631578947367,
+      "loose": 1,
+      "latency_ms": 292.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 207
+    },
+    {
+      "question": "What pantheon is the God of the underworld in ancient Egypt a part of?",
+      "prediction": "The Egyptian pantheon.",
+      "answers": [
+        "ancient Egyptian religion"
+      ],
+      "em": 0,
+      "f1": 0.4,
+      "loose": 0,
+      "latency_ms": 192.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 223
+    },
+    {
+      "question": "Where was the president born on the fourth of July born?",
+      "prediction": "The president born on the fourth of July, Calvin Coolidge, was born in Vermont.",
+      "answers": [
+        "Plymouth Notch"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 272.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 222
+    },
+    {
+      "question": "Who play's Marty's girlfriend in back to the future?",
+      "prediction": "The answer is Jennifer Parker, portrayed by Elisabeth Shue in the second and third film.",
+      "answers": [
+        "Claudia Wells"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 277.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 215
+    },
+    {
+      "question": "What is the record label for the band which performed Pythons?",
+      "prediction": "The record label for the band Surfer Blood, which performed Pythons, is not directly mentioned in the provided documents. However, Document 2 mentions that the album was released in the UK on the HMV label as CLP3541. While this refers to the UK release label, the primary record label for Surfer Blood's album \"Pythons\" is not specified in",
+      "answers": [
+        "Kanine Records"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 652.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 348
+    },
+    {
+      "question": "Who is the employer of the person Mach's principle was named after?",
+      "prediction": "The documents do not mention the employer of Ernst Mach. Therefore, the answer is unknown.",
+      "answers": [
+        "Charles University"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 252.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 197
+    },
+    {
+      "question": "What is the life expectancy of the type of retriever named after the body of water the Patuxent River turns into?",
+      "prediction": "The question is based on incorrect information. There is no type of retriever named after the Patuxent River, and the Patuxent River does not turn into a body of water with that name. The Patuxent River flows into the Chesapeake Bay.",
+      "answers": [
+        "average lifespan at 9.4 years"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 479.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 225
+    },
+    {
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sambas is located?",
+      "prediction": "The president of the newly declared independent country (East Timor) is Xanana Gusmão. However, this information is not directly mentioned in the provided documents. The documents mention Taur Matan Ruak as the former president and new prime minister in June 2018, but do not specify who the current president is.",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 589.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 258
+    },
+    {
+      "question": "What is the capital of the country it is about?",
+      "prediction": "The answer is Port Said.",
+      "answers": [
+        "Aden"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 176.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 142
+    },
+    {
+      "question": "The league playing in the Thursday night football game is a type of what?",
+      "prediction": "The league is the National Football League (NFL).",
+      "answers": [
+        "sports league",
+        "Sports league",
+        "league"
+      ],
+      "em": 0,
+      "f1": 0.2857142857142857,
+      "loose": 1,
+      "latency_ms": 199.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 197
+    },
+    {
+      "question": "A participant of the Battle of Brechin is an instance of?",
+      "prediction": "A participant of the Battle of Brechin is an instance of a historical battle.",
+      "answers": [
+        "Scottish clan"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 253.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 282
+    },
+    {
+      "question": "What is the symbol of the Saints from the city that is the location of Blanton's manufacturer's headquarters called?",
+      "prediction": "The symbol is the Eiffel Tower.",
+      "answers": [
+        "fleur - de-lis",
+        "Fleur-de-lis",
+        "fleur-de-lis"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 200.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 198
+    },
+    {
+      "question": "What mythology is the city where Eutychides was born in a part of?",
+      "prediction": "The city where Eutychides was born is Sicyon, which is in the region of Corinthia. Corinthia is part of ancient Greece, and thus the mythology associated with it is Greek mythology.",
+      "answers": [
+        "Greek mythology"
+      ],
+      "em": 0,
+      "f1": 0.13333333333333333,
+      "loose": 1,
+      "latency_ms": 420.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 284
+    },
+    {
+      "question": "What is the oldest college in the state that contains Borough House Plantation?",
+      "prediction": "The oldest college in the state that contains Borough House Plantation is not mentioned in the provided documents. Answer: None.",
+      "answers": [
+        "College of Charles Towne",
+        "Charles Towne"
+      ],
+      "em": 0,
+      "f1": 0.09523809523809523,
+      "loose": 0,
+      "latency_ms": 308.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 226
+    },
+    {
+      "question": "What county shares a border with the other county, that contains the city, that is the birthplace of the performer of Never Gonna Fall in Love Again?",
+      "prediction": "The question is a bit confusing, but I'll try to break it down. First, we need to find the performer of \"Never Gonna Fall in Love Again.\" According to Document 1, the song was co-written and recorded by Eric Carmen. So, the performer is Eric Carmen.",
+      "answers": [
+        "Cabarrus County"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 524.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 236
+    },
+    {
+      "question": "What city was the author of What We Talk About When We Talk About love born in?",
+      "prediction": "The author of \"What We Talk About When We Talk About Love\" is Raymond Carver, who was born in San Francisco, California.",
+      "answers": [
+        "Clatskanie",
+        "Clatskanie, Oregon"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 338.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 283
+    },
+    {
+      "question": "What undertaking included the person who discovered that the number of protons in each element's atoms is unique?",
+      "prediction": "The undertaking that included the person who discovered that the number of protons in each element's atoms is unique was the quest for new elements, which is described using atomic numbers.",
+      "answers": [
+        "Manhattan Project"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 362.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 125
+    },
+    {
+      "question": "What was the story of the character from The Bourne Deception based on?",
+      "prediction": "The story of the character from The Bourne Deception was based on a race against time to uncover the truth and find the person behind his assault, all while being stalked by his unknown nemesis. This is derived from Document 4, which describes the plot's central conflict.",
+      "answers": [
+        "the novel of the same name by Robert Ludlum",
+        "Robert Ludlum"
+      ],
+      "em": 0,
+      "f1": 0.0851063829787234,
+      "loose": 0,
+      "latency_ms": 521.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 169
+    },
+    {
+      "question": "Which two features were played up the person who had the biggest net worth in 2017?",
+      "prediction": "The person who had the biggest net worth in 2017 was Jeff Bezos, and he was ranked at the top for the first time. He became the first centibillionaire included in the ranking.",
+      "answers": [
+        "ease of use and enhanced support for Plug and Play"
+      ],
+      "em": 0,
+      "f1": 0.10810810810810811,
+      "loose": 0,
+      "latency_ms": 457.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 274
+    },
+    {
+      "question": "Who is one of the members of the music group that performed \"Good Little Girls\"?",
+      "prediction": "Blue County.",
+      "answers": [
+        "Aaron Benward"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 160.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 167
+    },
+    {
+      "question": "How many times did plague occur in the place where Bajazet's composer was born?",
+      "prediction": "The answer is 0. Bajazet was composed by Antonio Vivaldi, who was born in Venice, Italy. There's no information provided about the plague occurring in Venice during his lifetime or any time period related to his birth.",
+      "answers": [
+        "22"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 500.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 250
+    },
+    {
+      "question": "What year did the company that published Starship Command end?",
+      "prediction": "1986. The company that published Starship Command is Acornsoft, which ceased to operate as a separate company upon the departure of David Johnson-Davies in January 1986.",
+      "answers": [
+        "1986"
+      ],
+      "em": 0,
+      "f1": 0.08333333333333333,
+      "loose": 1,
+      "latency_ms": 454.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 258
+    },
+    {
+      "question": "Who is the spouse of the child of Peter Andreas Heiberg?",
+      "prediction": "The spouse of the child of Peter Andreas Heiberg is Johanne Luise Heiberg.",
+      "answers": [
+        "Johanne Luise Heiberg"
+      ],
+      "em": 0,
+      "f1": 0.42857142857142855,
+      "loose": 1,
+      "latency_ms": 292.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 222
+    },
+    {
+      "question": "What character in A League of their Own was played by the actress who played Thelma in the movie Thelma and Louise?",
+      "prediction": "The actress who played Thelma in Thelma & Louise is Geena Davis. In A League of Their Own, she played the character Dottie. Therefore, the answer is Dottie.",
+      "answers": [
+        "Dottie Hinson"
+      ],
+      "em": 0,
+      "f1": 0.08,
+      "loose": 0,
+      "latency_ms": 417.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 216
+    },
+    {
+      "question": "What is the abbreviated name of the exclusive platform of the video game named for the league with a halftime event just before the publishers clearing house sweepstakes drawing.",
+      "prediction": "NINTENDO ENTERTAINMENT SYSTEM",
+      "answers": [
+        "NES",
+        "Family Computer",
+        "Famicom",
+        "Nintendo Entertainment System"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 198.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 168
+    },
+    {
+      "question": "When was the last time the sports team Alan O'Neil was a member of beat the winner of the 1894-95 FA cup?",
+      "prediction": "The answer is 1908.",
+      "answers": [
+        "1 December 2010"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 192.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 180
+    },
+    {
+      "question": "Who is the spouse of the person who plays Batman in the Lego Batman Movie?",
+      "prediction": "The person who plays Batman in the Lego Batman Movie is Will Arnett. However, there is no information provided about his spouse in any of the documents.",
+      "answers": [
+        "Amy Poehler"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 328.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 197
+    },
+    {
+      "question": "By how much of the population of the region where Baton a feu originated reduced by the black death?",
+      "prediction": "The Bâton à feu originated in Western Europe. According to Document 3, the mortality rate of the Black Death in the 14th century was far greater than the worst 20th-century outbreaks of Y. pestis plague, which occurred in India and killed as much as 3% of the population of certain cities. However, this document does not provide specific information about the",
+      "answers": [
+        "30% to 65%"
+      ],
+      "em": 0,
+      "f1": 0.03508771929824561,
+      "loose": 0,
+      "latency_ms": 681.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 238
+    },
+    {
+      "question": "When did the explorer reach the headquarters location of the group Con-Test's record label is part of?",
+      "prediction": "The question is a bit confusing. \"Explorer\" and \"headquarters location of the group Con-Test's record label\" are not mentioned in any of the provided documents. Therefore, there is no answer based on the given information.",
+      "answers": [
+        "August 3, 1769"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 468.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 218
+    },
+    {
+      "question": "What is the name of the castle in the city where the performers of Spirit If.. became a band?",
+      "prediction": "The performers of \"Spirit If...\" are part of Broken Social Scene, which is a band. However, the question refers to the castle in the city where the performers became a band. The castle mentioned in the song is Framlingham Castle, but that's not necessarily related to where the band formed. The information provided doesn't specify the city where the band formed or where the castle is located.",
+      "answers": [
+        "Casa Loma"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 682.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 166
+    },
+    {
+      "question": "Who wrote a book about growing up in the same nationality as the man who produced The Wild Women of Chastity Gulch?",
+      "prediction": "The question is a bit confusing. However, based on the information provided in the documents, there's no mention of any book or author related to growing up in the same nationality as the man who produced \"The Wild Women of Chastity Gulch.\" Therefore, I cannot provide an answer based on the given documents.",
+      "answers": [
+        "Min Zhou",
+        "Carl L. Bankston"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 624.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 208
+    },
+    {
+      "question": "Who is the spouse of the actor of Ethan in A Dog's Purpose?",
+      "prediction": "The spouse of the actor Ethan in A Dog's Purpose is Hannah.",
+      "answers": [
+        "Meg Ryan"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 239.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 159
+    },
+    {
+      "question": "Who is the federal leader of the party that Pierre-Hugues Boisvenu is a member of?",
+      "prediction": "Stephen Harper",
+      "answers": [
+        "Andrew Scheer"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 229.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 482
+    },
+    {
+      "question": "At what local time does the country where Fuser and Alberto meet the indigenous couple traveling to look for work change their clocks for DST?",
+      "prediction": "The country where Fuser and Alberto meet the indigenous couple traveling to look for work is Chile. According to Document 2, mainland Chile observes DST from the second Saturday in October to the second Saturday in March, with transitions at 24:00 local time.",
+      "answers": [
+        "24:00"
+      ],
+      "em": 0,
+      "f1": 0.05,
+      "loose": 1,
+      "latency_ms": 493.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 317
+    },
+    {
+      "question": "When did the place of birth of the performer of Mother-in-Law elect its first black Mayor?",
+      "prediction": "The question is a bit confusing. It seems to be asking about the place of birth of the performer at Mother-in-Law Lounge, but that information isn't provided in any of the documents. However, based on the documents, we know that the first openly lesbian African-American mayor in the U.S. was mentioned in Document 1, and the first openly gay African-American mayor in Cambridge was Kenneth",
+      "answers": [
+        "1970s"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 638.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 164
+    },
+    {
+      "question": "When was the last time Ken Faulkner's team beat the 1894-95 FA Cup winner?",
+      "prediction": "The answer is 1894-95.",
+      "answers": [
+        "1 December 2010"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 222.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 265
+    },
+    {
+      "question": "In what year was Twilight Princess from the game series on which The Legend of Neil was based originally planned for release?",
+      "prediction": "The answer is 2016.",
+      "answers": [
+        "2005"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 219.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 188
+    },
+    {
+      "question": "What is the mascot of the school that owns Goss Stadium at Coleman Field?",
+      "prediction": "The mascot is the Beavers.",
+      "answers": [
+        "Benny Beaver"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 204.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 274
+    },
+    {
+      "question": "Who is the spouse of the actor that plays vision in avengers age of ultron?",
+      "prediction": "The actor who plays Vision in Avengers: Age of Ultron is Benedict Cumberbatch. His spouse is Sophie Turner.",
+      "answers": [
+        "Jennifer Connelly"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 319.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 357
+    },
+    {
+      "question": "Who was the spouse of the leading lady in Gone With the wind?",
+      "prediction": "The spouse of the leading lady in Gone with the Wind was Rhett Butler, played by Clark Gable.",
+      "answers": [
+        "Laurence Olivier"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 298.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 233
+    },
+    {
+      "question": "Who was the mother of the person who found the sacred writings that became the Book of Mormon?",
+      "prediction": "Lucy Mack Smith. The mother of Joseph Smith, who found the sacred writings that became the Book of Mormon, is Lucy Mack Smith. This is supported by Document 2 which states that \"History of Joseph Smith by His Mother is a biography of Joseph Smith... according to his mother, Lucy Mack Smith.\" Additionally, Document 1 mentions \"Joseph Smith's History By His Mother: The Book Brigham Young",
+      "answers": [
+        "Lucy Mack Smith"
+      ],
+      "em": 0,
+      "f1": 0.09375,
+      "loose": 1,
+      "latency_ms": 657.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 142
+    },
+    {
+      "question": "Who is the mayor presiding now where Merrill Elam was born?",
+      "prediction": "The answer is: (1) Kasim Reed, (2) Merrill Elam. But the correct answer is only one of them. So which one? Let's think.",
+      "answers": [
+        "Lance Bottoms"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 366.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 166
+    },
+    {
+      "question": "What county shares a border with the county where She Did It's performer was born?",
+      "prediction": "The answer is: \"She Did It\" was first recorded and performed by Eric Carmen. However, the question asks for a county that shares a border with the county where the performer was born. The documents do not mention where Eric Carmen was born. Therefore, based on the provided information, it's not possible to determine the answer.",
+      "answers": [
+        "Cabarrus County"
+      ],
+      "em": 0,
+      "f1": 0.04081632653061224,
+      "loose": 0,
+      "latency_ms": 610.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 292
+    },
+    {
+      "question": "What is the experimental satellite which was the forerunner to the communication satellite of the operator of GSAT-7 called?",
+      "prediction": "The experimental satellite is called GSAT-7A.",
+      "answers": [
+        "ATS - 6 (Applications Technology Satellite - 6)",
+        "ATS-6"
+      ],
+      "em": 0,
+      "f1": 0.1818181818181818,
+      "loose": 0,
+      "latency_ms": 237.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 268
+    },
+    {
+      "question": "What watercourse is the river on which the Lostock Dam is located the mouth of?",
+      "prediction": "The Paterson River.",
+      "answers": [
+        "Hunter River"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 162.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 312
+    },
+    {
+      "question": "There is a state A where Storm of the Century was filmed based on the book by the author who wrote a short story featuring the author of This Is My God. What is the population of state A?",
+      "prediction": "The population of state A is 1,362,359.",
+      "answers": [
+        "1,335,907"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 261.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 217
+    },
+    {
+      "question": "What is the capital of the county that shares a border with the county where KRSU is licensed to broadcast?",
+      "prediction": "The capital of the county that shares a border with the county where KRSU is licensed to broadcast is Bâcs-Kiskun.",
+      "answers": [
+        "Green Bay"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 342.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 294
+    },
+    {
+      "question": "Kiwil's birth country participated in a Commission of Truth and Friendship. Who is the president of the other country that participated?",
+      "prediction": "The president of East Timor is Xanana Gusau.",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 221.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 191
+    },
+    {
+      "question": "Who is the child of the male star of the 1921 film Money?",
+      "prediction": "The male star of the 1921 film \"Money\" is Henry Ainley. According to Document 5, his father appeared in the 1936 film As You Like It. Therefore, the child of the male star is Henry Ainley's father, who is not named in the provided documents.",
+      "answers": [
+        "Anthony Ainley"
+      ],
+      "em": 0,
+      "f1": 0.048780487804878044,
+      "loose": 0,
+      "latency_ms": 614.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 216
+    },
+    {
+      "question": "What is the symbol of the Saints from the headquarters location of Ten High's manufacturer called?",
+      "prediction": "The symbol is the Third Street Saints.",
+      "answers": [
+        "fleur - de-lis",
+        "Fleur-de-lis",
+        "fleur-de-lis"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 205.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 228
+    },
+    {
+      "question": "Which country has a body of water that was inspiration for the name of the Mara Region?",
+      "prediction": "Kenya. The name \"Mara\" refers to the Mara River, which is a significant body of water in Kenya.",
+      "answers": [
+        "Tanzania"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 281.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 143
+    },
+    {
+      "question": "Along with the subject of The One That Got Away, what notable pop artist started out his career on adult contemporary radio?",
+      "prediction": "Josh Groban.",
+      "answers": [
+        "Michael Bublé"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 177.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 222
+    },
+    {
+      "question": "Who is the federal leader of the political party Ken Epp belongs to?",
+      "prediction": "The federal leader of the Conservative Party of Canada is Stephen Harper. However, I need to check if this information is present in the provided documents.",
+      "answers": [
+        "Andrew Scheer"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 364.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 214
+    },
+    {
+      "question": "Where is the country with ISO code ISO 3166-2:CV located?",
+      "prediction": "The country with ISO code ISO 3166-2:CV is located in Africa.",
+      "answers": [
+        "central Atlantic Ocean",
+        "Atlantic Ocean",
+        "Atlantic"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 329.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 435
+    },
+    {
+      "question": "Who did the person portraying Batman in the Justice League movie play in Dazed and Confused?",
+      "prediction": "The person who portrayed Batman in the Justice League movie is Ben Affleck. However, there is no information provided about who played Batman in Dazed and Confused.",
+      "answers": [
+        "Fred O'Bannion"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 360.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 293
+    },
+    {
+      "question": "In Batman Under the Red Hood, who does the actor of Barney Stinson from How I Met Your Mother play?",
+      "prediction": "The actor of Barney Stinson from How I Met Your Mother, Neil Patrick Harris, plays Batman in Batman: Under the Red Hood. However, this is not mentioned in any of the provided documents. Therefore, based on the given information, it cannot be determined.",
+      "answers": [
+        "Nightwing / Dick Grayson",
+        "Nightwing",
+        "Dick Grayson",
+        "Batman",
+        "Robin"
+      ],
+      "em": 0,
+      "f1": 0.05,
+      "loose": 1,
+      "latency_ms": 517.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 311
+    },
+    {
+      "question": "What did the singer of \"Moon River\" in the movie Breakfast at Tiffany win a Tony for?",
+      "prediction": "The singer of \"Moon River\" in the movie *Breakfast at Tiffany's* was Audrey Hepburn, who won an Academy Award for Best Original Song. However, the question asks about a Tony Award, which is not mentioned in any of the provided documents. Therefore, based on the given information, there is no mention of a Tony Award being won by the singer of \"Moon River.\"",
+      "answers": [
+        "for Best Performance by a Leading Actress in a Play in Ondine",
+        "leading role",
+        "star",
+        "leading actress",
+        "lead"
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 0,
+      "latency_ms": 639.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 173
+    },
+    {
+      "question": "Where is the headquarter of the Radio Television of the country whose co-official language is the same as the one Politika is written in?",
+      "prediction": "The headquarter of the Radio Television of the country is in Pristina.",
+      "answers": [
+        "Pristina"
+      ],
+      "em": 0,
+      "f1": 0.19999999999999998,
+      "loose": 1,
+      "latency_ms": 273.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 249
+    },
+    {
+      "question": "What is the source of the river of which Kraai River is a tributary?",
+      "prediction": "The source of the Orange River is the confluence of the Bell River and the Sterk Spruit at Moshesh's Ford.",
+      "answers": [
+        "Thaba Putsoa"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 351.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 273
+    },
+    {
+      "question": "Who played the girlfriend of Chance's voice actor in Homeward Bound in Back to the Future?",
+      "prediction": "Lea Thompson",
+      "answers": [
+        "Claudia Wells"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 161.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 265
+    },
+    {
+      "question": "Who is the voice of the character in Spongebob Squarepants with the same name as the creature that annelid larvae live like?",
+      "prediction": "Bill Fagerbakke.",
+      "answers": [
+        "Mr. Lawrence",
+        "Doug Lawrence"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 184.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 194
+    },
+    {
+      "question": "Between which years did war with the person for whom Pyrrhic victory is named occur?",
+      "prediction": "The war with Pyrrhus of Epirus occurred between 280 BC and 279 BC.",
+      "answers": [
+        "323–272 BC"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714285,
+      "loose": 0,
+      "latency_ms": 307.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 241
+    },
+    {
+      "question": "MV Miralda's owner announced it was in the process of doing what in April 2010?",
+      "prediction": "The MV Miralda's owner, Helix Energy Solutions Group, announced it was in the process of assisting BP at the Deepwater Horizon oil spill site. This is mentioned in Document 3, which states that on 14 June 2010, Helix announced the ship would be directed to assist BP at the Deepwater Horizon oil spill. However, since the question refers to",
+      "answers": [
+        "trying to find a potential buyer for all of its operations in Finland",
+        "FIN",
+        "fi",
+        "Finland"
+      ],
+      "em": 0,
+      "f1": 0.09230769230769231,
+      "loose": 0,
+      "latency_ms": 724.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 345
+    },
+    {
+      "question": "When did the Battle at Choo Hoey's birthplace end?",
+      "prediction": "The Battle at Choo Hoey's birthplace ended in 1942.",
+      "answers": [
+        "15 February 1942"
+      ],
+      "em": 0,
+      "f1": 0.18181818181818182,
+      "loose": 0,
+      "latency_ms": 274.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 213
+    },
+    {
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Sumardi was born?",
+      "prediction": "The president of the newly declared independent country, East Timor, is Xanana Gusukuma. However, based on the provided documents, there's no direct mention of who the president was at the time of the Commission of Truth and Friendship (CVA) in 2005. But according to Document 3, Taur Matan Ruak became the Prime Minister of East Tim",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 714.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 259
+    },
+    {
+      "question": "Who wrote the song The Story sung by the performer of Give Up the Ghost?",
+      "prediction": "Brandi Carlile.",
+      "answers": [
+        "Phil Hanseroth"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 166.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 168
+    },
+    {
+      "question": "Where did they film The Beach in the country where Siddhi Savetsila was born?",
+      "prediction": "The Beach was filmed in Thailand. Siddhi Savetsila was born in Bangkok, which is in Thailand.",
+      "answers": [
+        "Ko Phi Phi Leh",
+        "Ko Phi Phi Le"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 268.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 196
+    },
+    {
+      "question": "Who is the author of Growing Up this nationality of the creator MacGruder and Loud?",
+      "prediction": "The author of \"Growing Up X: A Memoir by the Daughter of Malcolm X\" is Malcom X's daughter, but the nationality of the creator of MacGruder and Loud (which refers to \"The Loud House\") is American. However, since the question seems to be asking for the author of \"Growing Up X\" and the nationality of the creator of \"MacGruder and Loud",
+      "answers": [
+        "Min Zhou",
+        "Carl L. Bankston"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 681.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 167
+    },
+    {
+      "question": "In which county did Snappy Tomato Pizza form?",
+      "prediction": "The documents do not mention the county where Snappy Tomato Pizza formed. However, they state that it started in Fort Mitchell, Kentucky. Since the question is about the county, and the documents don't specify a county, we cannot determine the answer from the given information.",
+      "answers": [
+        "Kenton County",
+        "Kenton County, Kentucky"
+      ],
+      "em": 0,
+      "f1": 0.1,
+      "loose": 0,
+      "latency_ms": 489.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 145
+    },
+    {
+      "question": "What other recognition did the Oscar winner for Best Actor in 2006 receive?",
+      "prediction": "The Oscar winner for Best Actor in 2006 received a Best Director nomination.",
+      "answers": [
+        "nominated for an Academy Award for Best Supporting Actor",
+        "Academy Award for Best Supporting Actor"
+      ],
+      "em": 0,
+      "f1": 0.3529411764705882,
+      "loose": 0,
+      "latency_ms": 287.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 315
+    },
+    {
+      "question": "What is the Smile performer's birthday?",
+      "prediction": "The documents do not mention the performer's birthday.",
+      "answers": [
+        "1 January 1986"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 225.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 222
+    },
+    {
+      "question": "What record label does the performer of Emotional Rain belong to?",
+      "prediction": "A&M Records (Canada) and Koch Entertainment (Europe). The album was released through these labels in different regions. However, the question specifically asks for the record label of the performer, which is Lee Aaron. Since the document mentions that the album was released through A&M Records (Canada) and Koch Entertainment (Europe), but does not explicitly state that these are the labels associated with Lee Aaron as a",
+      "answers": [
+        "Attic Records",
+        "Attic"
+      ],
+      "em": 0,
+      "f1": 0.03333333333333333,
+      "loose": 0,
+      "latency_ms": 649.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 238
+    },
+    {
+      "question": "When did the majority party in the House of Representatives gain control of the body which approves members of the Cabinet?",
+      "prediction": "The majority party in the House of Representatives gained control of the body that approves members of the Cabinet during the 2014 elections. This is indicated by Document 3, which states that the 2014 elections gave the Republicans control of the Senate and the House for the first time since the 109th Congress.",
+      "answers": [
+        "January 2015"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 597.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 296
+    },
+    {
+      "question": "What is the manufacturer of the Kentucky Tavern headquarters location saints symbol called?",
+      "prediction": "The manufacturer of Kentucky Tavern is the Sazerac Company, and its headquarters location is in Bardstown, Kentucky. However, there is no mention of a \"saints symbol\" in the provided documents.",
+      "answers": [
+        "fleur - de-lis",
+        "Fleur-de-lis",
+        "fleur-de-lis"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 418.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 217
+    },
+    {
+      "question": "In which county was Zhu Qinan born?",
+      "prediction": "Wenzhou. The answer is correct because the first document states he was born in Wenzhou, Zhejiang.",
+      "answers": [
+        "Yongjia County"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 320.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 239
+    },
+    {
+      "question": "Who sings Home Alone Tonight with the Rain is a Good Thing singer?",
+      "prediction": "Luke Bryan and Karen Fairchild.",
+      "answers": [
+        "Karen Fairchild"
+      ],
+      "em": 0,
+      "f1": 0.5714285714285715,
+      "loose": 1,
+      "latency_ms": 242.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 292
+    },
+    {
+      "question": "What is the name of the castle in the city where the performer of Never Too Loud was formed?",
+      "prediction": "The answer is not present in the given documents.",
+      "answers": [
+        "Casa Loma"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 208.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 146
+    },
+    {
+      "question": "Who is the sibling of the actress that played the little girl in Miracle on 34th street 1947?",
+      "prediction": "The sibling of the actress who played the little girl in Miracle on 34th Street (1947) is Jane Powell.",
+      "answers": [
+        "Lana Wood"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 326.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 240
+    },
+    {
+      "question": "What city is the star of 'Three Strangers in Rome' from?",
+      "prediction": "The star of 'Three Strangers in Rome' is Claudia Cardinale, who is from Italy.",
+      "answers": [
+        "La Goulette",
+        "Tunis",
+        "Rome",
+        "Roma"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 1,
+      "latency_ms": 299.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 332
+    },
+    {
+      "question": "What else happened in the northern part of Erich Zakowski's birthplace in the now Russian area?",
+      "prediction": "The northern part of Erich Zakowski's birthplace in the now Russian area was settled by ethnic Russians, Belarusians, and Ukrainians after the expulsion of the German population.",
+      "answers": [
+        "names were replaced by new Russian names"
+      ],
+      "em": 0,
+      "f1": 0.13333333333333333,
+      "loose": 0,
+      "latency_ms": 399.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 169
+    },
+    {
+      "question": "In which county is Southern Maryland Electric Cooperative headquartered?",
+      "prediction": "The Southern Maryland Electric Cooperative is headquartered in Hughesville, Maryland. However, the specific county isn't directly mentioned in the provided documents. But based on the context that Hughesville is part of southern Maryland and the mention of \"tri-county Southern Maryland region,\" it's likely in Prince George's County, but this needs to be confirmed.",
+      "answers": [
+        "Charles County",
+        "Charles County, Maryland"
+      ],
+      "em": 0,
+      "f1": 0.0784313725490196,
+      "loose": 0,
+      "latency_ms": 601.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 264
+    },
+    {
+      "question": "When did the party that controls the House of Representatives take control of the branch who determines the rules of the US house and Senate?",
+      "prediction": "The party that controls the House of Representatives took control of the branch who determines the rules of the US house and Senate in 2015.",
+      "answers": [
+        "January 2015"
+      ],
+      "em": 0,
+      "f1": 0.09090909090909091,
+      "loose": 0,
+      "latency_ms": 366.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 248
+    },
+    {
+      "question": "What series of wins did the sports team that the all time highest goal scorer in spain national team was a member or achieve in 2009?",
+      "prediction": "The sports team achieved a treble in 2009, consisting of La Liga, Copa del Rey, and UEFA Champions League. Additionally, they won the FIFA Club World Cup.",
+      "answers": [
+        "continental treble"
+      ],
+      "em": 0,
+      "f1": 0.07692307692307693,
+      "loose": 0,
+      "latency_ms": 410.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 257
+    },
+    {
+      "question": "In Grown Ups, who plays the wife of the actor who produced The Chosen One?",
+      "prediction": "The wife of Rob Schneider, who produced The Chosen One, is Salma Hayek. She plays the wife in Grown Ups.",
+      "answers": [
+        "Joyce Van Patten"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 321.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 225
+    },
+    {
+      "question": "Who does the performer of Don't Be Cruel play in the wire?",
+      "prediction": "Eric Gershowitz.",
+      "answers": [
+        "a Western District uniformed officer"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 173.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 146
+    },
+    {
+      "question": "When did Burroughs Corporation merge to form a new corporation?",
+      "prediction": "The merger that formed Unisys occurred in 1986.",
+      "answers": [
+        "1986"
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 1,
+      "latency_ms": 255.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 282
+    },
+    {
+      "question": "When did the country, whose co-official language was used by the director of Group Portrait with a Lady, first attend the Olympics as an independent team?",
+      "prediction": "The country, whose co-official language was used by the director of Group Portrait with a Lady, is Serbia. Serbia first attended the Olympics as an independent team in 1920.",
+      "answers": [
+        "2016"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 429.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 263
+    },
+    {
+      "question": "Who followed Menucha Rochel Slonim's father?",
+      "prediction": "Her son, Rabbi Yehuda Leib Slonim.",
+      "answers": [
+        "Menachem Mendel Schneersohn"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 229.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 214
+    },
+    {
+      "question": "Who started out his career on adult contemporary radio along with the performer of All That Echoes?",
+      "prediction": "The performer of \"All That Echoes\" is Josh Groban. However, the documents do not provide information about who started their career on adult contemporary radio. Therefore, I cannot answer this question based on the given documents.",
+      "answers": [
+        "Michael Bublé"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 433.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 263
+    },
+    {
+      "question": "Who is the head of the developer of Simon?",
+      "prediction": "The head of the developer of Simon is the National Security Agency (NSA).",
+      "answers": [
+        "ADM Michael S. Rogers",
+        "Michael S. Rogers"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 232.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 182
+    },
+    {
+      "question": "When was the last time the team that Terry Twell was a member of beat the 194-95 winner of the FA Cup?",
+      "prediction": "The last time the team that Terry Twell was a member of beat the 1985 FA Cup winner (which was Manchester United) was in the 1984–85 season. Specifically, Everton defeated Manchester United 5–0 at Goodison Park on 27 October 1984 in the league, and later in the third round of the League Cup",
+      "answers": [
+        "1 December 2010"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 672.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 316
+    },
+    {
+      "question": "Who is the father of the artist who painted Head I?",
+      "prediction": "The artist who painted Head I is Francis Bacon. However, the documents provided do not mention his father's name or any information about his family background. Therefore, based on the given information, we cannot determine who his father is.",
+      "answers": [
+        "Nicholas Bacon",
+        "Sir Nicholas Bacon"
+      ],
+      "em": 0,
+      "f1": 0.05263157894736842,
+      "loose": 0,
+      "latency_ms": 451.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 291
+    },
+    {
+      "question": "Where is the origin of the river Augrabies Falls is part of?",
+      "prediction": "The origin of the river Augrabies Falls is part of the Orange River.",
+      "answers": [
+        "Thaba Putsoa"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 240.5,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 204
+    },
+    {
+      "question": "The BBC Footballer of the Year is a member of which team?",
+      "prediction": "The BBC Footballer of the Year is a member of the BBC African Sports Personality of the Year.",
+      "answers": [
+        "Egypt national football team"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 272.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 200
+    },
+    {
+      "question": "Where was the person who acted in the film Sous les pieds des femmes born?",
+      "prediction": "The person who acted in the film Sous les pieds des femmes is Claudia Cardinale. She was born in Italy.",
+      "answers": [
+        "La Goulette"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 305.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 237
+    },
+    {
+      "question": "How many people were in British Colonies where does the london broil cut come from ?",
+      "prediction": "The question is not answerable from the given documents. The provided documents do not mention anything about the number of people in British colonies or the origin of the London broil cut in terms of colonial populations. They mainly discuss the definition, historical context, and variations of the dish called London broil.",
+      "answers": [
+        "2 million"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 515.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 183
+    },
+    {
+      "question": "Who is the spouse of the person who voices Jarvis in the Avengers Age of Ultron?",
+      "prediction": "The spouse of the person who voices Jarvis in Avengers: Age of Ultron is Laura Barton.",
+      "answers": [
+        "Jennifer Connelly"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 268.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 266
+    },
+    {
+      "question": "Which county shares a border with the county where the most populous city in the state where Redan High School is located?",
+      "prediction": "DeKalb County. The most populous city in Georgia is Atlanta, which is located in Fulton County. However, the question asks for the county that shares a border with the county where Redan High School is located (DeKalb County). The county that borders DeKalb County is Fulton County.",
+      "answers": [
+        "Presque Isle County"
+      ],
+      "em": 0,
+      "f1": 0.04545454545454545,
+      "loose": 0,
+      "latency_ms": 557.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 242
+    },
+    {
+      "question": "The rapper who owns Aspiro was inspired by what when writing Song Cry?",
+      "prediction": "The rapper who owns Aspiro is Jay-Z. However, the documents do not mention what inspired him to write \"Song Cry.\" Therefore, the answer is that there is no information provided about the inspiration for writing \"Song Cry.\"",
+      "answers": [
+        "three different relationships he had in the past"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 452.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 221
+    },
+    {
+      "question": "What administrative territorial entity includes the place that KTRP is licensed to broadcast to?",
+      "prediction": "Idaho.",
+      "answers": [
+        "Canyon County",
+        "Canyon County, Idaho"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 0,
+      "latency_ms": 149.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 200
+    },
+    {
+      "question": "In A League of Their Own, who played the husband of the actress who played Thelma in Thelma and Louise?",
+      "prediction": "The actress who played Thelma in Thelma & Louise is Geena Davis. In A League of Their Own, the husband of Geena Davis's character (who is a baseball player) is played by Tom Hanks. However, since the question refers to the \"husband of the actress who played Thelma,\" it would be the actor who played Darryl in Thel",
+      "answers": [
+        "Bill Pullman"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 667.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 218
+    },
+    {
+      "question": "What is the former name of the country where Atika Suri studied?",
+      "prediction": "The former name of the country where Atika Suri studied is Indonesia.",
+      "answers": [
+        "Dutch East Indies"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 257.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 183
+    },
+    {
+      "question": "What province shares a border with the province where Lago District is located?",
+      "prediction": "The province that shares a border with the province where Lago District is located is Tanzania.",
+      "answers": [
+        "Cabo Delgado Province"
+      ],
+      "em": 0,
+      "f1": 0.125,
+      "loose": 0,
+      "latency_ms": 234.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 148
+    },
+    {
+      "question": "Who published Communications of the organization that Andries van Dam is a member of?",
+      "prediction": "The organization mentioned is ACM SIGGRAPH. Its publication is Communications of the ACM.",
+      "answers": [
+        "Association for Computing Machinery",
+        "ACM"
+      ],
+      "em": 0,
+      "f1": 0.16666666666666669,
+      "loose": 1,
+      "latency_ms": 251.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 230
+    },
+    {
+      "question": "What county shares a border with Cedar Springs?",
+      "prediction": "Falls County. The answer is in Document 1, which states that Cedar Springs is in west Falls County, Texas.",
+      "answers": [
+        "Bell County"
+      ],
+      "em": 0,
+      "f1": 0.09999999999999999,
+      "loose": 0,
+      "latency_ms": 284.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 160
+    },
+    {
+      "question": "What administrative territorial entity is the owner of Ciudad Deportiva located?",
+      "prediction": "The administrative territorial entity that owns the Ciudad Deportiva is Nuevo Laredo. The documents indicate that the Ciudad Deportiva is a sports complex in Nuevo Laredo, Mexico, and the mayor of Nuevo Laredo is responsible for municipal administration, which would include overseeing such facilities.",
+      "answers": [
+        "Tamaulipas"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 536.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 191
+    },
+    {
+      "question": "Who is the son of the Italian navigator who explored the eastern coast of the continent Ulises Solís' birthplace is located in for England?",
+      "prediction": "The son of the Italian navigator is Sebastian, as mentioned in Document 5. However, there seems to be a mix-up here because the question mentions Ulises Solís, who isn't referenced in any of the documents provided. The correct answer based on the given information is Sebastian.",
+      "answers": [
+        "Sebastian Cabot"
+      ],
+      "em": 0,
+      "f1": 0.048780487804878044,
+      "loose": 0,
+      "latency_ms": 513.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 203
+    },
+    {
+      "question": "Who played the monarch at the end of WW2 in The King's Speech?",
+      "prediction": "The monarch in The King's Speech is George VI, played by Colin Firth.",
+      "answers": [
+        "Colin Firth"
+      ],
+      "em": 0,
+      "f1": 0.3076923076923077,
+      "loose": 1,
+      "latency_ms": 252.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 211
+    },
+    {
+      "question": "What is the place of birth of who does the voice of stan on the series that Insecurity is part of?",
+      "prediction": "The place of birth of the voice actor of Stan on the series is not mentioned in the provided documents.",
+      "answers": [
+        "Denver",
+        "Denver, Colorado"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 266.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 156
+    },
+    {
+      "question": "Where did they film The Beach in the country where Pao Sarasin was born?",
+      "prediction": "The Beach was filmed in Thailand. Pao Sarasin was born in Thailand, as he is a Thai police general and the son of former Prime Minister Pote Sarasin.",
+      "answers": [
+        "Ko Phi Phi Leh",
+        "Ko Phi Phi Le"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 343.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 158
+    },
+    {
+      "question": "What is the competition that the 1965 Federation Cup is part of named after?",
+      "prediction": "The competition is named after the International Tennis Federation (ITF).",
+      "answers": [
+        "International Tennis Federation",
+        "ITF"
+      ],
+      "em": 0,
+      "f1": 0.5454545454545454,
+      "loose": 1,
+      "latency_ms": 241.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 259
+    },
+    {
+      "question": "Who is the president of the newly declared independent country that is part of the Commission of Truth and Friendship with the country where Kotamadya is located?",
+      "prediction": "The president of the newly declared independent country is Taur Matan Ruak. However, it's important to note that this information might be outdated or incorrect in the context of current events and political developments.",
+      "answers": [
+        "Francisco Guterres"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 408.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 218
+    },
+    {
+      "question": "In the King's Speech, who played the person who was the King of England in 1950?",
+      "prediction": "Colin Firth played the King of England in 1950, portraying George VI.",
+      "answers": [
+        "Colin Firth"
+      ],
+      "em": 0,
+      "f1": 0.3076923076923077,
+      "loose": 1,
+      "latency_ms": 274.4,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 254
+    },
+    {
+      "question": "What is the body of water by the area where Athlete was formed?",
+      "prediction": "The answer is the lake mentioned in Document 3. However, since the question refers to \"the area where Athlete was formed,\" and given that Document 3 mentions a lake with swimming spots, but does not explicitly state that it's the location of the athlete's formation, there might be an ambiguity here. But based on the information provided, the most direct answer is the lake mentioned in Document",
+      "answers": [
+        "River Thames"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 678.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 165
+    },
+    {
+      "question": "What award did the author of The Happy Journey to Trenton and Camden receive?",
+      "prediction": "The question is based on incorrect information. The author of \"The Happy Journey to Trenton and Camden\" is Thornton Wilder, not Trenton Lee Stewart. However, the documents provided do not mention any awards received by either author.",
+      "answers": [
+        "Pulitzer Prize for Drama"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 463.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 181
+    },
+    {
+      "question": "Where was the designer of the Lap Engine educated?",
+      "prediction": "The documents do not mention where the designer of the Lap Engine was educated.",
+      "answers": [
+        "University of Glasgow"
+      ],
+      "em": 0,
+      "f1": 0.14285714285714288,
+      "loose": 0,
+      "latency_ms": 240.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 244
+    },
+    {
+      "question": "Who is the father of the Labo M performer?",
+      "prediction": "The father of the Labo M performer is Luis Guzmán.",
+      "answers": [
+        "Louis Chedid"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 232.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 197
+    },
+    {
+      "question": "Why did Roncalli leave the place of death of the maker of The Gozzi Altarpiece?",
+      "prediction": "Roncalli left Venice to attend the conclave in Rome. The Gozzi Altarpiece is by Titian, and its maker's death (Pope Pius X) occurred on 22 August 1914, which was when Roncalli left Venice for the conclave.",
+      "answers": [
+        "for the conclave in Rome",
+        "Rome",
+        "Roma"
+      ],
+      "em": 0,
+      "f1": 0.21621621621621626,
+      "loose": 1,
+      "latency_ms": 560.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 284
+    },
+    {
+      "question": "Who gives out the award named after the person who argued that colonies were redundant?",
+      "prediction": "The award is named after Adam Smith, as he argued that colonies were redundant. However, the documents do not specify who gives out this award. Therefore, based on the provided information, we cannot determine the recipient of the award.",
+      "answers": [
+        "University of Cambridge",
+        "Cambridge"
+      ],
+      "em": 0,
+      "f1": 0.05405405405405406,
+      "loose": 0,
+      "latency_ms": 478.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 413
+    },
+    {
+      "question": "In 1990, who became the president of the country that Germany invaded?",
+      "prediction": "The answer is: There was no invasion of Germany in 1990. However, the question might be referring to the reunification of Germany. In 1990, the country that was invaded (East Germany) was reunified with West Germany. The president of East Germany during this period was Erich Honecker, but he was overthrown in 1989",
+      "answers": [
+        "Lech Wałęsa"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 700.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 250
+    },
+    {
+      "question": "What is the name for the mouth of the watercourse of the body of water by Rotterdam Centrum?",
+      "prediction": "The name for the mouth of the watercourse of the body of water by Rotterdam Centrum is the Nieuwe Waterweg.",
+      "answers": [
+        "Het Scheur"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 350.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 300
+    },
+    {
+      "question": "Who sings Home Alone Tonight with the singer of \"I Don't Want This Night to End\"?",
+      "prediction": "Karen Fairchild.",
+      "answers": [
+        "Karen Fairchild"
+      ],
+      "em": 1,
+      "f1": 1.0,
+      "loose": 1,
+      "latency_ms": 171.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 218
+    },
+    {
+      "question": "What company is the school where Lawrence Landweber was educated a part of?",
+      "prediction": "The school where Lawrence Landweber was educated is The Kubert School, which is part of the New York City Department of Education. However, based on the given documents, there's no direct mention of a company associated with the school. Document 3 mentions \"Lawrenceville School,\" but it's unclear if this refers to the same school as mentioned in Document 2. Since the question might",
+      "answers": [
+        "City University of New York",
+        "The City University of New York"
+      ],
+      "em": 0,
+      "f1": 0.13333333333333333,
+      "loose": 0,
+      "latency_ms": 625.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 139
+    },
+    {
+      "question": "What is the capital of the county that shares a border with the county where WAPL is licensed to broadcast?",
+      "prediction": "The capital of the county that shares a border with the county where WAPL is licensed to broadcast is La Crosse.",
+      "answers": [
+        "Green Bay"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 332.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 216
+    },
+    {
+      "question": "Who was the first black student admitted to where Robert Khayat was educated?",
+      "prediction": "The first black student admitted to the Anglican Church Grammar School.",
+      "answers": [
+        "James Howard Meredith",
+        "James Meredith"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 244.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 184
+    },
+    {
+      "question": "Who did the original voice of the character played by mila kunis in the cleveland show?",
+      "prediction": "The original voice of the character played by Mila Kunis in \"The Cleveland Show\" was Lacey Chabert.",
+      "answers": [
+        "Lacey Chabert"
+      ],
+      "em": 0,
+      "f1": 0.25,
+      "loose": 1,
+      "latency_ms": 303.9,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 183
+    },
+    {
+      "question": "What is the record label of the co-writer and recording artist of Permission to Fly?",
+      "prediction": "The record label of the co-writer and recording artist of Permission to Fly is Hollywood.",
+      "answers": [
+        "Hollywood Records"
+      ],
+      "em": 0,
+      "f1": 0.13333333333333336,
+      "loose": 0,
+      "latency_ms": 258.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 229
+    },
+    {
+      "question": "What record label is the performer who released All Your Faded Things on?",
+      "prediction": "Cold Crush Records",
+      "answers": [
+        "Kill Rock Stars"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 157.1,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 281
+    },
+    {
+      "question": "What is another notable work made by the author of Miss Sara Sampson?",
+      "prediction": "The answer is \"Bourgeois tragedy\".",
+      "answers": [
+        "Emilia Galotti"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 190.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 149
+    },
+    {
+      "question": "When did the majority party in the body which determines rules of the US House and US Senate gain control of the House?",
+      "prediction": "The majority party in the body which determines rules of the US House and US Senate gained control of the House following the 2006 elections.",
+      "answers": [
+        "the 2010 election"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 327.7,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 169
+    },
+    {
+      "question": "In what year did Margaret Knox's spouse pass away?",
+      "prediction": "The answer is 1572.",
+      "answers": [
+        "1572"
+      ],
+      "em": 0,
+      "f1": 0.5,
+      "loose": 1,
+      "latency_ms": 211.6,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 280
+    },
+    {
+      "question": "The city where Dmitry Borisovich was born is located where in Russia?",
+      "prediction": "Moscow.",
+      "answers": [
+        "Yaroslavl Oblast"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 194.8,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 373
+    },
+    {
+      "question": "What league includes the operating group of Al Janoub Stadium?",
+      "prediction": "The Egyptian Premier League.",
+      "answers": [
+        "Qatar Stars League"
+      ],
+      "em": 0,
+      "f1": 0.3333333333333333,
+      "loose": 0,
+      "latency_ms": 180.2,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 227
+    },
+    {
+      "question": "When was the kingdom that Heptarchy was part of abolished?",
+      "prediction": "The kingdom that the Heptarchy was part of, Mercia, was abolished in 1071.",
+      "answers": [
+        "918"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 308.0,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 245
+    },
+    {
+      "question": "What is the average salary of a working person with the same nationality as the producer of The Wild Women of Chastity Gulch?",
+      "prediction": "The average salary of a working person with the same nationality as the producer of The Wild Women of Chastity Gulch is $81,400.",
+      "answers": [
+        "$59,039"
+      ],
+      "em": 0,
+      "f1": 0.0,
+      "loose": 0,
+      "latency_ms": 389.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 336
+    },
+    {
+      "question": "The city that Psycho Donuts is located in is in which county?",
+      "prediction": "Santa Clara County. The documents state that Psycho Donuts is located in Campbell, California. Campbell is a city in Santa Clara County.",
+      "answers": [
+        "Santa Clara County",
+        "Santa Clara County, California"
+      ],
+      "em": 0,
+      "f1": 0.33333333333333337,
+      "loose": 1,
+      "latency_ms": 347.3,
+      "fallback_used": false,
+      "selected_titles": [],
+      "context_tokens": 282
+    }
+  ]
+}
